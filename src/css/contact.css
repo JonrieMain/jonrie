@@ -1,0 +1,214 @@
+.main .letsTalk{
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='30' height='30' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(216, 18%, 16%, 1)'/><path d='M0 22.5h30v15H0zm15-15h30v15H15m-30-15h30v15h-30zm15-15h30v15H0z'  stroke-width='1.5' stroke='hsla(183, 91%, 37%, 0.11)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-32,-22)' fill='url(%23a)'/></svg>");
+    height: 100%;
+    width: 100%;
+    min-height: 800px;
+    padding: 4rem 1rem;
+    
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.3rem;
+    border-top: 1.5px solid #eeeeee;
+}
+
+
+.main .letsTalk .letTalkIn{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.main .letsTalk .letTalkIn >h2{
+    font-size: 40px;
+    color: #00adb5;
+    margin-bottom: 1.4rem;
+    font-weight: 500;
+    font-family: var(--castoro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+}
+.main .letsTalk .letTalkIn >p{
+    word-break: break-word;
+    color: #eeeeee;
+    font-size: 25px;
+    max-width: 900px;
+    font-family: var(--sans);
+    margin-bottom: 4rem;
+    border-right: 2px solid #00adb5;
+    background: #2228319d;
+    padding: 5px;
+    font-weight: 400;
+}
+.main .letsTalk .letTalkIn >span{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.main .letsTalk .letTalkIn >span >i{
+    font-size: 1.4rem;
+    color: #00adb5;
+    margin-bottom: 2rem;
+}
+.main .letsTalk .letTalkIn >span >i >span{
+    color: #eeeeee;
+    font-family: var(--sans);
+    word-break: break-word;
+    font-weight: 500;
+}
+.main .letsTalk .letTalkIn >span >i >span >a{
+    text-decoration: none;
+    color: #eeee;
+    font-family: var(--sans);
+    font-weight: 400;
+}
+.main .letsTalk .letTalkIn >span >i >span{
+padding-left: .5rem;
+    font-family: var(--sans);
+    font-weight: 400;
+}
+
+/* cv */
+.main .letsTalk .letTalkIn >span >.cv >a{
+    text-decoration: none;
+    color: #eeeeee;
+    font-family: var(--sans);
+    word-break: break-word;
+    font-weight: 400;
+    font-size: 19.2px;
+    padding-left: .5rem;
+
+}
+
+
+/* icons links */
+.main .letsTalk .letTalkIn >span >div{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.main .letsTalk .letTalkIn >span >div >a{
+    font-size: 2rem;
+}
+.main .letsTalk .letTalkIn >span >div >a >i{
+    color: #eeeeee;
+}
+
+
+
+
+
+
+/* contact form */
+.main .letsTalk .contactForm{
+    background: #222831a6;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    transition: .7s linear;
+    padding: 0 .3rem;
+}
+
+
+.main .letsTalk .contactForm >h1{
+    color: #EEEEEE;
+    font-family: var(--castoro);
+    text-align: center;
+    word-break: break-word;
+}
+.main .letsTalk .contactForm >div >input{
+    padding: .5rem;
+    font-size: 1.3rem;
+    outline: none;
+    border-radius: .7rem;
+    width: 100vw;
+    max-width: 550px;
+    transition: .2s;
+    border: 3px solid #222831;
+    text-align: center;
+}
+.main .letsTalk .contactForm >div >input:focus,
+.main .letsTalk .contactForm >div >textarea:focus{
+   border: 3px solid #00ADB5;
+}
+.main .letsTalk .contactForm >div >textarea{
+    height: 100%;
+    width: 100vw;
+    max-width: 550px;
+    font-size: 1.3rem;
+    border-radius: .7rem;
+    outline: none;
+    transition: .2s;
+    padding: .3rem;
+    border: 3px solid #222831;
+    text-align: center;
+}
+.main .letsTalk .contactForm >#button{
+    text-align: center;
+    padding: .8rem 0;
+    width: 100vw;
+    max-width: 10rem;
+    font-size: 1.3rem;
+    font-family: var(--sans);
+    cursor: pointer;
+    border-radius: .6rem;
+    background: none;
+    outline: none;
+    border: 2px solid #00ADB5;
+    color: #ffff;
+    transition: .5s linear;
+}
+.main .letsTalk .contactForm >#button:hover{
+    background: #00ADB5;
+}
+
+.main .letsTalk .contactForm #chk{
+    position: absolute;
+    left: -500%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 950px){
+    .main .letsTalk .letTalkIn >p{
+        font-size: 20px;
+    }
+
+    .main .letsTalk .letTalkIn >span >i >span{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+
+    .main .letsTalk{
+        flex-wrap: wrap;;
+    }
+
+    .main .letsTalk .letTalkIn,
+    .main .letsTalk .contactForm{
+        width: 100%;
+    }
+    .main .letsTalk .contactForm{
+        margin-top: 2rem;
+        border-top: 1.5px solid #00ADB5;
+        padding-top: 1rem;
+    }
+
+}

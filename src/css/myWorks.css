@@ -1,0 +1,241 @@
+.main .myWorks{
+    height: 100%;
+    width: 100%;
+    background: #222831;
+    border-top: 1px solid #EEEEEE;
+    padding: 3rem .3rem;
+}
+.main .myWorks >h2{
+    font-size: 45px;
+    color: #00adb5;
+    font-family: var(--castoro);
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+/* swiper laptop */
+.main .myWorks .carou{
+    position: relative;
+    margin-bottom: 17rem;
+    width: 560px;
+  height: 300px;
+  margin-top: 2rem;
+}
+.main .myWorks .laptop{
+    position: absolute;
+    max-height: 525px;
+    max-width: 799px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main .myWorks .carou .swiper-slide img{
+    height: 100%;
+    width: 100%;
+    max-height: 400px;
+    max-width: 560px;
+}
+
+
+
+
+
+
+
+
+
+
+.main .myWorks >p{
+    color: #eeeeee;
+    font-size: 1.1rem;
+    word-break: break-word;
+    text-align: center;
+    font-family: var(--sans);
+    font-weight: 400;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    border-top: 1px solid #00adb5;
+    border-radius: 50%;
+    padding-top: 4rem;
+}
+
+
+/* image size set */
+.main .myWorks .worksCon >div .sub >div >img{
+    height: 100%;
+    width: 100%;
+    max-height: 400px;
+    max-width: 450px;
+}
+/* all h2 of every works */
+.main .myWorks .worksCon >div >h2{
+    font-size: 25px;
+    color: #00adb5;
+    font-weight: 800;
+    font-family: var(--castoro);
+    margin-bottom: .1rem;
+    position: relative;
+    word-break: break-word;
+}
+/* dots from h2 */
+.main .myWorks .worksCon >div >h2::after{
+    content: "";
+    height: 1rem;
+    width: 1rem;
+    background: #00adb5;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -6.9%;
+
+    box-shadow: 3px 23px 154px 26px rgba(0,173,181,0.97);
+    -webkit-box-shadow: 3px 23px 154px 26px rgba(0,173,181,0.97);
+    -moz-box-shadow: 3px 23px 154px 26px rgba(0,173,181,0.97);
+    opacity: .2;
+    animation: dotsAnimate .4s linear alternate infinite;
+}
+@keyframes dotsAnimate{
+    from{}
+    to{opacity: 1;}
+}
+
+/* lines from */
+.main .myWorks .worksCon >div >.linesFrom::before{
+    content: "";
+    height: 10000rem;
+    width: 1.5px;
+    background: #eeeeee;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -6.2%;
+    opacity: .8;
+}
+
+
+
+/* all p (languages use) */
+.main .myWorks .worksCon >div >p{
+    font-size: 15px;
+    color: #EEEEEE;
+    font-family: var(--castoro);
+    margin-bottom: 1.5rem;
+    word-break: break-word;
+}
+
+/* works con layout */
+.main .myWorks .worksCon{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap-reverse;
+    gap: 3rem;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 1rem;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+/* all sub layout */
+.main .myWorks .worksCon >div .sub{
+    display: flex;
+    gap: 1rem;
+}
+
+/* all div(1) inside .sub */
+.main .myWorks .worksCon >div >.sub >div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+/* all span inside div(1)*/
+.main .myWorks .worksCon >div >.sub >div:nth-child(1) >span{
+    margin-top: 1rem;
+}
+/* all a inside span */
+.main .myWorks .worksCon >div >.sub >div:nth-child(1) >span >a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 1rem;
+    border: 1px solid #00adb5;
+    padding: .3rem;
+    border-radius: .3rem;
+    transition: .6s linear;
+    font-family: var(--sans);
+    font-weight: 400;
+}
+/* all a inside span hover */
+.main .myWorks .worksCon >div >.sub >div:nth-child(1) >span >a:hover{
+    background: #00adb5;
+}
+
+.main .myWorks .worksCon >div >.sub >div:nth-child(2) >p{
+    color: #EEEEEE;
+    font-size: 17px;
+    font-family: var(--sans);
+    font-weight: 400;
+    max-width: 500px;
+    overflow-y: auto;
+    border-right: 2px solid #00adb5;
+    padding-right: .3rem;
+}
+
+
+
+
+
+/* large screen width */
+@media screen and (min-width: 2300px){
+    /* works con new layout 2300px */
+    .main .myWorks .worksCon{
+        max-width: unset;
+    }
+    /* lines from make none */
+    .main .myWorks .worksCon >div >.linesFrom::before{
+        display: none;
+    }
+    /* dots from h2 adjust position */
+    .main .myWorks .worksCon >div >h2::after{
+        left: -3%;
+    }
+}
+
+
+/* media */
+@media screen and (max-width: 950px){
+
+    /* new style of first h2,p */
+    .main .myWorks >h2{
+        font-size: 35px;
+    }
+}
+
+
+/* for carousel */
+@media screen and (max-width: 780px){
+
+    /* make display none */
+    .main .myWorks .carou{
+        display: none;
+    }
+    .main .myWorks .laptop{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+
+    /* new layout of sub */
+    .main .myWorks .worksCon >div .sub{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+   
+}
