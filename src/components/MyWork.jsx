@@ -14,6 +14,7 @@ import { Autoplay, Pagination} from 'swiper/modules';
 import '../../node_modules/swiper/swiper.css';
 
 
+
 const MyWork = ()=>{
 
 
@@ -60,7 +61,7 @@ const MyWork = ()=>{
 
 
             {/* <!-- dheeluxe --> */}
-            <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+            <div>
                 <h2>Dheeluxe</h2>
                 <p>HTML,CSS,BOOTSTRAP,JAVASCRIPT</p>
                 <div className="sub">
@@ -90,7 +91,7 @@ const MyWork = ()=>{
 
 
            {/* <!-- Always choose good --> */}
-           <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+           <div>
             <h2>Always Choose Good</h2>
             <p>HTML,CSS,BOOTSTRAP,JAVASCRIPT</p>
             <div className="sub">
@@ -112,7 +113,7 @@ const MyWork = ()=>{
 
 
        {/* <!-- best mobile app --> */}
-       <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+       <div>
         <h2>Phone Brand</h2>
         <p>HTML,CSS,JAVASCRIPT</p>
         <div className="sub">
@@ -134,7 +135,7 @@ const MyWork = ()=>{
 
 
     {/* <!-- TPC blogsite --> */}
-    <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+    <div>
         <h2>TPC Blogsite</h2>
         <p>HTML,CSS,JAVASCRIPT,BOOTSTRAP</p>
         <div className="sub">
@@ -158,7 +159,7 @@ const MyWork = ()=>{
 
 
     {/* <!-- Restaurant opening --> */}
-    <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+    <div>
         <h2>Restaurant Opening</h2>
         <p>HTML,CSS,JAVASCRIPT</p>
         <div className="sub">
@@ -182,7 +183,7 @@ const MyWork = ()=>{
 
 
    {/* <!-- Hiking Concept --> */}
-    <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+    <div>
         <h2>Hiking Concept</h2>
         <p>HTML,CSS,JAVASCRIPT</p>
         <div className="sub">
@@ -207,7 +208,7 @@ const MyWork = ()=>{
 
 
    {/* <!-- Music show --> */}
-   <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+   <div>
     <h2>Music Show</h2>
     <p>HTML,CSS,JAVASCRIPT</p>
     <div className="sub">
@@ -229,7 +230,7 @@ const MyWork = ()=>{
 
 
 {/* <!-- Research/Capstone title generator --> */}
-<div data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+<div>
 <h2>Research/Capstone Title Generator</h2>
 <p>HTML,CSS,JAVASCRIPT</p>
 <div className="sub">
@@ -251,7 +252,7 @@ const MyWork = ()=>{
 
 
         {/* <!-- POS --> */}
-        <div data-aos="fade-left" data-aos-duration="800">
+        <div>
             <h2>Inventory with Point of Sale</h2>
             <p>HTML,CSS,JQUERY,AJAX,PHP,MYSQL/MARIADB</p>
             <div className="sub">
@@ -273,7 +274,7 @@ const MyWork = ()=>{
 
 
        {/* <!-- apiCalling --> */}
-       <div data-aos="fade-left" data-aos-duration="800">
+       <div>
         <h2>API Calling</h2>
         <p>HTML,CSS,JQUERY,AJAX</p>
         <div className="sub">
@@ -293,7 +294,7 @@ const MyWork = ()=>{
    </div>
 
     {/* <!-- Coffee Time --> */}
-    <div data-aos="fade-left" data-aos-duration="800">
+    <div>
         <h2>Coffee Time</h2>
         <p>HTML,SASS,JAVASCRIPT</p>
         <div className="sub">
@@ -316,7 +317,7 @@ const MyWork = ()=>{
 
 
    {/* <!-- kcl hardware --> */}
-   <div data-aos="fade-left" data-aos-duration="800">
+   <div>
     <h2>KCL Hardware Store</h2>
     <p>HTML,CSS,Jquery,Ajax,PHP,MySQL,FormSubmit</p>
     <div className="sub">

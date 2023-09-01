@@ -259,6 +259,14 @@ line-height: 3rem;
     font-family: var(--castoro);
 }
 
+/* custom style for 4th div small */
+.main .aboutExperience .expLevel >div:nth-child(4) >small{
+    font-size: 3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -2.3rem;
+}
+
 .main .aboutExperience .expLevel >div::after{
     content: "";
     background: #00adb54a;
@@ -322,10 +330,6 @@ line-height: 3rem;
     text-align: center;
 }
 
-
-
-
-
 /* certificate cards */
 .main .aboutExperience .expLevel .certi{
     position: relative;
@@ -374,7 +378,6 @@ line-height: 3rem;
 }
 
 .main .saysAboutMe >#scroll{
-    display: flex;
     gap: 2rem;
     animation: marquee 20s linear infinite;
     display: flex;
@@ -573,6 +576,13 @@ line-height: 3rem;
 
 @media screen and (max-width: 675px){
 
+
+    /* decrease size of <small> to Certifications */
+    .main .aboutExperience .expLevel >div:nth-child(4) >small{
+        font-size: 2.5rem;
+    }
+
+
         /* decrease indention ~ padding-left from 4.3rem */
     .main .aboutUses .aboutUsesSub{
         padding-left: 1rem;
@@ -624,4 +634,13 @@ line-height: 3rem;
     }
 
 
+}
+
+
+
+@media screen and (max-width: 380px){
+     /* decrease size of <small> to Certifications */
+     .main .aboutExperience .expLevel >div:nth-child(4) >small{
+        font-size: 1.5rem;
+    }
 }

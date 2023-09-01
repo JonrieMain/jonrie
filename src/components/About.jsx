@@ -110,6 +110,9 @@ const About = ()=>{
                     <p>Git</p>
                     <p>Github</p>
                     <p>Vercel</p>
+                    <p>Bitbucket</p>
+                    <p>InfinityFree</p>
+                    <p>Netlify</p>
                     <p>AOS</p>
                     <p>Fontawesome</p>
                     <p>Googlefonts</p>
@@ -125,7 +128,7 @@ const About = ()=>{
              <div className="aboutExperience">
                 <h2 data-aos="fade-right">How about my experience?</h2>
                 <p data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom" data-aos-duration="500">I started to learn programming when I was in grade 10, way back in 2018. 
+                data-aos-anchor-plnt="top-bottom" data-aos-duration="500">I started to learn programming when I was in grade 10, way back in 2018. 
                     My first languages and technologies that I use are HTML, CSS, and Javascript, 
                     and after a few years, I began learning PHP, MySQL/MariaDB, JQuery, and 
                     Ajax. The first system that I developed was my personal portfolio website, 
@@ -163,7 +166,7 @@ const About = ()=>{
     
     
                     {/* <!-- certificate --> */}
-                    <div data-aos="fade-up" data-aos-duration="500" className="certi">
+                    <div data-aos="fade-up" data-aos-duration="1000" className="certi">
                        
                         <small>Certifications</small>
                   
@@ -254,6 +257,19 @@ const About = ()=>{
                         <p>Im glad that I saw your content and all I can say is you're so kind that you help me to do my codes/activity you help me to learn more about coding and you're so informative and explaining all the details also you are easy to approach because you don't hesitate to message me back. Once again Thank you for you help I appreciate it.
                         </p>
                     </div> 
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://www.facebook.com/profile.php?id=100081368501361"><i className="fa-brands fa-facebook"></i></a>Nathaniel Bianito <small>(Student)</small></h3>
+                        <p>I recently commissioned from jonrie and I am absolutely thrilled with the results. From start to finish, the experience was exceptional.</p>
+                    </div> 
+
+
+
+
+        
     
                 </div>
     
