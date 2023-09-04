@@ -20,14 +20,13 @@ import Aos from 'aos';
 const App = ()=>{
 
     // init
-    useEffect(()=>{
         Aos.init();
         Aos.init({
             once: true,
             easing: 'linear',
             startEvent: 'DOMContentLoaded'
         });
-    }, []);
+
 
 
     return(<>

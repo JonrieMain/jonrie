@@ -376,7 +376,17 @@ line-height: 3rem;
     padding-left: 4.3rem;
     padding-bottom: 2.3rem;
 }
-
+.main .saysAboutMe >p{
+    color: #eeeeee;
+    font-size: 1.1rem;
+    word-break: break-word;
+    text-align: center;
+    font-family: var(--sans);
+    font-weight: 400;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
 .main .saysAboutMe >#scroll{
     gap: 2rem;
     animation: marquee 20s linear infinite;

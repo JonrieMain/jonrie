@@ -10,9 +10,23 @@ import "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js";
 
 
 
+// particle config
+import ParticlesJSON from "./ParticlesJSON";
+
+// modules and loadFull
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+
+// init
+const particleInit = async (main)=>{
+    await loadFull(main);
+}
+
+
+
+
+
 const Home = ()=>{
-
-
 
     // bars remove/add class
     const [navClassName, setClassName] = useState('fa-bars');
@@ -23,6 +37,7 @@ const Home = ()=>{
 // 
   useEffect(()=>{
 
+    // for links only works if viewport width is less than 875
     if(window.outerWidth <= 875){
 
         const links = document.querySelectorAll('.links');
@@ -34,22 +49,35 @@ const Home = ()=>{
 
     }
     
-  });
+
+    // for up button it show if scrollY > 0
+    window.addEventListener('scroll',()=>window.scrollY>0?document.querySelector('.up').style.left="2%":document.querySelector('.up').style.left="-50rem");
+
+
+  }, []);
         // check if document is fully loaded before loader disappear
                 $(document).ready(()=>{
-                            
+         
+                    
+                   
+
                           setTimeout(()=>{
-                            document.querySelector('.preloader').style.height="110px";
-                            document.querySelector('.preloader').style.width="110px";
+                            // document.querySelector('.preloader').style.height="110px";
+                            // document.querySelector('.preloader').style.width="110px";
                             document.querySelector('.preloader').style.opacity="0";
                 
+                        document.querySelector('.preloader').style.animation="diamond-out-hesitate 2.5s ease-in-out";
+
+
                             // hide
                             setTimeout(()=>{
                                 document.querySelector('.preloader').style.left="-100rem";
+
+
                                 document.body.style.overflow="unset";
                                 
                                 document.querySelector('.main').style.opacity="1";
-                
+
                 
                                 setTimeout(()=>{
                                     document.querySelector('.preloader').style.display="none";
@@ -75,9 +103,11 @@ const Home = ()=>{
 
     return(
 
-    <div className="home">
 
+       
+    <div className="home" id="home">
 
+<Particles id="tsParticles" init={particleInit} options={ParticlesJSON}></Particles>
 
 
         {/* <!-- up --> */}
@@ -135,9 +165,9 @@ const Home = ()=>{
 
 
     
-    
+        
     </div>
-    
+   
     );
 
 }

@@ -41,7 +41,7 @@ const About = ()=>{
                 You can employ a variety of arm spreads, 
                 cuts, shuffles, and leaps. The goal is to 
                 provide eye-catching motion and a stunning 
-                spectacle. I'm also performing some basic magic tricks.</p>
+                spectacle.</p>
             </div>
             <div className="rightAbout" data-aos="flip-right" data-aos-duration="1000">
                 <img src="/assets/jonrie.png" alt="Jonrie" />
@@ -130,14 +130,7 @@ const About = ()=>{
                 <p data-aos="fade-up"
                 data-aos-anchor-plnt="top-bottom" data-aos-duration="500">I started to learn programming when I was in grade 10, way back in 2018. 
                     My first languages and technologies that I use are HTML, CSS, and Javascript, 
-                    and after a few years, I began learning PHP, MySQL/MariaDB, JQuery, and 
-                    Ajax. The first system that I developed was my personal portfolio website, 
-                    and now I am currently building an inventory with a point of sale system for 
-                    portfolio purposes. I am also currently in my first year of college, taking a 
-                    Bachelor of Science in Information Systems (BSIS) at the Integrated 
-                    Innovation and Hospitality College, and I am currently studying React JS,
-                    Node JS, Typescript, etc. to solidify my knowledge after I graduate 
-                    from college.</p>
+                    and after a few years, I began learning PHP, MySQL/MariaDB, JQuery, and Ajax. The first website that I developed was my personal portfolio website. I am currently in my first year of college, taking a Bachelor of Science in Information Systems (BSIS) at the Integrated Innovation and Hospitality College, and I am currently studying React JS,Node JS, Typescript, etc. to solidify my knowledge after I graduate from college.</p>
     
     
                     
@@ -198,6 +191,7 @@ const About = ()=>{
     
              <div className="saysAboutMe">
                 <h2 id="testimonials" data-aos="fade-right">What Client/I help says about me?</h2>
+                <p data-aos="fade-left">Here is a list of testimonials from students from various colleges and universities about what I do or help them with in their activities and capstones.</p>
     
                 <div id="scroll">
     
