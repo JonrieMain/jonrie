@@ -109,6 +109,7 @@ const About = ()=>{
                     <div>
                     <p>Git</p>
                     <p>Github</p>
+                    <p>Typescript</p>
                     <p>Vercel</p>
                     <p>Bitbucket</p>
                     <p>InfinityFree</p>
@@ -161,7 +162,7 @@ const About = ()=>{
                     {/* <!-- certificate --> */}
                     <div data-aos="fade-up" data-aos-duration="1000" className="certi">
                        
-                        <small>Certifications</small>
+                        <small>Certifications<div>Drag left or right <i class="fa-solid fa-down-long"></i></div></small>
                   
                 
     <Swiper className="certi"  effect={'cards'} grabCursor={true} modules={[EffectCards]}>
@@ -173,6 +174,7 @@ const About = ()=>{
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer6.jpg" alt="certificate6" /></SwiperSlide>
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer7.jpg" alt="certificate7" /></SwiperSlide>
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer8.jpg" alt="certificate8" /></SwiperSlide>
+                <SwiperSlide className='SwiperSlide'><img src="/assets/cer9.jpg" alt="certificate8" /></SwiperSlide>
                 
     </Swiper>
 
@@ -258,6 +260,15 @@ const About = ()=>{
                         </span>
                         <h3><a target="_blank" href="https://www.facebook.com/profile.php?id=100081368501361"><i className="fa-brands fa-facebook"></i></a>Nathaniel Bianito <small>(Student)</small></h3>
                         <p>I recently commissioned from jonrie and I am absolutely thrilled with the results. From start to finish, the experience was exceptional.</p>
+                    </div> 
+
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/claryellaa"><i className="fa-brands fa-facebook"></i></a>Scarlett Soledad <small>(Student)</small></h3>
+                        <p>Super accommodating and reliable! And the work is beautiful and easy to talk about. The price is very budget-friendly, which is very helpful for students.</p>
                     </div> 
 
 

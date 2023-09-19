@@ -49,7 +49,6 @@ const Home = ()=>{
 
     }
     
-
     // for up button it show if scrollY > 0
     window.addEventListener('scroll',()=>window.scrollY>0?document.querySelector('.up').style.left="2%":document.querySelector('.up').style.left="-50rem");
 
@@ -59,8 +58,6 @@ const Home = ()=>{
                 $(document).ready(()=>{
          
                     
-                   
-
                           setTimeout(()=>{
                             // document.querySelector('.preloader').style.height="110px";
                             // document.querySelector('.preloader').style.width="110px";
@@ -106,6 +103,8 @@ const Home = ()=>{
 
        
     <div className="home" id="home">
+
+
 
 <Particles id="tsParticles" init={particleInit} options={ParticlesJSON}></Particles>
 
