@@ -127,6 +127,8 @@
     word-break: break-word;
 }
 
+
+
 /* works con layout */
 .main .myWorks .worksCon{
     display: flex;
@@ -156,6 +158,8 @@
 /* all span inside div(1)*/
 .main .myWorks .worksCon >div >.sub >div:nth-child(1) >span{
     margin-top: 1rem;
+    display: flex;
+    gap: .4rem;
 }
 /* all a inside span */
 .main .myWorks .worksCon >div >.sub >div:nth-child(1) >span >a{
@@ -174,6 +178,7 @@
     background: #00adb5;
 }
 
+/* all p description */
 .main .myWorks .worksCon >div >.sub >div:nth-child(2) >p{
     color: #EEEEEE;
     font-size: 17px;
@@ -183,6 +188,9 @@
     overflow-y: auto;
     border-right: 2px solid #00adb5;
     padding-right: .3rem;
+}
+.main .myWorks .worksCon >div >.sub >div:nth-child(2) >p >i{
+    color: #00adb5;
 }
 
 

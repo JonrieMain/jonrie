@@ -41,7 +41,6 @@ const MyWork = ()=>{
       <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl.jpg" alt="kcl" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'> <img src="/assets/works/coffeeTime.png" alt="coffeeTime" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'><img src="/assets/works/apiPic.png" alt="POS" /></SwiperSlide>
-      <SwiperSlide className='swiper-slide'><img src="/assets/works/pos.png" alt="POS" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'><img src="/assets/works/researchGenerator.png" alt="Research/Capstone Title Generator" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'> <img src="/assets/works/musicShow.png" alt="Music Show" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'> <img src="/assets/works/hikingConcept.png" alt="Hiking Concept" /></SwiperSlide>
@@ -57,7 +56,7 @@ const MyWork = ()=>{
 
 
     <p data-aos="zoom-in" data-aos-duration="1000">I haven't yet received any projects from company clients, but I already receive many projects from a student from a different school. Here are some of my full-stack apps and a PSD application that has been turned into a web page.</p>
-        <div className="worksCon">
+        <div className="worksCon" data-aos="fade-left" data-aos-duration="800">
 
 
             {/* <!-- dheeluxe --> */}
@@ -80,7 +79,7 @@ const MyWork = ()=>{
                     
                     </div>
                     <div>
-                        <p>This is the first website that i created with html,css,javascript and css frameworks which is bootstrap. I created this to enhance my skills in using HTML, CSS, and JavaScript and tried to enhance my web designing skills and this project is for portfolio purposes.</p>
+                        <p>This is the first website that i created with html,css,javascript and css frameworks which is bootstrap. I created this to enhance my skills in using HTML, CSS, and JavaScript and tried to enhance my web designing skills and this project is for portfolio purposes. <br/><br/><br/><i>-Publish in 2020</i></p>
                     </div>
                 </div>
            </div>
@@ -105,7 +104,7 @@ const MyWork = ()=>{
                 </span>
                 </div>
                 <div>
-                    <p>This is the second website I created. I found it on YouTube and tried to copy or clone it using HTML, CSS, and JavaScript for portfolio purposes only.</p>
+                    <p>This is the second website I created. I found it on YouTube and tried to copy or clone it using HTML, CSS, and JavaScript for portfolio purposes only.<br/><br/><br/><i>-Publish in 2022</i></p>
                 </div>
             </div>
        </div>
@@ -127,7 +126,7 @@ const MyWork = ()=>{
             </span>
             </div>
             <div>
-                <p>This is the third website I've created; I found this one too on YouTube, which I tried to copy or clone to enhance my skills and for portfolio purposes.</p>
+                <p>This is the third website I've created; I found this one too on YouTube, which I tried to copy or clone to enhance my skills and for portfolio purposes.<br/><br/><br/><i>-Publish in 2022</i></p>
             </div>
         </div>
    </div>
@@ -149,7 +148,7 @@ const MyWork = ()=>{
             </span>
             </div>
             <div>
-                <p>This website I create is for school purposes when I am in senior high school in 2021. This time im a modular just i need is to answer all and pass in the school my one module have activity that need to create a blogsite represent my school and i create this using html,css,javascript and bootstrap.</p>
+                <p>This website I create is for school purposes when I am in senior high school in 2021. This time im a modular just i need is to answer all and pass in the school my one module have activity that need to create a blogsite represent my school and i create this using html,css,javascript and bootstrap.<br/><br/><br/><i>-Publish in 2022</i></p>
             </div>
         </div>
    </div>
@@ -173,7 +172,7 @@ const MyWork = ()=>{
             </span>
             </div>
             <div>
-                <p>This is the first website I converted from Photoshop to an actual webpage. I found this on the <a href="https://www.freepik.com/psd/website-templates">Freepik</a> website. I found that website and am looking for websites that I want to convert from PSD to actual webpages. This project is for portfolio purposes.</p>
+                <p>This is the first website I converted from Photoshop to an actual webpage. I found this on the <a href="https://www.freepik.com/psd/website-templates">Freepik</a> website. I found that website and am looking for websites that I want to convert from PSD to actual webpages. This project is for portfolio purposes.<br/><br/><br/><i>-Publish in 2022</i></p>
             </div>
         </div>
    </div>
@@ -197,7 +196,7 @@ const MyWork = ()=>{
             </span>
             </div>
             <div>
-                <p>This is the second website that I converted from psd to actual webpage, and this is from <a href="https://www.freepik.com/psd/website-templates">Freepik</a> and for portfolio purposes.</p>
+                <p>This is the second website that I converted from psd to actual webpage, and this is from <a href="https://www.freepik.com/psd/website-templates">Freepik</a> and for portfolio purposes.<br/><br/><br/><i>-Publish in 2022</i></p>
             </div>
         </div>
    </div>
@@ -222,7 +221,7 @@ const MyWork = ()=>{
         </span>
         </div>
         <div>
-            <p>This is the third website that I converted from psd to actual webpage, and this is from <a href="https://www.freepik.com/psd/website-templates">Freepik</a> and for portfolio purposes.</p>
+            <p>This is the third website that I converted from psd to actual webpage, and this is from <a href="https://www.freepik.com/psd/website-templates">Freepik</a> and for portfolio purposes.<br/><br/><br/><i>-Publish in 2022</i></p>
         </div>
     </div>
 </div>
@@ -244,14 +243,14 @@ const MyWork = ()=>{
     </span>
     </div>
     <div>
-        <p>This website I created to make a random selection using vanilla javascript and tried to help other people choose their title for their thesis or capstone. This generated title is for computer majors only.</p>
+        <p>This website I created to make a random selection using vanilla javascript and tried to help other people choose their title for their thesis or capstone. This generated title is for computer majors only.<br/><br/><br/><i>-Publish in 2022</i></p>
     </div>
 </div>
 </div>
 
 
 
-        {/* <!-- POS --> */}
+        {/* <!-- POS -->
         <div>
             <h2>Inventory with Point of Sale</h2>
             <p>HTML,CSS,JQUERY,AJAX,PHP,MYSQL/MARIADB</p>
@@ -269,7 +268,7 @@ const MyWork = ()=>{
                     <p>This is the first full-stack app I created, titled Inventory with Point of Sale. This app has a login and registration, allows you to add, remove, and edit products like quantity, name, and price; add sales; add products that you receive from suppliers; record sales reports; and has an employee list and details. Users who have access to this app and account settings This system is not yet finished and is for portfolio purposes only.</p>
                 </div>
             </div>
-       </div>
+       </div> */}
 
 
 
@@ -288,7 +287,7 @@ const MyWork = ()=>{
             </span>
             </div>
             <div>
-                <p>This application I built is a simple image generator with cats, dogs, and random advice. I built this to enhance my skills in API integration.</p>
+                <p>This application I built is a simple image generator with cats, dogs, and random advice. I built this to enhance my skills in API integration.<br/><br/><br/><i>-Publish in 2023</i></p>
             </div>
         </div>
    </div>
@@ -308,7 +307,7 @@ const MyWork = ()=>{
             </span>
             </div>
             <div>
-                <p>This design is one I found on <a href="https://www.freepik.com/"> Freepik</a> and tried to clone using HTML, SASS, and Javascript. I built this to enhance my skills in using the SASS pre-processor and for portfolio purposes only. Unfortunately, this webpage is not yet finished.</p>
+                <p>This design is one I found on <a href="https://www.freepik.com/"> Freepik</a> and tried to clone using HTML, SASS, and Javascript. I built this to enhance my skills in using the SASS pre-processor and for portfolio purposes only.<br/><br/><br/><i>-Publish in 2023</i></p>
             </div>
         </div>
    </div>
@@ -331,7 +330,7 @@ const MyWork = ()=>{
         </span>
         </div>
         <div>
-            <p>This is the second full stack I've handled. This system is from a student who has a capstone project. I handled their system to make some changes, fix some components, and add some components from the frontend to the backend. Like the login and registration forms for the user and admin sections, make some logic for stocks of a product and sessions, and design the dashboard and make it functional, including searching for products, filtering, settings, and themes. creating a receive order section for delivery, etc.</p>
+            <p>This is the first big full stack I've handled. This system is from a student who has a capstone project. I handled their system to make some changes, fix some components, and add some components from the frontend to the backend. Like the login and registration forms for the user and admin sections, make some logic for stocks of a product and sessions, and design the dashboard and make it functional, including searching for products, filtering, settings, and themes. creating a receive order section for delivery, etc.<br/><br/><br/><i>-Publish in 2023</i></p>
         </div>
     </div>
 </div>
@@ -344,7 +343,7 @@ const MyWork = ()=>{
 
 
   {/* <!-- url shortener --> */}
-  <div data-aos="fade-left" data-aos-duration="800">
+  <div>
     <h2 className="linesFrom">Simple URL Shortener</h2>
     <p>HTML,CSS,Jquery,Ajax,PHP,MySQL</p>
     <div className="sub">
@@ -358,7 +357,7 @@ const MyWork = ()=>{
         </span>
         </div>
         <div>
-            <p>This is my sample self-project that intends to make a link or URL shorter with another alternative extension name. It focuses on making your long URL or link shorter and easier to memorize. This is a sample project that uses a free domain. You can check the source code and demo website below the image.</p>
+            <p>This is my sample self-project that intends to make a link or URL shorter with another alternative extension name. It focuses on making your long URL or link shorter and easier to memorize. This is a sample project that uses a free domain. You can check the source code and demo website below the image.<br/><br/><br/><i>-Publish in 2023</i></p>
         </div>
     </div>
 </div>
