@@ -39,7 +39,7 @@ line-height: 3rem;
 }
 .main .about .rightAbout::after{
     content: "";
-    background: url("../../public/assets/jonrie2.png");
+    background: url("/assets/jonrie2.png");
     height: 100%;
     width: 100%;
     max-height: 608px;
@@ -393,6 +393,7 @@ text-align: center;
     padding: 5rem .5rem 2rem .5rem;
     max-width: 2500px;
 }
+
 .main .saysAboutMe >h2{
     font-size: 45px;
     color: #00adb5;
@@ -435,7 +436,16 @@ text-align: center;
     -webkit-box-shadow: 0px 21px 17px -8px rgba(0,173,181,0.55);
     -moz-box-shadow: 0px 21px 17px -8px rgba(0,173,181,0.55);
     padding: .2rem .5rem;
+    position: relative;
 }
+.main .saysAboutMe >#scroll >div .date{
+    position: absolute;
+    color: #00adb5;
+    top: .5rem;
+    left: .6rem;
+    z-index: 10000;
+}
+
 
 
 .main .saysAboutMe >#scroll >div:hover{
@@ -481,12 +491,15 @@ text-align: center;
     margin-right: .2rem;
     font-size: 1.4rem;
     transition: 1s;
+    position: absolute;
+    right: 1rem;
+    top: -6.2rem;
 }
 .main .saysAboutMe >#scroll >div:hover >h3 >a >i{
     transform: rotate(360deg);
 }
 .main .saysAboutMe >#scroll >div:hover >h3 >a >i:hover{
-    color: #222831;
+    transform: translateY(-2px);
 }
 
 .main .saysAboutMe >#scroll >div >p{
@@ -677,5 +690,13 @@ text-align: center;
      /* decrease size of <small> to Certifications */
      .main .aboutExperience .expLevel >div:nth-child(4) >small{
         font-size: 1.5rem;
+    }
+}
+
+
+/* for project date */
+@media screen and (max-width: 270px){
+    .main .saysAboutMe >#scroll >div .date{
+        font-size: .6rem;
     }
 }
