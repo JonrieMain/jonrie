@@ -174,7 +174,8 @@ const About = ()=>{
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer6.jpg" alt="certificate6" /></SwiperSlide>
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer7.jpg" alt="certificate7" /></SwiperSlide>
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer8.jpg" alt="certificate8" /></SwiperSlide>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer9.jpg" alt="certificate8" /></SwiperSlide>
+                <SwiperSlide className='SwiperSlide'><img src="/assets/cer9.jpg" alt="certificate9" /></SwiperSlide>
+                <SwiperSlide className='SwiperSlide'><img src="/assets/cer10.jpg" alt="certificate10" /></SwiperSlide>
                 
     </Swiper>
 
