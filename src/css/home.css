@@ -418,6 +418,14 @@ margin-left: -2rem;
         left: .3rem;
     }
 
+    /* I AM */
+    .homeTextCon .subTextCon .iAm{
+        top: -4rem;
+        left: 25%;
+        transform: rotate(0deg);
+        font-size: 25px;
+    }
+
     /* A WEB DEVELOPER */
     .homeTextCon .subTextCon .aWebDeveloper{
         right: 50%;
@@ -531,15 +539,6 @@ margin-left: -2rem;
     font-size: 120px;
 } 
 
-    /* I AM and A WEB DEVELOPER new position */
-
-
-    .homeTextCon .subTextCon .iAm{
-        top: -4rem;
-        left: 25%;
-        transform: rotate(0deg);
-        font-size: 25px;
-    }
 
 }
 

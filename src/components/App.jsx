@@ -23,8 +23,7 @@ const App = ()=>{
         Aos.init();
         Aos.init({
             once: true,
-            easing: 'linear',
-            startEvent: 'DOMContentLoaded'
+            easing: 'linear'
         });
 
 

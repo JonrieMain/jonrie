@@ -77,7 +77,7 @@ const About = ()=>{
     
     
     
-        {/* <!-- technologies uses --> */}
+        {/*  technologies uses --> */}
         <div className="aboutUses">
             <h2 data-aos="fade-right">What are the technologies i use?</h2>
             <div className="aboutUsesSub">
@@ -159,7 +159,7 @@ const About = ()=>{
                     </div>
     
     
-                    {/* <!-- certificate --> */}
+                    {/* <!-- certifications --> */}
                     <div data-aos="fade-up" data-aos-duration="1000" className="certi">
                        
                         <small>Certifications<div>Drag left or right <i class="fa-solid fa-down-long"></i></div></small>
@@ -176,8 +176,9 @@ const About = ()=>{
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer8.jpg" alt="certificate8" /></SwiperSlide>
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer9.jpg" alt="certificate9" /></SwiperSlide>
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer10.jpg" alt="certificate10" /></SwiperSlide>
+                <SwiperSlide className='SwiperSlide'><img src="/assets/cer11.jpg" alt="certificate11" /></SwiperSlide>
                 
-    </Swiper>
+                </Swiper>
 
 
     
