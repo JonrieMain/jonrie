@@ -131,7 +131,7 @@ const About = ()=>{
                 <p data-aos="fade-up"
                 data-aos-anchor-plnt="top-bottom" data-aos-duration="500">I started to learn programming when I was in grade 10, way back in 2018. 
                     My first languages and technologies that I use are HTML, CSS, and Javascript, 
-                    and after a few years, I began learning PHP, MySQL/MariaDB, JQuery, and Ajax. The first website that I developed was my personal portfolio website. I am currently in my first year of college, taking a Bachelor of Science in Information Systems (BSIS) at the Integrated Innovation and Hospitality College, and I am currently studying React JS,Node JS, Typescript, etc. to solidify my knowledge after I graduate from college.</p>
+                    and after a few years, I began learning PHP, MySQL/MariaDB, JQuery, and Ajax. The first website that I developed was my personal portfolio website. I am currently in my second year of college, taking a Bachelor of Science in Information Systems (BSIS) at the Integrated Innovation and Hospitality College, and I am currently studying React JS,Node JS, Typescript, etc. to solidify my knowledge after I graduate from college.</p>
     
     
                     
