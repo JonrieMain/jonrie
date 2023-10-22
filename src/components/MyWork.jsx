@@ -1,4 +1,3 @@
-
 // css
 import '../css/myWorks.css';
 
@@ -7,16 +6,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination} from 'swiper/modules';
 
 
-
-
-
 // swiper css
 import '../../node_modules/swiper/swiper.css';
 
-
-
 const MyWork = ()=>{
-
 
     return(
         <div className="myWorks">
@@ -34,9 +27,7 @@ const MyWork = ()=>{
        disableOnInteraction: false,
        }} speed={3500}>
 
-         
-
-
+          
       <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener.JPG" alt="kcl" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl.jpg" alt="kcl" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'> <img src="/assets/works/coffeeTime.png" alt="coffeeTime" /></SwiperSlide>

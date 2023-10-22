@@ -177,6 +177,7 @@ const About = ()=>{
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer9.jpg" alt="certificate9" /></SwiperSlide>
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer10.jpg" alt="certificate10" /></SwiperSlide>
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer11.jpg" alt="certificate11" /></SwiperSlide>
+                <SwiperSlide className='SwiperSlide'><img src="/assets/cer12.jpg" alt="certificate12" /></SwiperSlide>
                 
                 </Swiper>
 
