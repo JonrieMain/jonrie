@@ -627,7 +627,7 @@ text-align: center;
 
     /* decrease size of <small> to Certifications */
     .main .aboutExperience .expLevel >div:nth-child(4) >small{
-        font-size: 2.5rem;
+        font-size: 2.7rem;
     }
 
 
@@ -689,7 +689,11 @@ text-align: center;
 @media screen and (max-width: 380px){
      /* decrease size of <small> to Certifications */
      .main .aboutExperience .expLevel >div:nth-child(4) >small{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+        top: -1.5rem;
+    }
+    .main .aboutExperience .expLevel >div:nth-child(4) >small >div{
+        font-size: .8rem;
     }
 }
 

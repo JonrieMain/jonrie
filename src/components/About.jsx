@@ -4,15 +4,16 @@ import '../css/about.css';
 
 // swiper
 // swiper module
-import { EffectCards } from 'swiper/modules';
+import { EffectCards, Pagination } from 'swiper/modules';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 
 
 // swiper css
 import 'swiper/css/effect-cards';
-
 import '../../node_modules/swiper/swiper.css';
+import '../../node_modules/swiper/modules/pagination.css';
 
 
 
@@ -165,7 +166,7 @@ const About = ()=>{
                         <small>Certifications<div>Drag left or right <i class="fa-solid fa-down-long"></i></div></small>
                   
                 
-    <Swiper className="certi"  effect={'cards'} grabCursor={true} modules={[EffectCards]}>
+    <Swiper className="certi" pagination={true}  effect={'cards'} grabCursor={true} modules={[EffectCards,Pagination]}>
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer1.jpg" alt="certificate1" /></SwiperSlide>
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer2.jpg" alt="certificate2" /></SwiperSlide>
                 <SwiperSlide className='SwiperSlide'><img src="/assets/cer3.jpg" alt="certificate3" /></SwiperSlide>
