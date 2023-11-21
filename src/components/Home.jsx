@@ -158,8 +158,6 @@ const Home = ()=>{
                 <span className="aWebDeveloper">A WEB DEVELOPER</span>
             </div>
             <h4>Who specialize in developing websites that are visually appealing and meet the highest standards of accessibility, ensuring inclusivity for all users.</h4>
-
-            <p>Need a website that stands out? Click <a href="#letsTalk">here</a> to connect with me and learn how I can help you.</p>
         </div>
 
 

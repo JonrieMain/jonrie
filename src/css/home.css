@@ -165,15 +165,19 @@
     cursor: pointer;
 }
 .main #contact::after{
-    content: "Contact";
+    content: "Connect with me";
     padding: .4rem;
     position: absolute;
-    top: -1.5rem;
-    left: -1rem;
+    top: -2.9rem;
+    left: -.3rem;
     font-size: .9rem;
     color: #fff;
     transition: 1.3s linear;
     opacity: 0;
+    line-height: 1.2rem;
+   
+    font-family: var(--sans);
+    font-weight: 500;
 }
 .main #contact:hover::after{
     opacity: 1;
@@ -413,28 +417,6 @@ margin-left: -2rem;
     word-break: break-word;
 }
 
-/* p */
-.homeTextCon >p{
-    color: #EEEEEE;
-    font-family: var(--sans);
-    position: absolute;
-    bottom: -28rem;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 17px;
-    text-align: center;
-    padding: 0 2rem;
-}
-.homeTextCon >p >a{
-    color: #00ADB5;
-    text-decoration: none;
-    font-size: 23px;
-    text-transform: uppercase;
-}
-
-
-
-
 
 
 /* media query */
@@ -587,16 +569,7 @@ margin-left: -2rem;
 
 
 
-/* p */
-.homeTextCon >p{
-    font-size: 14px;
-}
-.homeTextCon >p >a{
-    font-size: 19px;
-}
 
-
-  
 
 
 }
@@ -625,17 +598,10 @@ margin-left: -2rem;
     }
 
 
-      /* h4 */
-  .homeTextCon >h4{
-    bottom: -14rem;
-    font-size: 13px;
-    max-width: 200px;
-}
-
-/* p */
-.homeTextCon >p{
-    display: none;
-}
+         /* h4 */
+         .homeTextCon >h4{
+            display: none;
+         }
 
 
 }
@@ -644,10 +610,7 @@ margin-left: -2rem;
     .homeTextCon .subTextCon .aWebDeveloper{
         bottom: -11rem;
     }
-         /* h4 */
-  .homeTextCon >h4{
-   display: none;
-}
+
 
 
 }
