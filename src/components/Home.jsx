@@ -59,8 +59,7 @@ const Home = ()=>{
          
                     
                           setTimeout(()=>{
-                            // document.querySelector('.preloader').style.height="110px";
-                            // document.querySelector('.preloader').style.width="110px";
+             
                             document.querySelector('.preloader').style.opacity="0";
                 
                         document.querySelector('.preloader').style.animation="diamond-out-hesitate 2.5s ease-in-out";

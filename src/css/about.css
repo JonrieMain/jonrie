@@ -36,23 +36,9 @@ line-height: 3rem;
     display: grid;
     place-items: center;
     position: relative;
+    background: rgba(0,0,0,0.5);
 }
-.main .about .rightAbout::after{
-    content: "";
-    background: url("/assets/jonrie2.png");
-    height: 100%;
-    width: 100%;
-    max-height: 608px;
-    position: absolute;
-    top: 1rem;
-    left: .5rem;
-    z-index: 1000000000000000;
-    opacity: 0;
-    transition: .5s linear;
-}
-.main .about .rightAbout:hover::after{
-    opacity: 1;
-}
+
 
 
 
