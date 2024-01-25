@@ -63,13 +63,24 @@
 }
 
 
-/* image size set */
-.main .myWorks .worksCon >div .sub >div >img{
+
+
+/* image size set and carousel */
+.main .myWorks .worksCon >div .sub .projectListSwiper{
+    width: 560px;
+  height: 300px;
+}
+
+
+.main .myWorks .worksCon >div .sub .projectListSwiper .swiper-slide >img{
     height: 100%;
     width: 100%;
     max-height: 400px;
-    max-width: 450px;
+    max-width: 530px;
 }
+
+
+
 /* all h2 of every works */
 .main .myWorks .worksCon >div >h2{
     font-size: 25px;

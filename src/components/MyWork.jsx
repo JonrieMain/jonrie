@@ -9,6 +9,7 @@ import { Autoplay, Pagination} from 'swiper/modules';
 // swiper css
 import '../../node_modules/swiper/swiper.css';
 
+
 const MyWork = ()=>{
 
     return(
@@ -28,7 +29,7 @@ const MyWork = ()=>{
        }} speed={3500}>
 
           
-      <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener.JPG" alt="kcl" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener.jpg" alt="kcl" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl.jpg" alt="kcl" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'> <img src="/assets/works/coffeeTime.png" alt="coffeeTime" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'><img src="/assets/works/apiPic.png" alt="POS" /></SwiperSlide>
@@ -46,7 +47,7 @@ const MyWork = ()=>{
 
 
 
-    <p data-aos="zoom-in" data-aos-duration="1000">I haven't yet received any projects from company clients, but I already receive many projects from a student from a different school. Here are some of my full-stack apps and a PSD application that has been turned into a web page.</p>
+    <p data-aos="zoom-in" data-aos-duration="1000">I already receive many projects from a student from a different school. Here are some of my full-stack apps and a PSD application that has been turned into a web page.</p>
         <div className="worksCon" data-aos="fade-left" data-aos-duration="800">
 
 
@@ -56,7 +57,28 @@ const MyWork = ()=>{
                 <p>HTML,CSS,BOOTSTRAP,JAVASCRIPT</p>
                 <div className="sub">
                     <div>
-                        <img src="/assets/works/dheeluxe.png" alt="Dheeluxe" />
+
+
+
+         {/* carou */}
+         <Swiper className='projectListSwiper' grabCursor={true}  
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/dheeluxe.png" alt="Dheeluxe" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/dheeluxe2.jpg" alt="Dheeluxe" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/dheeluxe3.jpg" alt="Dheeluxe" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/dheeluxe4.jpg" alt="Dheeluxe" /></SwiperSlide>
+
+
+ 
+    </Swiper>
+
 
                         <span>
                         <a target="__blank" href="https://github.com/JonrieMain/ExampleBeautyProducts">
@@ -86,7 +108,28 @@ const MyWork = ()=>{
             <p>HTML,CSS,BOOTSTRAP,JAVASCRIPT</p>
             <div className="sub">
                 <div>
-                    <img src="/assets/works/alwaysChooseGood.png" alt="always Choose Good" />
+             
+
+          {/* carou */}
+          <Swiper className='projectListSwiper' grabCursor={true}  
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/alwaysChooseGood.png" alt="Always Choose Good" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/alwaysChooseGood2.jpg" alt="Always Choose Good" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/alwaysChooseGood3.jpg" alt="Always Choose Good" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/alwaysChooseGood4.jpg" alt="Always Choose Good" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/alwaysChooseGood5.jpg" alt="Always Choose Good" /></SwiperSlide>
+
+ 
+    </Swiper>
+
+
 
                     <span>
                     <a target="__blank" href="https://github.com/JonrieMain/AlwaysChooseGood"><i className="fa-brands fa-github"></i> Github</a>
@@ -108,7 +151,30 @@ const MyWork = ()=>{
         <p>HTML,CSS,JAVASCRIPT</p>
         <div className="sub">
             <div>
-                <img src="/assets/works/phoneBrand.png" alt="Phone Brand" />
+              
+
+
+               {/* carou */}
+               <Swiper className='projectListSwiper' grabCursor={true}  
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/phoneBrand.png" alt="Phone Brand" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/phoneBrand2.jpg" alt="Phone Brand" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/phoneBrand3.jpg" alt="Phone Brand" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/phoneBrand4.jpg" alt="Phone Brand" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/phoneBrand5.jpg" alt="Phone Brand" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/phoneBrand6.jpg" alt="Phone Brand" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/phoneBrand7.jpg" alt="Phone Brand" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/phoneBrand8.jpg" alt="Phone Brand" /></SwiperSlide>
+ 
+    </Swiper>
+
 
                 <span>
                 <a target="__blank" href="https://github.com/JonrieMain/PhoneBrand"><i className="fa-brands fa-github"></i> Github</a>
@@ -130,7 +196,30 @@ const MyWork = ()=>{
         <p>HTML,CSS,JAVASCRIPT,BOOTSTRAP</p>
         <div className="sub">
             <div>
-                <img src="/assets/works/trinityBlogsite.png" alt="TPC Blogsite" />
+             
+
+                 {/* carou */}
+        <Swiper className='projectListSwiper' grabCursor={true}  
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/trinityBlogsite.png" alt="TPC Blogsite" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/trinityBlogsite2.jpg" alt="TPC Blogsite" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/trinityBlogsite3.jpg" alt="TPC Blogsite" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/trinityBlogsite4.jpg" alt="TPC Blogsite" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/trinityBlogsite5.jpg" alt="TPC Blogsite" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/trinityBlogsite6.jpg" alt="TPC Blogsite" /></SwiperSlide>
+ 
+    </Swiper>
+
+
+
+
 
                 <span>
                 <a target="__blank" href="https://github.com/JonrieMain/TrinityPolytechnicCollegeBlogsite"><i className="fa-brands fa-github"></i> Github</a>
@@ -154,7 +243,34 @@ const MyWork = ()=>{
         <p>HTML,CSS,JAVASCRIPT</p>
         <div className="sub">
             <div>
-                <img src="/assets/works/restauOpeningDestop.png" alt="Restaurant Opening" />
+                
+
+         {/* carou */}
+         <Swiper className='projectListSwiper' grabCursor={true}  
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/restauOpeningDestop.png" alt="Restaurant Opening" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/restauOpeningDestop2.jpg" alt="Restaurant Opening" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/restauOpeningDestop3.jpg" alt="Restaurant Opening" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/restauOpeningDestop4.jpg" alt="Restaurant Opening" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/restauOpeningDestop5.jpg" alt="Restaurant Opening" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/restauOpeningDestop6.jpg" alt="Restaurant Opening" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/restauOpeningDestop7.jpg" alt="Restaurant Opening" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/restauOpeningDestop8.jpg" alt="Restaurant Opening" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/restauOpeningDestop9.jpg" alt="Restaurant Opening" /></SwiperSlide>
+      
+      
+
+   
+    
+    </Swiper>
+
 
                 <span>
                 <a target="__blank" href="https://github.com/JonrieMain/RestaurantsOpening"><i className="fa-brands fa-github"></i> Github</a>
@@ -178,7 +294,31 @@ const MyWork = ()=>{
         <p>HTML,CSS,JAVASCRIPT</p>
         <div className="sub">
             <div>
-                <img src="/assets/works/hikingConcept.png" alt="Hiking Concept" />
+             
+
+         {/* carou */}
+         <Swiper className='projectListSwiper' grabCursor={true}  
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/hikingConcept.png" alt="Hiking Concept" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/hikingConcept2.jpg" alt="Hiking Concept" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/hikingConcept3.png" alt="Hiking Concept" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/hikingConcept4.png" alt="Hiking Concept" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/hikingConcept5.png" alt="Hiking Concept" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/hikingConcept6.png" alt="Hiking Concept" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/hikingConcept7.jpg" alt="Hiking Concept" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/hikingConcept8.png" alt="Hiking Concept" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/hikingConcept9.png" alt="Hiking Concept" /></SwiperSlide>
+   
+    
+    </Swiper>
+
 
                 <span>
                 <a target="__blank" href="https://github.com/JonrieMain/HikingConcept"><i className="fa-brands fa-github"></i> Github</a>
@@ -202,8 +342,29 @@ const MyWork = ()=>{
     <h2>Music Show</h2>
     <p>HTML,CSS,JAVASCRIPT</p>
     <div className="sub">
+
         <div>
-            <img src="/assets/works/musicShow.png" alt="Music Show" />
+       
+
+            {/* carou */}
+         <Swiper className='projectListSwiper' grabCursor={true}  
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/musicShow.png" alt="Music Show" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/musicShow2.jpg" alt="Music Show" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/musicShow3.jpg" alt="Music Show" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/musicShow4.jpg" alt="Music Show" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/musicShow5.jpg" alt="Music Show" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/musicShow6.jpg" alt="Music Show" /></SwiperSlide>
+   
+    
+    </Swiper>
 
             <span>
             <a target="__blank" href="https://github.com/JonrieMain/musicShow"><i className="fa-brands fa-github"></i> Github</a>
@@ -225,7 +386,26 @@ const MyWork = ()=>{
 <p>HTML,CSS,JAVASCRIPT</p>
 <div className="sub">
     <div>
-        <img src="/assets/works/researchGenerator.png" alt="Research/Capstone Title Generator" />
+
+
+       
+         {/* carou */}
+         <Swiper className='projectListSwiper' grabCursor={true}  
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/researchGenerator.png" alt="Research/Capstone Title Generator" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/researchGenerator2.jpg" alt="Research/Capstone Title Generator" /></SwiperSlide>
+   
+    
+    </Swiper>
+
+
 
         <span>
         <a target="__blank" href="https://github.com/JonrieMain/ResearchTitlesGenerator"><i className="fa-brands fa-github"></i> Github</a>
@@ -269,7 +449,24 @@ const MyWork = ()=>{
         <p>HTML,CSS,JQUERY,AJAX</p>
         <div className="sub">
             <div>
-                <img src="/assets/works/apiPic.png" alt="POS" />
+                
+
+         {/* carou */}
+         <Swiper className='projectListSwiper' grabCursor={true}  
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/apiPic.png" alt="apiPic" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/apiPic2.jpg" alt="apiPic" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'> <img src="/assets/works/apiPic3.jpg" alt="apiPic" /></SwiperSlide>
+    
+    </Swiper>
+
 
                 <span>
                 <a target="_blank" href="https://github.com/JonrieMain/APICalling"><i className="fa-brands fa-github"></i> Github</a>
@@ -283,13 +480,34 @@ const MyWork = ()=>{
         </div>
    </div>
 
+
     {/* <!-- Coffee Time --> */}
     <div>
         <h2>Coffee Time</h2>
         <p>HTML,SASS,JAVASCRIPT</p>
         <div className="sub">
             <div>
-                <img src="/assets/works/coffeeTime.png" alt="coffeeTime" />
+                
+                   {/* carou */}
+        <Swiper className='projectListSwiper' grabCursor={true}  
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/coffeeTime.png" alt="coffeeTime" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/coffeeTime2.jpg" alt="coffeeTime" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'> <img src="/assets/works/coffeeTime3.jpg" alt="coffeeTime" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/coffeeTime4.jpg" alt="coffeeTime" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/coffeeTime5.jpg" alt="coffeeTime" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/coffeeTime6.jpg" alt="coffeeTime" /></SwiperSlide>
+    
+    </Swiper>
+
+
 
                 <span>
                 <a target="_blank" href="https://github.com/JonrieMain/coffeeTime"><i className="fa-brands fa-github"></i> Github</a>
@@ -311,8 +529,34 @@ const MyWork = ()=>{
     <h2>KCL Hardware Store</h2>
     <p>HTML,CSS,Jquery,Ajax,PHP,MySQL,FormSubmit</p>
     <div className="sub">
+
         <div>
-            <img src="/assets/works/kcl.jpg" alt="kcl" />
+            
+                 {/* carou */}
+        <Swiper className='projectListSwiper' grabCursor={true}  
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl.jpg" alt="kcl" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl2.jpg" alt="kcl" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'> <img src="/assets/works/kcl3.jpg" alt="kcl" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl4.jpg" alt="kcl" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl5.jpg" alt="Research/Capstone Title Generator" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'> <img src="/assets/works/kcl6.jpg" alt="kcl " /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'> <img src="/assets/works/kcl7.jpg" alt="kcl" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl8.jpg" alt="kcl" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl9.jpg" alt="kcl" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl10.jpg" alt="kcl" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl11.jpg" alt="kcl" /></SwiperSlide>
+    </Swiper>
+
+
+
 
             <span>
             <a target="_blank" href="https://github.com/JonrieMain/kclShop"><i className="fa-brands fa-github"></i> Github</a>
@@ -320,9 +564,13 @@ const MyWork = ()=>{
             <a target="_blank" href="#"><i className="fa-solid fa-globe"></i> View site</a>
         </span>
         </div>
+
+
         <div>
             <p>This is the first big full stack I've handled. This system is from a student who has a capstone project. I handled their system to make some changes, fix some components, and add some components from the frontend to the backend. Like the login and registration forms for the user and admin sections, make some logic for stocks of a product and sessions, and design the dashboard and make it functional, including searching for products, filtering, settings, and themes. creating a receive order section for delivery, etc.<br/><br/><br/><i>-Publish in 2023</i></p>
         </div>
+
+
     </div>
 </div>
 
@@ -337,20 +585,45 @@ const MyWork = ()=>{
   <div>
     <h2 className="linesFrom">Simple URL Shortener</h2>
     <p>HTML,CSS,Jquery,Ajax,PHP,MySQL</p>
+
     <div className="sub">
+
         <div>
-            <img src="/assets/works/urlShortener.JPG" alt="kcl" />
+            
+
+        {/* carou */}
+        <Swiper className='projectListSwiper' grabCursor={true} 
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener.jpg" alt="urlShortener" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener2.jpg" alt="urlShortener" /></SwiperSlide>
+
+    </Swiper>
+
+
+
 
             <span>
             <a target="_blank" href="https://github.com/JonrieMain/urlShortener"><i className="fa-brands fa-github"></i> Github</a>
 
             <a target="_blank" href="http://urlshortener.free.nf/"><i className="fa-solid fa-globe"></i> View site</a>
         </span>
+
+        
         </div>
+
         <div>
             <p>This is my sample self-project that intends to make a link or URL shorter with another alternative extension name. It focuses on making your long URL or link shorter and easier to memorize. This is a sample project that uses a free domain. You can check the source code and demo website below the image.<br/><br/><br/><i>-Publish in 2023</i></p>
         </div>
+
     </div>
+
+
 </div>
 
 
