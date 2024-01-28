@@ -37,6 +37,14 @@ line-height: 3rem;
     place-items: center;
     position: relative;
     background: rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+.main .about .rightAbout >img{
+    transition: .5s ease-in-out;
+}
+.main .about .rightAbout >img:hover{
+    transform-origin: top;
+    transform: scale(1.2);
 }
 
 

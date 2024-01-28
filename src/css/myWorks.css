@@ -65,22 +65,6 @@
 
 
 
-/* image size set and carousel */
-.main .myWorks .worksCon >div .sub .projectListSwiper{
-    width: 560px;
-  height: 300px;
-}
-
-
-.main .myWorks .worksCon >div .sub .projectListSwiper .swiper-slide >img{
-    height: 100%;
-    width: 100%;
-    max-height: 400px;
-    max-width: 530px;
-}
-
-
-
 /* all h2 of every works */
 .main .myWorks .worksCon >div >h2{
     font-size: 25px;
@@ -88,6 +72,7 @@
     font-weight: 800;
     font-family: var(--castoro);
     margin-bottom: .1rem;
+    padding-left: .5rem;
     position: relative;
     word-break: break-word;
 }
@@ -135,7 +120,9 @@
     color: #EEEEEE;
     font-family: var(--castoro);
     margin-bottom: 1.5rem;
+    padding-left: .5rem;
     word-break: break-word;
+    
 }
 
 
@@ -155,6 +142,12 @@
 }
 
 
+
+
+.main .myWorks .worksCon >div {
+    border-right: 2px solid #00adb5;
+}
+
 /* all sub layout */
 .main .myWorks .worksCon >div .sub{
     display: flex;
@@ -165,12 +158,40 @@
 .main .myWorks .worksCon >div >.sub >div:nth-child(1){
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
+    max-height: 300px;
+    max-width: 510px;
 }
+
+
+
+/* image size set and carousel */
+.main .myWorks .worksCon >div .sub .projectListSwiper{
+    height: 100%;
+    width: 100vw;
+    max-height: 300px;
+    max-width: 450px;
+}
+.main .myWorks .worksCon >div .sub >div:nth-child(1) .projectListSwiper .swiper-slide img{
+    height: 100%;
+    width: 100%;
+    max-height: 300px;
+    max-width: 450px;
+}
+
+
+
+
+
+
+
+
+
 /* all span inside div(1)*/
 .main .myWorks .worksCon >div >.sub >div:nth-child(1) >span{
     margin-top: 1rem;
     display: flex;
-    gap: .4rem;
 }
 /* all a inside span */
 .main .myWorks .worksCon >div >.sub >div:nth-child(1) >span >a{
@@ -183,6 +204,7 @@
     transition: .6s linear;
     font-family: var(--sans);
     font-weight: 400;
+    margin-left: .5rem;
 }
 /* all a inside span hover */
 .main .myWorks .worksCon >div >.sub >div:nth-child(1) >span >a:hover{
@@ -197,11 +219,16 @@
     font-weight: 400;
     max-width: 500px;
     overflow-y: auto;
-    border-right: 2px solid #00adb5;
     padding-right: .3rem;
+    margin-left: .5rem;
+    word-break: break-word;
 }
 .main .myWorks .worksCon >div >.sub >div:nth-child(2) >p >i{
     color: #00adb5;
+    text-align: right;
+    display: block;
+    text-align: right;
+    margin-right: .1rem;
 }
 
 
@@ -235,6 +262,17 @@
 }
 
 
+/* media */
+@media screen and (max-width: 900px){
+
+     /* new layout of sub */
+  .main .myWorks .worksCon >div .sub{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
+
 /* for carousel */
 @media screen and (max-width: 780px){
 
@@ -248,13 +286,3 @@
 }
 
 
-@media screen and (max-width: 550px){
-
-    /* new layout of sub */
-    .main .myWorks .worksCon >div .sub{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-   
-}

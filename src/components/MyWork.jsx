@@ -29,7 +29,7 @@ const MyWork = ()=>{
        }} speed={3500}>
 
           
-      <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener.jpg" alt="kcl" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener.JPG" alt="kcl" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl.jpg" alt="kcl" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'> <img src="/assets/works/coffeeTime.png" alt="coffeeTime" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'><img src="/assets/works/apiPic.png" alt="POS" /></SwiperSlide>
@@ -48,14 +48,33 @@ const MyWork = ()=>{
 
 
     <p data-aos="zoom-in" data-aos-duration="1000">I already receive many projects from a student from a different school. Here are some of my full-stack apps and a PSD application that has been turned into a web page.</p>
+
+
+
         <div className="worksCon" data-aos="fade-left" data-aos-duration="800">
+
+
+
+
 
 
             {/* <!-- dheeluxe --> */}
             <div>
+
+
+
+
                 <h2>Dheeluxe</h2>
                 <p>HTML,CSS,BOOTSTRAP,JAVASCRIPT</p>
+
+
                 <div className="sub">
+                    {/* sub con start */}
+
+
+
+
+            {/* sub 1st child */}
                     <div>
 
 
@@ -75,9 +94,12 @@ const MyWork = ()=>{
       <SwiperSlide className='swiper-slide'><img src="/assets/works/dheeluxe3.jpg" alt="Dheeluxe" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'><img src="/assets/works/dheeluxe4.jpg" alt="Dheeluxe" /></SwiperSlide>
 
-
  
     </Swiper>
+
+
+
+
 
 
                         <span>
@@ -89,13 +111,30 @@ const MyWork = ()=>{
 
 
 
-                    
+                    {/* sub first child end */}
                     </div>
+
+
+
+
+
+            {/* project description */}
                     <div>
                         <p>This is the first website that i created with html,css,javascript and css frameworks which is bootstrap. I created this to enhance my skills in using HTML, CSS, and JavaScript and tried to enhance my web designing skills and this project is for portfolio purposes. <br/><br/><br/><i>-Publish in 2020</i></p>
                     </div>
-                </div>
-           </div>
+
+
+
+
+
+                </div> {/* sub end */}
+
+
+
+
+
+
+           </div> {/* project main con  */}
 
 
 
@@ -600,7 +639,7 @@ const MyWork = ()=>{
        }} speed={3500}>
 
           
-      <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener.jpg" alt="urlShortener" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener.JPG" alt="urlShortener" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener2.jpg" alt="urlShortener" /></SwiperSlide>
 
     </Swiper>

@@ -54,42 +54,46 @@ const Home = ()=>{
 
 
   }, []);
+
+  
         // check if document is fully loaded before loader disappear
-                $(document).ready(()=>{
-         
+ 
+
+   
+      
+
+     
+
+
+            setTimeout(()=>{
+           
+                document.querySelector('.preloader').style.opacity="0";
+        
+            document.querySelector('.preloader').style.animation="diamond-out-hesitate 2.5s ease-in-out";
+        
+        
+                // hide
+                setTimeout(()=>{
+                    document.querySelector('.preloader').style.left="-100rem";
+        
+        
+                    document.body.style.overflow="unset";
                     
-                          setTimeout(()=>{
-             
-                            document.querySelector('.preloader').style.opacity="0";
-                
-                        document.querySelector('.preloader').style.animation="diamond-out-hesitate 2.5s ease-in-out";
+                    document.querySelector('.main').style.opacity="1";
+        
+        
+                    setTimeout(()=>{
+                        document.querySelector('.preloader').style.display="none";
+                    },50);
+        
+        
+        
+                },1050);
+        
+        
+              },1500);
 
-
-                            // hide
-                            setTimeout(()=>{
-                                document.querySelector('.preloader').style.left="-100rem";
-
-
-                                document.body.style.overflow="unset";
-                                
-                                document.querySelector('.main').style.opacity="1";
-
-                
-                                setTimeout(()=>{
-                                    document.querySelector('.preloader').style.display="none";
-                                },50);
-                
-                
-                
-                            },1050);
-                
-                
-                          },1200);
-                          
-                        
-                      
-
-                        //   on scroll ts particle display none
+                        //   on scroll ts particle display none - uses jquery
 
                         $(window).on('scroll',()=>{
 
@@ -102,7 +106,7 @@ const Home = ()=>{
 
 
                       
-            })
+            
 
 
 
