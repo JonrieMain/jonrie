@@ -155,11 +155,10 @@ const Home = ()=>{
         {/* home text  */}
       
         <div className="homeTextCon">
-            <div className="subTextCon">
-                <span className="iAm">I AM</span>
-                <span className="jonrieText">JONRIE</span>
-                <span className="aWebDeveloper">A WEB DEVELOPER</span>
-            </div>
+          
+
+            <h1><span>I AM</span> <div>JONRIE</div> <span>A WEB DEVELOPER</span></h1>
+
             <h4>Who specialize in developing websites that are visually appealing and meet the highest standards of accessibility, ensuring inclusivity for all users.</h4>
         </div>
 

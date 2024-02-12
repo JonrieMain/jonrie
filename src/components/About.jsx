@@ -130,7 +130,7 @@ const About = ()=>{
              <div className="aboutExperience">
                 <h2 data-aos="fade-right">How about my experience?</h2>
                 <p data-aos="fade-up"
-                data-aos-anchor-plnt="top-bottom" data-aos-duration="500">I started to learn programming when I was in grade 10, way back in 2018. My first languages and technologies that I use are HTML, CSS, and Javascript, and after a few years, I began learning PHP, MySQL/MariaDB, JQuery, and Ajax. The first website that I developed was my personal portfolio website. I am currently in my second year of college, taking a Bachelor of Science in Information Systems (BSIS) at the Integrated Innovation and Hospitality College, and now I have handled three capstone projects from a student. I will post this in my portfolio after I finish the capstone project.</p>
+                data-aos-anchor-plnt="top-bottom" data-aos-duration="500">I started to learn programming when I was in grade 10, way back in 2018. My first languages and technologies that I use are HTML, CSS, and Javascript, and after a few years, I began learning PHP, MySQL/MariaDB, JQuery, and Ajax. The first website that I developed was my personal portfolio website. I am currently in my second year of college, taking a Bachelor of Science in Information Systems (BSIS) at the Integrated Innovation and Hospitality College.</p>
     
     
                     
@@ -159,7 +159,7 @@ const About = ()=>{
     
     
                     {/* <!-- certifications --> */}
-                    <div data-aos="fade-up" data-aos-duration="1000" className="certi">
+                    <div data-aos="fade-up" data-aos-duration="100" class="certiCon">
                        
                         <small>Certifications<div>Drag left or right <i class="fa-solid fa-down-long"></i></div></small>
                   
@@ -192,9 +192,15 @@ const About = ()=>{
                 </div>
     
              </div>
+
+
+
     
              <div className="saysAboutMe">
+
+
                 <h2 id="testimonials" data-aos="fade-right">What Client/I help says about me?</h2>
+                
                 <p data-aos="fade-left">Here is a list of testimonials from students from various colleges and universities about what I do or help them with in their activities and capstones.</p>
     
                 <div id="scroll">
@@ -302,6 +308,26 @@ const About = ()=>{
                         </span>
                         <h3><a target="_blank" href="https://web.facebook.com/hannah.dimayuga.1"><i className="fa-brands fa-facebook"></i></a>Hannah Isabel Dimayuga <br /> <small>(BSCS Student)</small></h3>
                         <p>Jonrie is very professional, and he easily approaches and builds my webpage. Aside from that, his work is so fine.</p>
+                    </div> 
+
+
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <div className="date">02/11/2024</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/shielaamaaee"><i className="fa-brands fa-facebook"></i></a>Shiela Mae Saavedra <br /> <small>(BSIT Student)</small></h3>
+                        <p>Working with Mr. Jonrie has been an absolute pleasure. His dedication to quality, attention to detail, and swift problem-solving skills have truly elevated our project. He consistently goes above and beyond to ensure our satisfaction and deliver results that exceed expectations. I highly recommend his services to anyone seeking a reliable and talented developer.</p>
+                    </div> 
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <div className="date">02/11/2024</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/unit.39601.w41k3r"><i className="fa-brands fa-facebook"></i></a>Mariel F. Catubay <br /> <small>(BSIT Student)</small></h3>
+                        <p>Jonrie is good. We don't need to explain every single detail at first, and he has immediately built our capstone system, and the result is so good, especially since we demand specific functions that we need for our system, and he is budget-friendly for a developer. That's why we're really grateful since we're just mere students, and he doesn't pressure us, and the cooperation is so good that we meet the ends because of Jonrie, who is a very talented and kind developer.</p>
                     </div> 
 
         

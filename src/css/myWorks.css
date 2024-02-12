@@ -118,11 +118,10 @@
 .main .myWorks .worksCon >div >p{
     font-size: 15px;
     color: #EEEEEE;
-    font-family: var(--castoro);
+    font-family: var(--sans);
     margin-bottom: 1.5rem;
     padding-left: .5rem;
     word-break: break-word;
-    
 }
 
 
@@ -286,3 +285,14 @@
 }
 
 
+
+@media screen and (max-width: 250px){
+
+    .main .myWorks >h2{
+        font-size: 25px;
+    }
+    .main .myWorks >p{
+      font-size: .9rem;
+    }
+
+}

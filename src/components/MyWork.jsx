@@ -21,7 +21,7 @@ const MyWork = ()=>{
         <img className="laptop" src="/assets/laptop.png" alt="laptop" />
 
 
-    <Swiper className="carou" 
+    <Swiper className="carou" grabCursor={"true"} 
      spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
      autoplay={{
        delay: 3000,
@@ -29,10 +29,11 @@ const MyWork = ()=>{
        }} speed={3500}>
 
           
-      <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener.JPG" alt="kcl" /></SwiperSlide>
+<SwiperSlide className='swiper-slide'><img src="/assets/works/canossa.jpg" alt="Health Care Management System" /></SwiperSlide>    
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener.JPG" alt="URL shortener" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl.jpg" alt="kcl" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'> <img src="/assets/works/coffeeTime.png" alt="coffeeTime" /></SwiperSlide>
-      <SwiperSlide className='swiper-slide'><img src="/assets/works/apiPic.png" alt="POS" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/apiPic.png" alt="API" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'><img src="/assets/works/researchGenerator.png" alt="Research/Capstone Title Generator" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'> <img src="/assets/works/musicShow.png" alt="Music Show" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'> <img src="/assets/works/hikingConcept.png" alt="Hiking Concept" /></SwiperSlide>
@@ -622,7 +623,7 @@ const MyWork = ()=>{
 
   {/* <!-- url shortener --> */}
   <div>
-    <h2 className="linesFrom">Simple URL Shortener</h2>
+    <h2>Simple URL Shortener</h2>
     <p>HTML,CSS,Jquery,Ajax,PHP,MySQL</p>
 
     <div className="sub">
@@ -658,6 +659,63 @@ const MyWork = ()=>{
 
         <div>
             <p>This is my sample self-project that intends to make a link or URL shorter with another alternative extension name. It focuses on making your long URL or link shorter and easier to memorize. This is a sample project that uses a free domain. You can check the source code and demo website below the image.<br/><br/><br/><i>-Publish in 2023</i></p>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+{/* <!-- Health Care Management System --> */}
+<div>
+    <h2 className="linesFrom">Health Care Management System</h2>
+    <p>HTML,CSS,Jquery,Ajax,PHP,MySQL,GoogleIcons,GoogleFonts,EmailJS,Bootstrap,SweetAlert</p>
+
+    <div className="sub">
+
+        <div>
+            
+
+        {/* carou */}
+        <Swiper className='projectListSwiper' grabCursor={true} 
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/canossa.jpg" alt="urlShortener" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/canossa2.jpg" alt="urlShortener" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/canossa3.jpg" alt="urlShortener" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/canossa4.jpg" alt="urlShortener" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/canossa5.jpg" alt="urlShortener" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/canossa6.jpg" alt="urlShortener" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/canossa7.jpg" alt="urlShortener" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/canossa8.jpg" alt="urlShortener" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/canossa9.jpg" alt="urlShortener" /></SwiperSlide>
+
+    </Swiper>
+
+
+
+
+            <span>
+            <a target="_blank" href="#"><i className="fa-brands fa-github"></i> Github</a>
+
+            <a target="_blank" href=""><i className="fa-solid fa-globe"></i> View site</a>
+        </span>
+
+        
+        </div>
+
+        <div>
+            <p>This is my second capstone, and I'll handle a health care management system from a student. This system can make an appointment for a patient who already has an account on the application, then have an admin that can assign the appointment to a doctor. The doctor also has an account to accept the appointment and has the ability to discharge the patient.<br/><br/><br/><i>-Publish in 2024</i></p>
         </div>
 
     </div>

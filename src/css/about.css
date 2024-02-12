@@ -9,7 +9,7 @@
     padding: 0 .5rem;
     /* for picture */
     overflow: hidden;
-    max-width: 2500px;
+    /* max-width: 2500px; */
 }
 .main .about .leftAbout{
     max-width: 900px;
@@ -57,6 +57,11 @@ line-height: 3rem;
     width: 100%;
     background: #222831;
     padding: 6rem .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 .main .services >h2{
     font-size: 45px;
@@ -65,6 +70,8 @@ line-height: 3rem;
      font-family: var(--castoro);
      font-weight: 500;
      padding-left: 4.3rem;
+     width: 100%;
+     max-width: 1400px;
 }
 .main .services >span{
     display: flex;
@@ -127,6 +134,10 @@ line-height: 3rem;
     width: 100%;
     background: #222831;
     padding: 6rem .5rem 2rem .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .main .aboutUses >h2{
     font-size: 45px;
@@ -134,6 +145,8 @@ line-height: 3rem;
     font-weight: 500;
     padding-left: 4.3rem;
     font-family: var(--castoro);
+    width: 100%;
+    max-width: 1400px;
 }
 
 .main .aboutUses .aboutUsesSub{
@@ -349,17 +362,24 @@ text-align: center;
     text-align: center;
 }
 
+
+
+
+
+
+
 /* certificate cards */
-.main .aboutExperience .expLevel .certi{
+.main .aboutExperience .expLevel .certiCon{
     position: relative;
-    margin: 2rem 0;
+    width: 100vw;
+    max-width: 600px;
 }
 
 
 /* hidden class of swiper set z-index */
 .main .aboutExperience .expLevel .certi{
     z-index: inherit;
-   
+    margin: 2rem 0;
 }
 
 .main .aboutExperience .expLevel .certi .SwiperSlide  >img{
@@ -386,6 +406,10 @@ text-align: center;
     overflow: hidden;
     padding: 5rem .5rem 2rem .5rem;
     max-width: 2500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .main .saysAboutMe >h2{
@@ -409,9 +433,8 @@ text-align: center;
 }
 .main .saysAboutMe >#scroll{
     gap: 2rem;
-    animation: marquee 20s linear infinite;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     max-width: 1140px;
@@ -419,7 +442,8 @@ text-align: center;
 }
 .main .saysAboutMe >#scroll >div{
     height: 27rem;
-    width: 21rem;
+    width: 100%;
+    max-width: 21rem;
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
@@ -697,4 +721,29 @@ text-align: center;
     .main .saysAboutMe >#scroll >div .date{
         font-size: .6rem;
     }
+
+
+    .main .about .leftAbout >h2{
+        font-size: 25px;
+    }
+    .main .about .leftAbout >p{
+    font-size: 16px;
+    line-height: 2rem;
+    }
+
+
+    .main .aboutUses >h2, .main .aboutExperience >h2{
+        font-size: 25px;
+    }
+
+    .main .saysAboutMe >h2{
+        font-size: 25px;
+    }
+    
+
+
 }
+
+
+
+
