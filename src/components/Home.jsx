@@ -157,7 +157,7 @@ const Home = ()=>{
         <div className="homeTextCon">
           
 
-            <h1><span>I AM</span> <div>JONRIE</div> <span>A WEB DEVELOPER</span></h1>
+            <h1><span>I AM</span> <span>JONRIE</span> <span>A WEB DEVELOPER</span></h1>
 
             <h4>Who specialize in developing websites that are visually appealing and meet the highest standards of accessibility, ensuring inclusivity for all users.</h4>
         </div>
