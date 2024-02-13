@@ -336,6 +336,7 @@ margin-left: -2rem;
 /* right */
 .main .home header .linksCon .right{
     margin-right: -8rem;
+    z-index: 10000;
 }
 .main .home header .linksCon .right a{
     color: #EEEEEE;

@@ -28,7 +28,7 @@ const MyWork = ()=>{
        disableOnInteraction: false,
        }} speed={3500}>
 
-          
+<SwiperSlide className='swiper-slide'><img src="/assets/works/uiux.jpg" alt="UI/UX For User Learning" /></SwiperSlide> 
 <SwiperSlide className='swiper-slide'><img src="/assets/works/canossa.jpg" alt="Health Care Management System" /></SwiperSlide>    
       <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener.JPG" alt="URL shortener" /></SwiperSlide>
       <SwiperSlide className='swiper-slide'><img src="/assets/works/kcl.jpg" alt="kcl" /></SwiperSlide>
@@ -673,7 +673,7 @@ const MyWork = ()=>{
 
 {/* <!-- Health Care Management System --> */}
 <div>
-    <h2 className="linesFrom">Health Care Management System</h2>
+    <h2>Health Care Management System</h2>
     <p>HTML,CSS,Jquery,Ajax,PHP,MySQL,GoogleIcons,GoogleFonts,EmailJS,Bootstrap,SweetAlert</p>
 
     <div className="sub">
@@ -722,6 +722,92 @@ const MyWork = ()=>{
 
 
 </div>
+
+
+
+
+
+
+{/* <!-- UI/UX For User Learning --> */}
+<div>
+    <h2 className="linesFrom">UI/UX For User Learning</h2>
+    <p>HTML,CSS,Jquery,Ajax,PHP,MySQL,GoogleIcons,GoogleFonts,VideoJS,EmailJS,Bootstrap,SweetAlert</p>
+
+    <div className="sub">
+
+        <div>
+            
+
+        {/* carou */}
+        <Swiper className='projectListSwiper' grabCursor={true} 
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux.jpg" alt="UI/UX 1" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux2.jpg" alt="UI/UX 2" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux3.jpg" alt="UI/UX 3" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux4.jpg" alt="UI/UX 4" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux5.jpg" alt="UI/UX 5" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux6.jpg" alt="UI/UX 6" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux7.jpg" alt="UI/UX 7" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux8.jpg" alt="UI/UX 8" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux9.jpg" alt="UI/UX 9" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux10.jpg" alt="UI/UX 10" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux11.jpg" alt="UI/UX 11" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux12.jpg" alt="UI/UX 12" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux13.jpg" alt="UI/UX 13" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux14.jpg" alt="UI/UX 14" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux15.jpg" alt="UI/UX 15" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux16.jpg" alt="UI/UX 16" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux17.jpg" alt="UI/UX 17" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux18.jpg" alt="UI/UX 18" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux19.jpg" alt="UI/UX 19" /></SwiperSlide>
+    
+
+    </Swiper>
+
+
+
+
+            <span>
+            <a target="_blank" href="#"><i className="fa-brands fa-github"></i> Github</a>
+
+            <a target="_blank" href="#"><i className="fa-solid fa-globe"></i> View site</a>
+        </span>
+
+        
+        </div>
+
+        <div>
+            <p>This is the third capstone I've handled for a student. About UI/UX Design teaches users to enhance their skills in UI/UX design using the video posted by the admin. Admin can add video, quiz,delete, edit, and track quiz results for every user, and admin can also approve selected users only for their website and see the user account list. On the user side, the user can choose the video they want and play it. After the video, he or she is allowed to answer the question to test what they learned from the video they watched. The user can also comment on the video. Selected users who only have a specific email can register on a website.<br/><br/><br/><i>-Publish in 2024</i></p>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
