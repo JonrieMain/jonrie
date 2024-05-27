@@ -485,7 +485,7 @@ const MyWork = ()=>{
 
        {/* <!-- apiCalling --> */}
        <div>
-        <h2>API Calling</h2>
+        <h2>Dog & Cat Photo Generator</h2>
         <p>HTML,CSS,JQUERY,AJAX</p>
         <div className="sub">
             <div>
@@ -515,7 +515,7 @@ const MyWork = ()=>{
             </span>
             </div>
             <div>
-                <p>This application I built is a simple image generator with cats, dogs, and random advice. I built this to enhance my skills in API integration.<br/><br/><br/><i>-Publish in 2023</i></p>
+                <p>This application I built is a simple image generator with cats, dogs, and random advice API.<br/><br/><br/><i>-Publish in 2023</i></p>
             </div>
         </div>
    </div>

@@ -348,11 +348,15 @@ text-align: center;
     font-weight: 800;
 }
 .main .aboutExperience .expLevel >div >h4{
-    font-size: 1.2rem;
-    color: #00adb54a;
+    font-size: 1rem;
+    color: #eeeeee8a;
+    background: #00acb528;
     font-family: var(--castoro);
     font-weight: 400;
     text-indent: 1rem;
+    margin-top: .4rem;
+    padding: .3rem .1rem;
+    text-align: center;
 }
 .main .aboutExperience .expLevel >div >p{
     color: #00acb5ba;
@@ -361,7 +365,14 @@ text-align: center;
     font-family: var(--sans);
     text-align: center;
 }
-
+/* grades style*/
+.main .aboutExperience .expLevel >div >p .grades{
+    color: #eeeeeeb6;
+}
+/* diploma style */
+.main .aboutExperience .expLevel >div >p .coc{
+    color: #eeeeeeb6;
+}
 
 
 

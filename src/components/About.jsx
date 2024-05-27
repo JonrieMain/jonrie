@@ -34,15 +34,7 @@ const About = ()=>{
                 web applications is something I enjoy 
                 doing. Although my interest is front-end 
                 development, I also have back-end 
-                development experience. And I like 
-                cardistry, sometimes known as "flourishing.
-                 Cardistry is the art of using your hands to 
-                manipulate playing cards to make cuts, 
-                displays, fans, patterns, and sequences. 
-                You can employ a variety of arm spreads, 
-                cuts, shuffles, and leaps. The goal is to 
-                provide eye-catching motion and a stunning 
-                spectacle.</p>
+                development experience.</p>
             </div>
             <div className="rightAbout" data-aos="flip-right" data-aos-duration="1000">
                 <img src="/assets/jonrie.png" alt="Jonrie" />
@@ -100,6 +92,8 @@ const About = ()=>{
                     <h3>For backend</h3>
                     <div>
                     <p>PHP</p>
+                    <p>NodeJS</p>
+                    <p>MongoDB</p>
                     <p>MySQL</p>
                     <p>AJAX</p>
                 </div>
@@ -120,8 +114,10 @@ const About = ()=>{
                     <p>Googlefonts</p>
                     <p>GoogleIcons</p>
                     <p>Formsubmit</p>
+                    <p>EmailJS</p>
                     <p>SwiperJS</p>
                     <p>VantaJS</p>
+                    <p>SweetAlert</p>
                 </div>
                 </div>
          </div>
@@ -147,15 +143,16 @@ const About = ()=>{
                         <small>2022</small>
                         <h3>Graduation</h3>
                         <h4>Trinity Polytechnic College</h4>
-                        <p>Graduated from senior high school with a TVL-Information Communication Technology (ICT) strand.</p>
+                        <p>Graduated from senior high school with a TVL-Information Communication Technology (ICT) strand. <br /><br /> <a target='_blank' className={"coc"} href="./assets/shsDiploma.jpg">Certificate Of Completion</a></p>
                     </div>
     
                     <div data-aos="fade-up" data-aos-duration="300">
-                        <small>2022 ~ Present</small>
-                        <h3>College Student</h3>
+                        <small>2022-2024</small>
+                        <h3>College</h3>
                         <h4>Integrated Innovation and Hospitality College</h4>
-                        <p>Taking the Bachelor of Science in Information Systems course.</p>
+                        <p>I finished the first year of the Bachelor of Science in Information Systems (BSIS) program and enrolled in the second year, but I had to quit during the first semester because of financial issues. You can check my <a target='_blank' className={"grades"} href="/assets/1stSem.jpg">1st</a> and <a target='_blank' className={"grades"} href="/assets/2ndSem.jpg">2nd</a> semester grades.</p>
                     </div>
+
     
     
                     {/* <!-- certifications --> */}

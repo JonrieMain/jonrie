@@ -167,13 +167,10 @@ const Home = ()=>{
         <div className="socialLinks">
            <a href="https://facebook.com/JonrieMain"><i className="fa-brands fa-square-facebook"></i></a>
 
-            <a href="https://www.instagram.com/jonrieeee/"><i className="fa-brands fa-square-instagram"></i></a>
-
             <a href="https://github.com/JonrieMain"><i className="fa-brands fa-square-github"></i></a>
 
             <a href="https://www.linkedin.com/in/jonrie-badiang-06b60a241/"><i className="fa-brands fa-linkedin"></i></a>
             
-            <a href="https://www.tiktok.com/@jonrieee"><i className="fa-brands fa-tiktok"></i></a>
         </div>
         
 
