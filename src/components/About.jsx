@@ -92,8 +92,6 @@ const About = ()=>{
                     <h3>For backend</h3>
                     <div>
                     <p>PHP</p>
-                    <p>NodeJS</p>
-                    <p>MongoDB</p>
                     <p>MySQL</p>
                     <p>AJAX</p>
                 </div>
