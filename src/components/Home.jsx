@@ -136,7 +136,9 @@ const Home = ()=>{
 
 <i onClick={setClass} id="bars" className={`fa-solid ${navClassName}`}></i>
 
-            <a href="https://jonrie.vercel.app/"><img className="logo" src="/assets/logo.png" alt="logo"/></a>
+            <a href="https://jonrie.vercel.app/">
+            <img className={'logo'} src="/assets/logo.png" alt="logo"/>
+            </a>
 
             <span className={`linksCon ${navClassName}`} id="linksCon">
                 <span className="left">
