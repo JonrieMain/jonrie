@@ -298,6 +298,7 @@
     background: #EEEEEE;
     padding: .3rem;
     border-radius:50%;
+    z-index: 10;
 }
 /* header links */
 /* left */
