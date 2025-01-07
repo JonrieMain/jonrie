@@ -272,25 +272,46 @@ line-height: 3rem;
     padding: 1rem .5rem 2rem .5rem;
     position: relative;
 }
+.main .aboutExperience .expLevel >div:hover{
+    background: #00000065;
+}
 
 
 .main .aboutExperience .expLevel >div >small{
     position: absolute;
     top: -2.1rem;
     left: -2rem;
-    font-size: 2rem;
-    color: #00adb54a;
+    font-size: 1rem;
+    border: 1px solid #00adb54a;
+    border-radius: 1rem;
+    padding: 5px;
+    color: #00adb5;
     font-family: var(--castoro);
 }
 
-/* custom style for 4th div small and div child */
-.main .aboutExperience .expLevel >div:nth-child(4) >small{
-    font-size: 3.5rem;
+
+
+/* current experience div style */
+.main .aboutExperience .expLevel >div:nth-child(4){
+    background: transparent;
+    box-shadow: -3px 0px 20px 10px rgba(0,173,181,0.75);
+    -webkit-box-shadow: -3px 0px 20px 10px rgba(0,173,181,0.75);
+     -moz-box-shadow: -3px 0px 20px 10px rgba(0,173,181,0.75);
+     background: #00000065;
+}
+
+
+
+
+/* custom style for 4th div small and div child(Certification div) */
+.main .aboutExperience .expLevel >div:nth-child(5) >small{
+    font-size: 3rem;
     left: 50%;
     transform: translateX(-50%);
     top: -4rem;
+    border: 0;
 }
-.main .aboutExperience .expLevel >div:nth-child(4) >small div{
+.main .aboutExperience .expLevel >div:nth-child(5) >small div{
 font-size: 1.3rem;
 text-align: center;
 }
@@ -323,10 +344,10 @@ text-align: center;
     animation: dotVib 1s cubic-bezier(0,0,.2,1)  infinite;
 }
 /* remove after and before of latest */
-.main .aboutExperience .expLevel >div:nth-child(3)::before,
-.main .aboutExperience .expLevel >div:nth-child(3)::after,
 .main .aboutExperience .expLevel >div:nth-child(4)::before,
-.main .aboutExperience .expLevel >div:nth-child(4)::after{
+.main .aboutExperience .expLevel >div:nth-child(4)::after,
+.main .aboutExperience .expLevel >div:nth-child(5)::before,
+.main .aboutExperience .expLevel >div:nth-child(5)::after{
     display: none;
 }
 

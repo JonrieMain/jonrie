@@ -131,25 +131,36 @@ const About = ()=>{
                 <div className="expLevel">
     
                     <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="100">
-                        <small>2020</small>
-                        <h3>SHS Student</h3>
-                        <h4>Trinity Polytechnic College</h4>
-                        <p>Taking the TVL-Information Communication Technology (ICT) strand.</p>
+                        <small>2020-2024</small>
+                        <h3>Staff</h3>
+                        <h4>dheeluxe SKIN</h4>
+                        <p>Working student as staff on the dheeluxe SKIN</p>
                     </div>
     
                     <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="100">
-                        <small>2022</small>
-                        <h3>Graduation</h3>
+                        <small>2020-2022</small>
+                        <h3>Senior High School</h3>
                         <h4>Trinity Polytechnic College</h4>
-                        <p>Graduated from senior high school with a TVL-Information Communication Technology (ICT) strand. <br /><br /> <a target='_blank' className={"coc"} href="./assets/shsDiploma.jpg">Certificate Of Completion</a></p>
+                        <p>Taking and graduating from senior high school with a TVL - Information Communication Technology (ICT) strand <br /><br /> <a target='_blank' className={"coc"} href="./assets/shsDiploma.jpg">Certificate Of Completion</a></p>
                     </div>
     
                     <div data-aos="fade-up" data-aos-duration="300">
-                        <small>2022-2024</small>
+                    <small>2022-2024</small>
                         <h3>College</h3>
                         <h4>Integrated Innovation and Hospitality College</h4>
-                        <p>I finished the first year of the Bachelor of Science in Information Systems (BSIS) program and enrolled in the second year, but I had to quit during the first semester because of financial issues. You can check my <a target='_blank' className={"grades"} href="/assets/1stSem.jpg">1st</a> and <a target='_blank' className={"grades"} href="/assets/2ndSem.jpg">2nd</a> semester grades.</p>
+                        <p>I finished the first year of the Bachelor of Science in Information Systems (BSIS) program and enrolled in the second year, but I had to quit during the first semester because of financial issues. You can check my <a target='_blank' className={"grades"} href="/assets/1stSem.jpg">1st</a> and <a target='_blank' className={"grades"} href="/assets/2ndSem.jpg">2nd</a> semester grades</p>
+
                     </div>
+                   
+                    <div data-aos="fade-up" data-aos-duration="300">
+                    <small>2024</small>
+                    <h3>Sales Associate</h3>
+                    <h4>D’LUXXE SKINLAB</h4>
+                    <p>Working as Sales Associate on the D’LUXXE SKINLAB</p>
+
+                    </div>
+
+                   
 
     
     

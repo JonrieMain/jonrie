@@ -19,7 +19,7 @@ const Contact = () =>{
         
         <i className="fa-regular fa-envelope"> <span><a href="mailto:jonriemain@gmail.com">jonriemain@gmail.com</a></span></i>
 
-        <i className="fa-solid fa-file cv"><a target="_blank" href="/assets/jonrieCV.pdf"> Download CV</a></i>
+        <i className="fa-solid fa-file cv"><a target="_blank" href="/assets/jonrieCV.pdf"> View & Download CV</a></i>
 
         <div>
             <a href="https://facebook.com/JonrieMain"><i className="fa-brands fa-square-facebook"></i></a>
