@@ -17,6 +17,10 @@ import '../../node_modules/swiper/modules/pagination.css';
 
 
 
+
+
+
+
 const About = ()=>{
 
     return(<>
@@ -128,7 +132,40 @@ const About = ()=>{
     
     
                     
+
+
+                    
                 <div className="expLevel">
+
+
+                         {/* <!-- certifications --> */}
+                    <div data-aos="fade-up" data-aos-duration="100" class="certiCon">
+                       
+                       <small>Certifications</small>
+                 
+               
+   <Swiper className="certi" pagination={true}  effect={'cards'} grabCursor={true} modules={[EffectCards,Pagination]}>
+               <SwiperSlide className='SwiperSlide'><img src="/assets/cer1.jpg" alt="certificate1" /></SwiperSlide>
+               <SwiperSlide className='SwiperSlide'><img src="/assets/cer2.jpg" alt="certificate2" /></SwiperSlide>
+               <SwiperSlide className='SwiperSlide'><img src="/assets/cer3.jpg" alt="certificate3" /></SwiperSlide>
+               <SwiperSlide className='SwiperSlide'><img src="/assets/cer4.jpg" alt="certificate4" /></SwiperSlide>
+               <SwiperSlide className='SwiperSlide'><img src="/assets/cer5.jpg" alt="certificate5" /></SwiperSlide>
+               <SwiperSlide className='SwiperSlide'><img src="/assets/cer6.jpg" alt="certificate6" /></SwiperSlide>
+               <SwiperSlide className='SwiperSlide'><img src="/assets/cer7.jpg" alt="certificate7" /></SwiperSlide>
+               <SwiperSlide className='SwiperSlide'><img src="/assets/cer8.jpg" alt="certificate8" /></SwiperSlide>
+               <SwiperSlide className='SwiperSlide'><img src="/assets/cer9.jpg" alt="certificate9" /></SwiperSlide>
+               <SwiperSlide className='SwiperSlide'><img src="/assets/cer10.jpg" alt="certificate10" /></SwiperSlide>
+               <SwiperSlide className='SwiperSlide'><img src="/assets/cer11.jpg" alt="certificate11" /></SwiperSlide>
+               <SwiperSlide className='SwiperSlide'><img src="/assets/cer12.jpg" alt="certificate12" /></SwiperSlide>
+               
+               </Swiper>
+
+
+   
+   
+                   </div>
+
+
     
                     <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="100">
                         <small>2020-2024</small>
@@ -153,45 +190,16 @@ const About = ()=>{
                     </div>
                    
                     <div data-aos="fade-up" data-aos-duration="300">
-                    <small>2024</small>
+                    <small>2024-Present</small>
                     <h3>Sales Associate</h3>
                     <h4>D’LUXXE SKINLAB</h4>
-                    <p>Working as Sales Associate on the D’LUXXE SKINLAB</p>
+                    <p id="current">Working as Sales Associate on the D’LUXXE SKINLAB</p>
 
                     </div>
 
                    
 
-    
-    
-                    {/* <!-- certifications --> */}
-                    <div data-aos="fade-up" data-aos-duration="100" class="certiCon">
-                       
-                        <small>Certifications<div>Drag left or right <i class="fa-solid fa-down-long"></i></div></small>
-                  
-                
-    <Swiper className="certi" pagination={true}  effect={'cards'} grabCursor={true} modules={[EffectCards,Pagination]}>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer1.jpg" alt="certificate1" /></SwiperSlide>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer2.jpg" alt="certificate2" /></SwiperSlide>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer3.jpg" alt="certificate3" /></SwiperSlide>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer4.jpg" alt="certificate4" /></SwiperSlide>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer5.jpg" alt="certificate5" /></SwiperSlide>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer6.jpg" alt="certificate6" /></SwiperSlide>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer7.jpg" alt="certificate7" /></SwiperSlide>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer8.jpg" alt="certificate8" /></SwiperSlide>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer9.jpg" alt="certificate9" /></SwiperSlide>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer10.jpg" alt="certificate10" /></SwiperSlide>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer11.jpg" alt="certificate11" /></SwiperSlide>
-                <SwiperSlide className='SwiperSlide'><img src="/assets/cer12.jpg" alt="certificate12" /></SwiperSlide>
-                
-                </Swiper>
 
-
-    
-    
-                    </div>
-    
-    
     
     
     
@@ -210,7 +218,10 @@ const About = ()=>{
                 <p data-aos="fade-left">Here is a list of testimonials from students from various colleges and universities about what I do or help them with in their activities and capstones.</p>
     
                 <div id="scroll">
+
+                  
     
+                    {/* for 1st batch */}
                     <div data-aos="fade-up" data-aos-duration="1000">
                     <div className="date">5/24/2022</div>
                         <span>
@@ -335,6 +346,141 @@ const About = ()=>{
                         <h3><a target="_blank" href="https://web.facebook.com/unit.39601.w41k3r"><i className="fa-brands fa-facebook"></i></a>Mariel F. Catubay <br /> <small>(BSIT Student)</small></h3>
                         <p>Jonrie is good. We don't need to explain every single detail at first, and he has immediately built our capstone system, and the result is so good, especially since we demand specific functions that we need for our system, and he is budget-friendly for a developer. That's why we're really grateful since we're just mere students, and he doesn't pressure us, and the cooperation is so good that we meet the ends because of Jonrie, who is a very talented and kind developer.</p>
                     </div> 
+
+
+
+
+                    {/* For 2nd batch */}
+
+                    
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div className="date">5/24/2022</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/stevefrancis.galo.1"><i className="fa-brands fa-facebook"></i></a> Steve Francis Samaco <small>(ICT Student)</small></h3>
+                        <p>Jonrie is a very good person and very helpful; there's a lot he's done to help me, like those projects, quizzes, and modules about programming; if I don't understand, Jonrie is there to teach me; Jonrie is very nice; I am speechless; I hope he becomes successful someday.</p>
+                    </div>
+    
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div className="date">5/28/2022</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/rainier.barredo24"><i className="fa-brands fa-facebook"></i></a> Rainier Barredo <small>(ICT Student)</small></h3>
+                        <p>Jonrie Morales is very good in terms of programming. He helped me before to build a web-based resume, and I recommend that you ask him for help because he is reliable and he is such a nice person.</p>
+                    </div>
+    
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div className="date">6/1/2022</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/profile.php?id=100078333846946"><i className="fa-brands fa-facebook"></i></a> Lheymar Catapang <small>(ICT Student)</small></h3>
+                        <p>Jonrie is one of my friends. We are not really close, but I feel good about him helping me with other schoolwork, especially in computer programming, about which I have no knowledge. When I chatted with him, he immediately helped me build the blog site about my school. For me jonrie is very nice person at realible.</p>
+                    </div>
+    
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div className="date">12/13/2022</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/brecio.charlesfrancis"><i className="fa-brands fa-facebook"></i></a> Charles Francis <br /><small>(BSIT Student)</small></h3>
+                        <p>Jonrie taught me programming since we were in Junior High School. Now that we are in college, he still teaches me new knowledge he gain. He is knowledgeable in web development-- he can do both front end and back end. As far as I know him, his skills includes: HTML, CSS, JavaScript, phpMyAdmin, MySQL and C++. He is very enthusiast, passionate, and hardworking person. I wish him the best and have the success he deserves.</p>
+                    </div> 
+
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div className="date">1/11/2023</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/jeromee.dev.22"><i className="fa-brands fa-facebook"></i></a> Jerome Bulosan <br /><small>(BSIT Student)</small></h3>
+                        <p>For me, the amount of help that Jonrie did for us was so great that we could present something in defense; you did a great job. Your skill defines how good you are in your field. I hope you can improve and do more projects. I will highly recommend you to others who are looking to build their systems. The work is beautiful, and the system is smooth and well organized. Thank you</p>
+                    </div> 
+
+    
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div className="date">4/9/2023</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/profile.php?id=100078759327384"><i className="fa-brands fa-facebook"></i></a> Melissa Ayala <br /> <small>(BSIT Student)</small></h3>
+                        <p>All I can say is that Jonrie's help with part of my project is a big help to me because I'm a bit weak in making codes. So thank you for helping me with my project; the amount of work I have to do has been reduced at least a little bit. I can say that you are nice to talk to, and you also responded right away, which was nice, and the help I got from you followed the layout of my project. Thank you.</p>
+                    </div> 
+    
+    
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div className="date">5/25/2023</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/kristine.Dingle.04"><i className="fa-brands fa-facebook"></i></a> Kristine Ocan Dingle <br /><small>(BSIT Student)</small></h3>
+                        <p>Im glad that I saw your content and all I can say is you're so kind that you help me to do my codes/activity you help me to learn more about coding and you're so informative and explaining all the details also you are easy to approach because you don't hesitate to message me back. Once again Thank you for you help I appreciate it.
+                        </p>
+                    </div> 
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div className="date">9/1/2023</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://www.facebook.com/profile.php?id=100081368501361"><i className="fa-brands fa-facebook"></i></a>Nathaniel Bianito <br /> <small>(BSIT Student)</small></h3>
+                        <p>I recently commissioned from jonrie and I am absolutely thrilled with the results. From start to finish, the experience was exceptional.</p>
+                    </div> 
+
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div className="date">9/14/2023</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/claryellaa"><i className="fa-brands fa-facebook"></i></a>Scarlett Soledad <br /> <small>(BSIT Student)</small></h3>
+                        <p>Super accommodating and reliable! And the work is beautiful and easy to talk about. The price is very budget-friendly, which is very helpful for students.</p>
+                    </div> 
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div className="date">9/24/2023</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/jolinaagojo.18"><i className="fa-brands fa-facebook"></i></a>Jolina Agojo <br /><small>(BSCS Student)</small></h3>
+                        <p>As a student who hired a web developer to make my website, it is nice and well made, very responsive, and very nice to talk to.</p>
+                    </div> 
+
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <div className="date">9/24/2023</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/hannah.dimayuga.1"><i className="fa-brands fa-facebook"></i></a>Hannah Isabel Dimayuga <br /> <small>(BSCS Student)</small></h3>
+                        <p>Jonrie is very professional, and he easily approaches and builds my webpage. Aside from that, his work is so fine.</p>
+                    </div> 
+
+
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <div className="date">02/11/2024</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/shielaamaaee"><i className="fa-brands fa-facebook"></i></a>Shiela Mae Saavedra <br /> <small>(BSIT Student)</small></h3>
+                        <p>Working with Mr. Jonrie has been an absolute pleasure. His dedication to quality, attention to detail, and swift problem-solving skills have truly elevated our project. He consistently goes above and beyond to ensure our satisfaction and deliver results that exceed expectations. I highly recommend his services to anyone seeking a reliable and talented developer.</p>
+                    </div> 
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <div className="date">02/11/2024</div>
+                        <span>
+                            <i className="fa-solid fa-user"></i>
+                        </span>
+                        <h3><a target="_blank" href="https://web.facebook.com/unit.39601.w41k3r"><i className="fa-brands fa-facebook"></i></a>Mariel F. Catubay <br /> <small>(BSIT Student)</small></h3>
+                        <p>Jonrie is good. We don't need to explain every single detail at first, and he has immediately built our capstone system, and the result is so good, especially since we demand specific functions that we need for our system, and he is budget-friendly for a developer. That's why we're really grateful since we're just mere students, and he doesn't pressure us, and the cooperation is so good that we meet the ends because of Jonrie, who is a very talented and kind developer.</p>
+                    </div> 
+
+
+
+                
 
         
 

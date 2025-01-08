@@ -189,7 +189,7 @@
 
 /* all span inside div(1)*/
 .main .myWorks .worksCon >div >.sub >div:nth-child(1) >span{
-    margin-top: 1rem;
+    margin: 1rem 0;
     display: flex;
 }
 /* all a inside span */
@@ -221,6 +221,7 @@
     padding-right: .3rem;
     margin-left: .5rem;
     word-break: break-word;
+    margin-top: .3rem;
 }
 .main .myWorks .worksCon >div >.sub >div:nth-child(2) >p >i{
     color: #00adb5;
