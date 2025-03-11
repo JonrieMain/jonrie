@@ -194,7 +194,10 @@ const About = ()=>{
                     <h3>Sales Associate</h3>
                     <h4>D’LUXXE SKINLAB</h4>
                     <p id="current">Working as Sales Associate on the D’LUXXE SKINLAB</p>
-
+                            <br /><br /><br />
+                            <h3>Content Creator</h3>
+                    <h4>Patreon Inc.</h4>
+                    <p id="current">Creating AI Adult Content</p>
                     </div>
 
                    
