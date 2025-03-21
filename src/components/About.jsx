@@ -197,7 +197,7 @@ const About = ()=>{
                             <br /><br /><br />
                             <h3>Content Creator</h3>
                     <h4>Patreon Inc.</h4>
-                    <p id="current">Creating AI-generated adult content involves leveraging advanced machine learning algorithms to produce material intended for mature audiences on Patreon</p>
+                    <p>Creating AI-generated adult content involves leveraging advanced machine learning algorithms to produce material intended for mature audiences on Patreon</p>
                     </div>
 
                    

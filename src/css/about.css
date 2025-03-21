@@ -266,7 +266,7 @@ line-height: 3rem;
     -webkit-box-shadow: -3px 0px 27px -11px rgba(0,173,181,0.75);
      -moz-box-shadow: -3px 0px 27px -11px rgba(0,173,181,0.75);
     height: 100%;
-    max-height: 22rem;
+    max-height: 40rem;
     width: 100%;
     max-width: 600px;
     padding: 1rem .5rem 2rem .5rem;
@@ -841,21 +841,18 @@ text-align: center;
     .main .saysAboutMe >h2{
         font-size: 25px;
     }
+
+
+    
+    .main .aboutExperience .expLevel >div:nth-child(5) >small >div{
+        font-size: .7rem !important;
+    }
     
 
 
 }
 
 
-@media screen and (max-width: 300px){
-    .main .aboutExperience .expLevel >div:nth-child(5) >small{
-        font-size: 1.3rem !important;
-        top: -.7rem;
-    }
-    .main .aboutExperience .expLevel >div:nth-child(5) >small >div{
-        font-size: .7rem !important;
-    }
-}
 
 
 
