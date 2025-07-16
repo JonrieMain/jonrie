@@ -167,12 +167,7 @@ const About = ()=>{
 
 
     
-                    <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="100">
-                        <small>2020-2024</small>
-                        <h3>Staff</h3>
-                        <h4>dheeluxe SKIN</h4>
-                        <p>Working student as staff on the dheeluxe SKIN</p>
-                    </div>
+                    
     
                     <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="100">
                         <small>2020-2022</small>
@@ -191,9 +186,9 @@ const About = ()=>{
                    
                     <div data-aos="fade-up" data-aos-duration="300">
                     <small>2024-Present</small>
-                    <h3>Sales Associate</h3>
-                    <h4>D’LUXXE SKINLAB</h4>
-                    <p id="current">Working as Sales Associate on the D’LUXXE SKINLAB</p>
+                    <h3>STAFF,Sales Associate</h3>
+                    <h4>D’LUXXE SKINLAB COSMETICS MANUFACTURING CORP.</h4>
+                    <p id="current">Working as a staff and sales associate. Working student from 2022 to 2024, senior high school at the D’LUXXE SKINLAB</p>
                             <br /><br /><br />
                             <h3>Content Creator</h3>
                     <h4>Patreon Inc.</h4>

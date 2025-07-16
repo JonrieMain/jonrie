@@ -24,7 +24,6 @@ const Contact = () =>{
         <div>
             <a href="https://facebook.com/JonrieMain"><i className="fa-brands fa-square-facebook"></i></a>
 
-
         <a href="https://github.com/JonrieMain"><i className="fa-brands fa-square-github"></i></a>
 
         <a href="https://www.linkedin.com/in/jonrie-badiang-06b60a241/"><i className="fa-brands fa-linkedin"></i></a>

@@ -376,8 +376,8 @@ text-align: center;
     animation: dotVib 1s cubic-bezier(0,0,.2,1)  infinite;
 }
 /* remove after and before of latest */
-.main .aboutExperience .expLevel >div:nth-child(5)::before,
-.main .aboutExperience .expLevel >div:nth-child(5)::after{
+.main .aboutExperience .expLevel >div:nth-child(4)::before,
+.main .aboutExperience .expLevel >div:nth-child(4)::after{
     display: none;
 }
 
