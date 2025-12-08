@@ -193,7 +193,7 @@ const About = ()=>{
 
 
                       <div data-aos="fade-up" data-aos-duration="300">
-                    <small>2024-Present</small>
+                    <small>2025-Present</small>
                         <h3>Machine Operator</h3>
                         <h4>Platinum Printing</h4>
                         <p id="current">Operated large-format printing machines to produce high-quality sticker prints. Layouted sticker designs from the computer, ensuring accurate alignment and clean output on sticker paper, and operated cutting plotters to cut sticker designs.</p>
