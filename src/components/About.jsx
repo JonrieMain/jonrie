@@ -170,14 +170,14 @@ const About = ()=>{
                     
     
                     <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="100">
-                        <small>2020-2022</small>
+                        <small>June 2020-July 2022</small>
                         <h3>Senior High School</h3>
                         <h4>Trinity Polytechnic College</h4>
                         <p>Taking and graduating from senior high school with a TVL - Information Communication Technology (ICT) strand <br /><br /> <a target='_blank' className={"coc"} href="./assets/shsDiploma.jpg">Certificate Of Completion</a></p>
                     </div>
     
                     <div data-aos="fade-up" data-aos-duration="300">
-                    <small>2022-2024</small>
+                    <small>July 2022-Oct. 2024</small>
                         <h3>College</h3>
                         <h4>Integrated Innovation and Hospitality College</h4>
                         <p>I finished the first year of the Bachelor of Science in Information Systems (BSIS) program and enrolled in the second year, but I had to quit during the first semester because of financial issues. You can check my <a target='_blank' className={"grades"} href="/assets/1stSem.jpg">1st</a> and <a target='_blank' className={"grades"} href="/assets/2ndSem.jpg">2nd</a> semester grades</p>
@@ -185,30 +185,42 @@ const About = ()=>{
                     </div>
                    
                     <div data-aos="fade-up" data-aos-duration="300">
-                    <small>2024-2025</small>
-                    <h3>STAFF,Sales Associate</h3>
-                    <h4>D’LUXXE SKINLAB COSMETICS MANUFACTURING CORP.</h4>
-                    <p>Working as a staff and sales associate. Working student from 2022 to 2024, senior high school at the D’LUXXE SKINLAB</p>
+                    <small>Dec. 2020-Oct .2024</small>
+                    <h3>STAFF</h3>
+                    <h4>DHEELUXE SKIN</h4>
+                    <p>Working as a Staff at the DHEELUXE SKIN <br/><br /><em>Working student from 2020 to 2024, senior high school and college.</em></p>
                     </div>
+
+                     <div data-aos="fade-up" data-aos-duration="300">
+                    <small>Oct. 2024-Oct. 2025</small>
+                    <h3>Sales and Marketing</h3>
+                    <h4>D’LUXXE SKINLAB COSMETICS MANUFACTURING CORP.</h4>
+                    <p>Working as a Sales and Marketing at the D’LUXXE SKINLAB COSMETICS MANUFACTURING CORP.</p>
+                    </div>
+
+                 <div data-aos="fade-up" data-aos-duration="300">
+                    <small>Sept. 2024-Present</small>
+                            <h3>Content Creator</h3>
+                    <h4>Patreon Inc.</h4>
+                    <p id="current">Creating AI-generated adult content involves leveraging advanced machine learning algorithms to produce material intended for mature audiences on Patreon</p>
+                    </div>
+
 
 
                       <div data-aos="fade-up" data-aos-duration="300">
-                    <small>2025-Present</small>
+                    <small>Oct. 2025-Present</small>
                         <h3>Machine Operator</h3>
                         <h4>Platinum Printing</h4>
                         <p id="current">Operated large-format printing machines to produce high-quality sticker prints. Layouted sticker designs from the computer, ensuring accurate alignment and clean output on sticker paper, and operated cutting plotters to cut sticker designs.</p>
-
-                        <br /><br /><br />
-                            <h3>Content Creator</h3>
-                    <h4>Patreon Inc.</h4>
-                    <p>Creating AI-generated adult content involves leveraging advanced machine learning algorithms to produce material intended for mature audiences on Patreon</p>
-
                     </div>
 
                    
+                 
+
+        
 
 
-    
+
     
     
                 </div>
