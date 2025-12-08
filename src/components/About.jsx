@@ -185,14 +185,24 @@ const About = ()=>{
                     </div>
                    
                     <div data-aos="fade-up" data-aos-duration="300">
-                    <small>2024-Present</small>
+                    <small>2024-2025</small>
                     <h3>STAFF,Sales Associate</h3>
                     <h4>D’LUXXE SKINLAB COSMETICS MANUFACTURING CORP.</h4>
-                    <p id="current">Working as a staff and sales associate. Working student from 2022 to 2024, senior high school at the D’LUXXE SKINLAB</p>
-                            <br /><br /><br />
+                    <p>Working as a staff and sales associate. Working student from 2022 to 2024, senior high school at the D’LUXXE SKINLAB</p>
+                    </div>
+
+
+                      <div data-aos="fade-up" data-aos-duration="300">
+                    <small>2024-Present</small>
+                        <h3>Machine Operator</h3>
+                        <h4>Platinum Printing</h4>
+                        <p id="current">Operated large-format printing machines to produce high-quality sticker prints. Layouted sticker designs from the computer, ensuring accurate alignment and clean output on sticker paper, and operated cutting plotters to cut sticker designs.</p>
+
+                        <br /><br /><br />
                             <h3>Content Creator</h3>
                     <h4>Patreon Inc.</h4>
                     <p>Creating AI-generated adult content involves leveraging advanced machine learning algorithms to produce material intended for mature audiences on Patreon</p>
+
                     </div>
 
                    

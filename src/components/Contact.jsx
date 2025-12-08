@@ -15,7 +15,7 @@ const Contact = () =>{
         <p data-aos-duration="1000">I'm looking forward to working with you and I hope my portfolio satisfied you. If you're not yet satisfied, you can contact me to learn more about me, and if you are, I'd appreciate it if you did. The following details are how you can get in touch with me. I'll respond as quickly as I can. Thank you </p>
        
         <span>
-        <i className="fa-solid fa-phone"> <span> +639624369531</span></i>
+        <i className="fa-solid fa-phone"> <span> +639561801192</span></i>
         
         <i className="fa-regular fa-envelope"> <span><a href="mailto:jonriemain@gmail.com">jonriemain@gmail.com</a></span></i>
 
