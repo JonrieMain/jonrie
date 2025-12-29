@@ -14,8 +14,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/effect-cards';
 import '../../node_modules/swiper/swiper.css';
 import '../../node_modules/swiper/modules/pagination.css';
+import { useEffect } from 'react';
 
 
+    
 
 
 
@@ -23,10 +25,28 @@ import '../../node_modules/swiper/modules/pagination.css';
 
 const About = ()=>{
 
+useEffect(()=>{
+
+        let myImage = document.querySelector('.myImage');
+        myImage.addEventListener('mouseover',()=>myImage.src = '/assets/Jonrie2.jpg')
+        myImage.addEventListener('mouseout',()=>myImage.src = '/assets/Jonrie.jpg')
+
+    },[])
+
+
+
+
+
+
+
     return(<>
+
+         <div className='aboutUsesSubAndExpLevel'>
+
 
         {/* // <!-- about --> */}
         <div className="about"  data-aos="fade-up" data-aos-duration="3000">
+
             <div className="leftAbout">
             <h2 id="about">Who am i?</h2>
             <p>My name is Jonrie Badiang, and I am a 
@@ -39,44 +59,21 @@ const About = ()=>{
                 development, I also have back-end 
                 development experience.</p>
             </div>
+
             <div className="rightAbout">
-                <img src="/assets/Jonrie.jpg" alt="Jonrie" />
+                <img className='myImage' src="/assets/Jonrie.jpg" alt="Jonrie" />
             </div>
+
         </div>
-    
-    
-    
-        {/* <!-- services --> */}
-        <div className="services">
-            <h2 id="services" data-aos="fade-right">What i will do for you?</h2>
-            
-            <span>
-            <div data-aos="fade-up" data-aos-duration="500">
-                <i className="fa-solid fa-laptop"></i>
-                <h3>Website Designing</h3>
-                <p>For the website to have a distinctive style, I do UX/UI design. I can arrange and create it how you like.</p>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
-                <i className="fa-solid fa-mobile"></i>
-                <h3>Mobile friendly/Responsive</h3>
-                <p>For compatibility across all platforms, I may create a website that is mobile-friendly.</p>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
-                <i className="fa-solid fa-server"></i>
-                <h3>Backend</h3>
-                <p>I can do work server-side using PHP. I can do C.R.U.D. and wild search operations with the MySQL database and other functionalities to make a full-stack application.</p>
-            </div>
-        </span>
-    
-        </div>
-    
     
     
     
         {/*  technologies uses --> */}
         <div className="aboutUses" data-aos="fade-up" data-aos-duration="3000">
+            
+
             <h2 data-aos="fade-right">What are the technologies i use?</h2>
-            <div className="aboutUsesSub">
+
                 <div className="frontend" data-aos="fade-up"
                 data-aos-duration="500">
                     <h3>For frontend</h3>
@@ -126,12 +123,6 @@ const About = ()=>{
     
              <div className="aboutExperience">
                 <h2 data-aos="fade-right">How about my experience?</h2>
-                <p data-aos="fade-up"
-                data-aos-anchor-plnt="top-bottom" data-aos-duration="500">I started to learn programming when I was in grade 10, way back in 2018. My first languages and technologies that I use are HTML, CSS, and Javascript, and after a few years, I began learning PHP, MySQL/MariaDB, JQuery, and Ajax. The first website that I developed was my personal portfolio website.</p>
-    
-    
-                    
-
 
                     
                 <div className="expLevel">
@@ -219,7 +210,16 @@ const About = ()=>{
     
                 </div>
     
+
+
+
+
              </div>
+
+         
+
+
+     
 
 
 
@@ -227,9 +227,8 @@ const About = ()=>{
              <div className="saysAboutMe">
 
 
-                <h2 id="testimonials" data-aos="fade-right">What Client/I help says about me?</h2>
+                <h2 id="testimonials" data-aos="fade-right">Testimonials & Recommendations</h2>
                 
-                <p data-aos="fade-left">Here is a list of testimonials from students from various colleges and universities about what I do or help them with in their activities and capstones.</p>
     
                 <div id="scroll">
 

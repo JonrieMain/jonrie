@@ -3,10 +3,10 @@
     width: 100%;
     background: #222831;
     border-top: 1px solid #EEEEEE;
-    padding: 3rem .3rem;
+    padding: 7rem .3rem;
 }
 .main .myWorks >h2{
-    font-size: 45px;
+    font-size: 26px;
     color: #00adb5;
     font-family: var(--castoro);
     font-weight: 500;
@@ -49,12 +49,12 @@
 
 .main .myWorks >p{
     color: #eeeeee;
-    font-size: 1.1rem;
+    font-size: 16px;
     word-break: break-word;
     text-align: center;
     font-family: var(--sans);
     font-weight: 400;
-    max-width: 1200px;
+    max-width: 700px;
     margin: 0 auto;
     margin-bottom: 3rem;
     border-top: 1px solid #00adb5;
@@ -67,7 +67,7 @@
 
 /* all h2 of every works */
 .main .myWorks .worksCon >div >h2{
-    font-size: 25px;
+    font-size: 23px;
     color: #00adb5;
     font-weight: 800;
     font-family: var(--castoro);
@@ -116,7 +116,7 @@
 
 /* all p (languages use) */
 .main .myWorks .worksCon >div >p{
-    font-size: 15px;
+    font-size: 16px;
     color: #EEEEEE;
     font-family: var(--sans);
     margin-bottom: 1.5rem;
@@ -145,6 +145,10 @@
 
 .main .myWorks .worksCon >div {
     border-right: 2px solid #00adb5;
+      border-top: 1px solid #00adb5;
+      padding-top: 1rem;
+      border-radius: 2rem;
+
 }
 
 /* all sub layout */
@@ -213,7 +217,7 @@
 /* all p description */
 .main .myWorks .worksCon >div >.sub >div:nth-child(2) >p{
     color: #EEEEEE;
-    font-size: 17px;
+    font-size: 16px;
     font-family: var(--sans);
     font-weight: 400;
     max-width: 500px;
@@ -225,9 +229,6 @@
 }
 .main .myWorks .worksCon >div >.sub >div:nth-child(2) >p >i{
     color: #00adb5;
-    text-align: right;
-    display: block;
-    text-align: right;
     margin-right: .1rem;
 }
 
@@ -252,14 +253,7 @@
 }
 
 
-/* media */
-@media screen and (max-width: 950px){
 
-    /* new style of first h2,p */
-    .main .myWorks >h2{
-        font-size: 35px;
-    }
-}
 
 
 /* media */

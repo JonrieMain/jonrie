@@ -1,35 +1,49 @@
+.main .aboutUsesSubAndExpLevel{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr auto;
+    grid-template-areas: 
+    "about expLevel"
+    "uses expLevel"
+    "testimonial testimonial";
+    max-width: 1700px;
+
+    margin: 0 auto  ;
+}
+
 .main .about{
     height: 100%;
     width: 100%;
-    background: #000308;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 1.5rem;
+    flex-direction: column;
+    gap: 2.5rem;
     padding: 1.5rem .5rem;
     /* for picture */
     overflow: hidden;
     /* max-width: 2500px; */
-    border-radius: 20%;
+
+    grid-area: about;
 }
 .main .about .leftAbout{
     max-width: 900px;
     align-self: flex-start;
-    padding-top: 3rem;
 }
 .main .about .leftAbout >h2{
-    font-size: 45px;
+    font-size: 26px;
     color: #00adb5;
      margin-bottom: 1rem;
      font-family: var(--castoro);
      font-weight: 500;
+     text-align: center;
 }
 .main .about .leftAbout >p{
-font-size: 21px;
+font-size: 16px;
 color: #eeeeee;
 font-family: var(--sans);
 word-break: break-word;
-padding-left: 3rem;
+padding: .9rem;
 line-height: 3rem;
 max-width: 900px;
 }
@@ -38,100 +52,17 @@ max-width: 900px;
     display: grid;
     place-items: center;
     position: relative;
-    background: rgba(0,0,0,0.5);
     overflow: hidden;
 }
 .main .about .rightAbout >img{
-    transition: .5s ease-in-out;
+    transition: 1s linear;
     height: 100%;
     width: 100%;
     max-width: 400px;
     max-height: 466px;
-   border-radius: 50%;
-
-
-    
+   border-radius: 2rem;
+   cursor: pointer;
 }
-.main .about .rightAbout >img:hover{
-    transform-origin: bottom;
-    transform: scale(1.2);
-}
-
-
-
-
-
-/* services */
-.main .services{
-    height: 100%;
-    width: 100%;
-    background: #222831;
-    padding: 6rem .5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-.main .services >h2{
-    font-size: 45px;
-    color: #00adb5;
-     margin-bottom: 1rem;
-     font-family: var(--castoro);
-     font-weight: 500;
-     padding-left: 4.3rem;
-     width: 100%;
-     max-width: 1400px;
-}
-.main .services >span{
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 2rem;
-    gap: 3rem;
-    max-width: 2500px;
-}
-.main .services >span >div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-} 
-.main .services >span >div:hover >i{
-    animation: spin 1s linear;
-    border-radius: 50%;
-}
-@keyframes spin{
-    from{}
-    to{transform: rotate(360deg);}
-}
-
-
-.main .services >span >div >i{
-    font-size: 3rem;
-    color: #eeeeee;
-    background: #00adb5;
-    padding: 1rem;
-    border-radius: 1px;
-    transition: 1.5s;
-}
-.main .services >span >div >h3{
-    color: #eeeeee;
-    font-family: var(--castoro);
-    font-size: 1.5rem;
-    margin: 2rem 0 1rem 0;
-}
-.main .services >span >div >p{
-    max-width: 350px;
-    text-align: center;
-    color: #eeeeee;
-    font-size: 1.2rem;
-    font-family: var(--sans);
-}
-
-
 
 
 
@@ -139,65 +70,63 @@ max-width: 900px;
 
 
 /* about uses CSS */
-.main .aboutUses{
-    height: 100%;
-    width: 100%;
-    background: #000308;
-    padding: 6rem .5rem 2rem .5rem;
+.main .aboutUses {
     display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem 2rem 2rem;
+        grid-area: uses;
 }
+
+
+
 .main .aboutUses >h2{
-    font-size: 45px;
+    font-size: 26px;
     color: #00adb5;
     font-weight: 500;
-    padding-left: 4.3rem;
     font-family: var(--castoro);
     width: 100%;
     max-width: 1400px;
+    text-align: center;
+    margin-top: 2rem;
 }
 
-.main .aboutUses .aboutUsesSub{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
-    gap: 2rem;
-    margin-top: 2.2rem;
-    padding-left: 4.3rem;
-    padding-bottom: 3rem;
-    max-width: 2500px;
-}
-.main .aboutUses .aboutUsesSub .backend,.fronend,
+
+
+
+
+
+.main .aboutUses .backend,
 .others{
-    min-width: 32%;
+    min-width: 200px;
 }
 
 /* for all h3 */
-.main .aboutUses .aboutUsesSub .frontend >h3,
-.main .aboutUses .aboutUsesSub .backend >h3{
-    font-size: 35px;
+.main .aboutUses  .frontend >h3,
+.main .aboutUses  .backend >h3{
+    font-size: 23px;
     color: #eeeeee;
     display: flex;
     font-family: var(--castoro);
 }
-.main .aboutUses .aboutUsesSub .others >h3{
-    font-size: 25px;
+.main .aboutUses  .others >h3{
+    font-size: 23px;
     color: #eeeeee;
     display: flex;
     font-family: var(--castoro);
 }
 
 /* for all p */
-.main .aboutUses .aboutUsesSub >div >div p{
+.main .aboutUses  >div >div p{
     color: #eeeeee;
-    font-size: 25px;
+    font-size: 16px;
     font-family: var(--sans);
 
 }
 /* layout for all and indention for all div */
-.main .aboutUses .aboutUsesSub >div >div{
+.main .aboutUses  >div >div{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -209,21 +138,21 @@ max-width: 900px;
 
 
 /* for frontend */
-.main .aboutUses .aboutUsesSub .frontend >div >p{
+.main .aboutUses  .frontend >div >p{
     background: #273122;
     padding: .6rem;
     border-radius: .5rem;
 }
 
 /* for backend */
-.main .aboutUses .aboutUsesSub .backend >div >p{
+.main .aboutUses  .backend >div >p{
     background: #262231;
     padding: .6rem;
     border-radius: .5rem;
 }
 
 /* for others */
-.main .aboutUses .aboutUsesSub .others >div >p{
+.main .aboutUses  .others >div >p{
     background: #312e22;
     padding: .6rem;
     border-radius: .5rem;
@@ -239,23 +168,20 @@ max-width: 900px;
 .main .aboutExperience{
     height: 100%;
     background: #222831;
-    padding: 8rem .5rem 2rem 4.2rem;
+    padding: 2rem 1.2rem 2rem 1.2rem;
+    border-radius: 2rem;
+
+        grid-area: expLevel;
 }
 .main .aboutExperience >h2{
-    font-size: 45px;
+    font-size: 26px;
     color: #00adb5;
     font-weight: 500;
     margin-bottom: 2.3rem;
      font-family: var(--castoro);
+     text-align: center;
 }
-.main .aboutExperience >p{
-    font-size: 21px;
-    color: #eeeeee;
-    line-height: 3rem;
-    word-break: break-word;
-     font-family: var(--sans);
-     max-width: 1500px;
-}
+
 
 
 
@@ -267,9 +193,8 @@ max-width: 900px;
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    gap: 6rem;
+    gap: 4.5rem;
     margin-top: 5rem;
-    max-width: 2500px;
 }
 .main .aboutExperience .expLevel >div{
     background: transparent;
@@ -279,7 +204,7 @@ max-width: 900px;
     height: 100%;
     max-height: 40rem;
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     padding: 1rem .5rem 2rem .5rem;
     position: relative;
 }
@@ -288,8 +213,8 @@ max-width: 900px;
 
 .main .aboutExperience .expLevel >div >small{
     position: absolute;
-    top: -1.9rem;
-    left: -2rem;
+    top: -2.5rem;
+    left: 1rem;
     font-size: .8rem;
     border: 1px solid #00adb54a;
     border-radius: 1rem;
@@ -366,21 +291,23 @@ text-align: center;
 .main .aboutExperience .expLevel >div::after{
     content: "";
     background: #00adb54a;
-    height: 6rem;
+    height: 4.5rem;
     width: .3rem;
     position: absolute;
-    top:-5.8rem;
+    top: -4.4rem;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 1rem;
 }
+
+/* dot */
 .main .aboutExperience .expLevel >div::before{
     content: "";
     background: #00adb54a;
     height: 1rem;
     width: 1rem;
     position: absolute;
-    top:-6.4rem;
+    top: -5rem;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 50%;
@@ -422,7 +349,7 @@ text-align: center;
 }
 .main .aboutExperience .expLevel >div >p{
     color: #00acb5ba;
-    font-size: 1rem;
+    font-size: 16px;
     margin-top: 1.5rem;
     font-family: var(--sans);
     text-align: center;
@@ -441,12 +368,6 @@ text-align: center;
 
 
 
-/* certificate cards */
-.main .aboutExperience .expLevel .certiCon{
-    position: relative;
-    width: 100vw;
-    max-width: 600px;
-}
 
 
 /* hidden class of swiper set z-index */
@@ -454,6 +375,8 @@ text-align: center;
     z-index: inherit;
     margin: 2rem 0;
 }
+
+
 
 .main .aboutExperience .expLevel .certi .SwiperSlide  >img{
     height: 100%;
@@ -483,26 +406,18 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+
+    grid-area: testimonial;
 }
 
 .main .saysAboutMe >h2{
-    font-size: 45px;
+    font-size: 26px;
     color: #00adb5;
     font-family: var(--castoro);
     font-weight: 500;
-    padding-left: 4.3rem;
     padding-bottom: 2.3rem;
-}
-.main .saysAboutMe >p{
-    color: #eeeeee;
-    font-size: 1.1rem;
-    word-break: break-word;
     text-align: center;
-    font-family: var(--sans);
-    font-weight: 400;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 3rem;
+    margin-top: 4rem;
 }
 
 /* animation slide keyframes */
@@ -520,7 +435,7 @@ text-align: center;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    animation: 45s slide infinite linear alternate-reverse;
+    animation: 45s slide infinite linear;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -548,11 +463,6 @@ text-align: center;
 
 
 
-.main .saysAboutMe{
-   /* for slider animation */
-   padding: 60px 0;
-   position: relative;
-}
 
 
   .main .saysAboutMe #scroll:hover {
@@ -684,7 +594,7 @@ text-align: center;
 @media screen and (max-width: 990px){
 
     /* put flex-wrap and flex-start */
-    .main .aboutUses .aboutUsesSub{
+    .main .aboutUses {
         flex-wrap: wrap;
         justify-content: flex-start;  
     }
@@ -708,84 +618,45 @@ text-align: center;
 
 
 
-/* media */
-@media screen and (max-width: 950px){
-
-        /* make image center */
-    .main .about .rightAbout{
-        align-self: center;
-    }
-
-        /* make center */
-    .main .about .leftAbout >h2{
-        text-align: center;
-        font-size: 35px;
-    }
-
-      /* decrease h2 saysAbout */
-      .main .saysAboutMe >h2{
-       font-size: 35px;
-    }
-     /* decrease h2 services and others */
-     .main .services >h2{
-        font-size: 35px;
-        text-align: center;
-        padding-left: 0;
-     }
-     .main .services >span >div >h3{
-        font-size: 1.3rem;
-        text-align: center;
-     }
-     .main .services >span >div >p{
-        font-size: 1.1rem;
-        text-align: center;
-     }
 
 
-        /* reset */
-    .main .about .leftAbout >p{
-        padding-left: 0;
-        font-size: 20px;
-        }
 
+
+
+@media screen and (max-width: 768px){
+
+        /* new layout of all about */
     
 
-        .main .aboutUses >h2,
-        .main .aboutExperience >h2{
-            font-size: 35px;
-        }
+    .main .aboutUsesSubAndExpLevel{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "about"
+    "expLevel"
+    "uses"
+    "testimonial";
+    max-width: 1700px;
 
-        .main .aboutExperience >p{
-            font-size: 20px;
-        }
-
-
-
-        /* decrease p */
-            /* for frontend */
-    .main .aboutUses .aboutUsesSub .frontend >div >p{
-        font-size: 20px;
-    }
-
-    /* for backend */
-    .main .aboutUses .aboutUsesSub .backend >div >p{
-        font-size: 20px;
-    }
-
-    /* for others */
-    .main .aboutUses .aboutUsesSub .others >div >p{
-        font-size: 20px;
-    }
-
-
+    margin: 0 auto  ;
+    gap: 7rem;
 }
 
-@media screen and (max-width: 810px){
 
-        /* new layout of about */
+
+  /* new layout of about */
     .main .about{
        flex-direction: column-reverse;
     }
+
+
+    /* reset */
+    .main .saysAboutMe{
+        padding-top: 0;
+    }
+
+
+  
 
 }
 
@@ -793,34 +664,11 @@ text-align: center;
 @media screen and (max-width: 675px){
 
 
-        /* decrease indention ~ padding-left from 4.3rem */
-    .main .aboutUses .aboutUsesSub{
-        padding-left: 1rem;
-    }
-
-     /* decrease h2 saysAbout & reset */
-    /* decrease h2 padding-left from 4.3rem */
-     
-    .main .aboutUses >h2,
-    .main .saysAboutMe >h2{
-        padding-left: 0;
-        text-align: center;
-    }
-
+    
     
  
-     /* exp small move position */
-     .main .aboutExperience .expLevel >div >small{
-        left: .1rem;
-    }
-    /* exp level text size reduce h3,h4,small */
-    .main .aboutExperience .expLevel >div >h3{
-        font-size: 1.3rem;
-    }
-    .main .aboutExperience .expLevel >div >h4{
-        font-size: .9rem;
-        text-align: center;
-    }
+  
+ 
     /* text indent unset */
     .main .aboutExperience .expLevel >div >h3,
     .main .aboutExperience .expLevel >div >h4,
@@ -838,6 +686,13 @@ text-align: center;
     .main .aboutExperience >h2{
         text-align: center;
     }
+
+    /* make certificate container responsive */
+    .main .aboutExperience .expLevel .certiCon {
+     position: relative; 
+     width: 100vw; 
+     max-width: 600px; 
+}
 
 
 }
@@ -857,19 +712,11 @@ text-align: center;
     .main .about .leftAbout >h2{
         font-size: 25px;
     }
-    .main .about .leftAbout >p{
-    font-size: 16px;
-    line-height: 2rem;
-    }
+    
 
 
-    .main .aboutUses >h2, .main .aboutExperience >h2{
-        font-size: 25px;
-    }
+ 
 
-    .main .saysAboutMe >h2{
-        font-size: 25px;
-    }
 
 
     
