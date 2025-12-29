@@ -706,9 +706,9 @@ const MyWork = ()=>{
 
 
             <span>
-            <a target="_blank" href="#"><i className="fa-brands fa-github"></i> Github</a>
+            <a target="_blank" href="https://github.com/JonrieMain/CanossaHealthCareManagementSystem"><i className="fa-brands fa-github"></i> Github</a>
 
-            <a target="_blank" href=""><i className="fa-solid fa-globe"></i> View site</a>
+            <a target="_blank" href="#"><i className="fa-solid fa-globe"></i> View site</a>
         </span>
 
         
@@ -774,7 +774,7 @@ const MyWork = ()=>{
 
 
             <span>
-            <a target="_blank" href="#"><i className="fa-brands fa-github"></i> Github</a>
+            <a target="_blank" href="https://github.com/JonrieMain/UI-UX"><i className="fa-brands fa-github"></i> Github</a>
 
             <a target="_blank" href="#"><i className="fa-solid fa-globe"></i> View site</a>
         </span>

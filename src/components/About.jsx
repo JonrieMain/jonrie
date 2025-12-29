@@ -26,11 +26,10 @@ const About = ()=>{
     return(<>
 
         {/* // <!-- about --> */}
-        <div className="about">
+        <div className="about"  data-aos="fade-up" data-aos-duration="3000">
             <div className="leftAbout">
-            <h2 data-aos="fade-right" id="about">Who am i?</h2>
-            <p data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom" data-aos-duration="500">My name is Jonrie Badiang, and I am a 
+            <h2 id="about">Who am i?</h2>
+            <p>My name is Jonrie Badiang, and I am a 
                 frontend developer. I enjoy building 
                 websites as well as transforming them into
                  mobile and user-friendly applications. 
@@ -40,8 +39,8 @@ const About = ()=>{
                 development, I also have back-end 
                 development experience.</p>
             </div>
-            <div className="rightAbout" data-aos="flip-right" data-aos-duration="1000">
-                <img src="/assets/jonrie.png" alt="Jonrie" />
+            <div className="rightAbout">
+                <img src="/assets/Jonrie.jpg" alt="Jonrie" />
             </div>
         </div>
     
@@ -75,7 +74,7 @@ const About = ()=>{
     
     
         {/*  technologies uses --> */}
-        <div className="aboutUses">
+        <div className="aboutUses" data-aos="fade-up" data-aos-duration="3000">
             <h2 data-aos="fade-right">What are the technologies i use?</h2>
             <div className="aboutUsesSub">
                 <div className="frontend" data-aos="fade-up"
@@ -139,7 +138,7 @@ const About = ()=>{
 
 
                          {/* <!-- certifications --> */}
-                    <div data-aos="fade-up" data-aos-duration="100" class="certiCon">
+                    <div data-aos="fade-up" data-aos-duration="100" className="certiCon">
                        
                        <small>Certifications</small>
                  
@@ -185,7 +184,7 @@ const About = ()=>{
                     </div>
                    
                     <div data-aos="fade-up" data-aos-duration="300">
-                    <small>Dec. 2020-Oct .2024</small>
+                    <small>Dec. 2020-Oct. 2024</small>
                     <h3>STAFF</h3>
                     <h4>DHEELUXE SKIN</h4>
                     <p>Working as a Staff at the DHEELUXE SKIN <br/><br /><em>Working student from 2020 to 2024, senior high school and college.</em></p>
@@ -198,12 +197,7 @@ const About = ()=>{
                     <p>Working as a Sales and Marketing at the D’LUXXE SKINLAB COSMETICS MANUFACTURING CORP.</p>
                     </div>
 
-                 <div data-aos="fade-up" data-aos-duration="300">
-                    <small>Sept. 2024-Present</small>
-                            <h3>Content Creator</h3>
-                    <h4>Patreon Inc.</h4>
-                    <p id="current">Creating AI-generated adult content involves leveraging advanced machine learning algorithms to produce material intended for mature audiences on Patreon</p>
-                    </div>
+                
 
 
 
