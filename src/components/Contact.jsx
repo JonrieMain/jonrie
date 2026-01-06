@@ -1,6 +1,9 @@
 
 // css
 import '../css/contact.css';
+// react icons
+import { MdEmail } from "react-icons/md";
+
 
 const Contact = () =>{
 
@@ -10,9 +13,9 @@ const Contact = () =>{
         <div className="letsTalk" id="letsTalk">
 
 
-        <div data-aos="fade-right" data-aos-delay="100"  className="letTalkIn">
-        <h2 id="letsTalk">Contact</h2>
-        <p data-aos-duration="1000">I'm looking forward to working with you and I hope my portfolio satisfied you. If you're not yet satisfied, you can contact me to learn more about me, and if you are, I'd appreciate it if you did. The following details are how you can get in touch with me. I'll respond as quickly as I can. Thank you </p>
+        <div data-aos="fade-up" data-aos-duration="5000"  className="letTalkIn">
+        <h2 id="letsTalk"><MdEmail/> Contact</h2>
+        <p>I'm looking forward to working with you and I hope my portfolio satisfied you. If you're not yet satisfied, you can contact me to learn more about me, and if you are, I'd appreciate it if you did. The following details are how you can get in touch with me. I'll respond as quickly as I can. Thank you </p>
        
         <span>
         <i className="fa-solid fa-phone"> <span> +639561801192</span></i>
@@ -38,7 +41,7 @@ const Contact = () =>{
 
 
         {/* <!-- contact form --> */}
-        <form data-aos="fade-left" data-aos-delay="100"  className="contactForm" action="https://formsubmit.co/ad4e0ff231edc13df9d5c9beef1e68b3" method="POST">
+        <form data-aos="fade-up" data-aos-duration="5000"  className="contactForm" action="https://formsubmit.co/ad4e0ff231edc13df9d5c9beef1e68b3" method="POST">
 
             <h1>LET'S HAVE A TALK</h1> 
             <div> 

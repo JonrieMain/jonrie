@@ -1,6 +1,10 @@
 // css
 import '../css/myWorks.css';
 
+// react icons
+import { FaChartArea } from "react-icons/fa";
+
+
 // swiper module
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination} from 'swiper/modules';
@@ -15,7 +19,7 @@ const MyWork = ()=>{
     return(
         <div className="myWorks">
 
-        <h2 data-aos="fade-right" data-duration="1500" id="myWorks">My works and Projects</h2>
+        <h2 data-aos="fade-right" data-duration="1500" id="myWorks"><FaChartArea/> My works and Projects</h2>
       
         {/* <!-- laptop --> */}
         <img className="laptop" src="/assets/laptop.png" alt="laptop" />

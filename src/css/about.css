@@ -1,17 +1,18 @@
-.main .aboutUsesSubAndExpLevel{
+.main .allAboutContainer{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr auto;
+    grid-template-rows: repeat(4, auto);
     grid-template-areas: 
     "about expLevel"
     "uses expLevel"
+    "certifications expLevel"
     "testimonial testimonial";
     max-width: 1700px;
 
     margin: 0 auto  ;
 }
 
-.main .about{
+.main .allAboutContainer .about{
     height: 100%;
     width: 100%;
     display: flex;
@@ -22,15 +23,15 @@
     padding: 1.5rem .5rem;
     /* for picture */
     overflow: hidden;
-    /* max-width: 2500px; */
+
 
     grid-area: about;
 }
-.main .about .leftAbout{
+.main .allAboutContainer .about .leftAbout{
     max-width: 900px;
     align-self: flex-start;
 }
-.main .about .leftAbout >h2{
+.main .allAboutContainer .about .leftAbout >h2{
     font-size: 26px;
     color: #00adb5;
      margin-bottom: 1rem;
@@ -38,7 +39,7 @@
      font-weight: 500;
      text-align: center;
 }
-.main .about .leftAbout >p{
+.main .allAboutContainer .about .leftAbout >p{
 font-size: 16px;
 color: #eeeeee;
 font-family: var(--sans);
@@ -48,18 +49,18 @@ line-height: 3rem;
 max-width: 900px;
 }
 
-.main .about .rightAbout{
+.main .allAboutContainer .about .rightAbout{
     display: grid;
     place-items: center;
     position: relative;
     overflow: hidden;
 }
-.main .about .rightAbout >img{
+.main .allAboutContainer .about .rightAbout >img{
     transition: 1s linear;
     height: 100%;
     width: 100%;
-    max-width: 400px;
-    max-height: 466px;
+    max-width: 320px;
+    max-height: 366px;
    border-radius: 2rem;
    cursor: pointer;
 }
@@ -70,7 +71,7 @@ max-width: 900px;
 
 
 /* about uses CSS */
-.main .aboutUses {
+.main .allAboutContainer .aboutUses {
     display: flex;
     align-items: baseline;
     justify-content: flex-start;
@@ -82,7 +83,7 @@ max-width: 900px;
 
 
 
-.main .aboutUses >h2{
+.main .allAboutContainer .aboutUses >h2{
     font-size: 26px;
     color: #00adb5;
     font-weight: 500;
@@ -98,20 +99,20 @@ max-width: 900px;
 
 
 
-.main .aboutUses .backend,
+.main .allAboutContainer .aboutUses .backend,
 .others{
     min-width: 200px;
 }
 
 /* for all h3 */
-.main .aboutUses  .frontend >h3,
-.main .aboutUses  .backend >h3{
-    font-size: 23px;
+.main .allAboutContainer .aboutUses .frontend >h3,
+.main .allAboutContainer .aboutUses .backend >h3{
+    font-size: 18px;
     color: #eeeeee;
     display: flex;
     font-family: var(--castoro);
 }
-.main .aboutUses  .others >h3{
+.main .allAboutContainer .aboutUses .others >h3{
     font-size: 23px;
     color: #eeeeee;
     display: flex;
@@ -119,14 +120,14 @@ max-width: 900px;
 }
 
 /* for all p */
-.main .aboutUses  >div >div p{
+.main .allAboutContainer .aboutUses >div >div p{
     color: #eeeeee;
-    font-size: 16px;
+    font-size: 14px;
     font-family: var(--sans);
 
 }
 /* layout for all and indention for all div */
-.main .aboutUses  >div >div{
+.main .allAboutContainer .aboutUses >div >div{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -138,21 +139,21 @@ max-width: 900px;
 
 
 /* for frontend */
-.main .aboutUses  .frontend >div >p{
+.main .allAboutContainer .aboutUses .frontend >div >p{
     background: #273122;
     padding: .6rem;
     border-radius: .5rem;
 }
 
 /* for backend */
-.main .aboutUses  .backend >div >p{
+.main .allAboutContainer .aboutUses .backend >div >p{
     background: #262231;
     padding: .6rem;
     border-radius: .5rem;
 }
 
 /* for others */
-.main .aboutUses  .others >div >p{
+.main .allAboutContainer .aboutUses .others >div >p{
     background: #312e22;
     padding: .6rem;
     border-radius: .5rem;
@@ -162,18 +163,86 @@ max-width: 900px;
 
 
 
+/* Certifications */
+.main .allAboutContainer .certifications{
+    padding: 0 2rem 2rem 2rem;;
+    grid-area: certifications;
+    z-index: 1000000000000;
+    margin-top: 2rem;
+}
+
+.main .allAboutContainer .certifications >h3 .certificateIcon{
+    margin-right: .3rem;
+}
+
+.main .allAboutContainer .certifications >h3{
+    margin-bottom: 1rem;
+    font-size: 18px;
+    color: #eeeeee;
+    display: flex;
+    font-family: var(--castoro);
+        font-family: var(--castoro);
+}
+.main .allAboutContainer .certifications .certificates{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0 2rem 2rem 2rem;
+}
+
+   
+
+.main .allAboutContainer .certifications .certificates >a{
+    background: #603159;
+    padding: .6rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s;
+}
+.main .allAboutContainer .certifications .certificates >a:hover{
+    opacity: .7;
+}
+.main .allAboutContainer .certifications .certificates >a h2{
+   margin-bottom: .3rem;
+       font-family: var(--castoro);
+}
+
+.main .allAboutContainer .certifications .certificates >a p{ 
+    font-family: var(--sans);
+}
+.main .allAboutContainer .certifications .certificates >a h2,p{
+    color: #fff;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* for about experience */
-.main .aboutExperience{
+.main .allAboutContainer .aboutExperience{
     height: 100%;
     background: #222831;
     padding: 2rem 1.2rem 2rem 1.2rem;
     border-radius: 2rem;
+    
 
-        grid-area: expLevel;
+    grid-area: expLevel;
 }
-.main .aboutExperience >h2{
+.main .allAboutContainer .aboutExperience >h2{
     font-size: 26px;
     color: #00adb5;
     font-weight: 500;
@@ -185,24 +254,24 @@ max-width: 900px;
 
 
 
-/* expe level and certificate cards */
-.main .aboutExperience .expLevel{
+/* expe level */
+.main .allAboutContainer .aboutExperience .expLevel{
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column-reverse;
     gap: 4.5rem;
     margin-top: 5rem;
 }
-.main .aboutExperience .expLevel >div{
+.main .allAboutContainer .aboutExperience .expLevel >div{
     background: transparent;
     box-shadow: -3px 0px 27px -11px rgba(0,173,181,0.75);
     -webkit-box-shadow: -3px 0px 27px -11px rgba(0,173,181,0.75);
      -moz-box-shadow: -3px 0px 27px -11px rgba(0,173,181,0.75);
     height: 100%;
-    max-height: 40rem;
+    max-height: 30rem;
     width: 100%;
     max-width: 500px;
     padding: 1rem .5rem 2rem .5rem;
@@ -211,7 +280,7 @@ max-width: 900px;
 
 
 
-.main .aboutExperience .expLevel >div >small{
+.main .allAboutContainer .aboutExperience .expLevel >div >small{
     position: absolute;
     top: -2.5rem;
     left: 1rem;
@@ -271,24 +340,13 @@ max-width: 900px;
 
 
 
-/* custom style for 4th div small and div child(Certification div) */
-/* .main .aboutExperience .expLevel >div:nth-child(5) >small{
-    font-size: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -2.5rem;
-    border: 0;
-}
-.main .aboutExperience .expLevel >div:nth-child(5) >small div{
-font-size: 1rem;
-text-align: center;
-} */
 
 
 
 
 
-.main .aboutExperience .expLevel >div::after{
+
+.main .allAboutContainer .aboutExperience .expLevel >div::after{
     content: "";
     background: #00adb54a;
     height: 4.5rem;
@@ -301,7 +359,7 @@ text-align: center;
 }
 
 /* dot */
-.main .aboutExperience .expLevel >div::before{
+.main .allAboutContainer .aboutExperience .expLevel >div::before{
     content: "";
     background: #00adb54a;
     height: 1rem;
@@ -314,8 +372,8 @@ text-align: center;
     animation: dotVib 1s cubic-bezier(0,0,.2,1)  infinite;
 }
 /* remove after and before of latest */
-.main .aboutExperience .expLevel >div:nth-child(6)::before,
-.main .aboutExperience .expLevel >div:nth-child(6)::after{
+.main .allAboutContainer .aboutExperience .expLevel >div:nth-child(5)::before,
+.main .allAboutContainer .aboutExperience .expLevel >div:nth-child(5)::after{
     display: none;
 }
 
@@ -330,13 +388,13 @@ text-align: center;
 }
 
 
-.main .aboutExperience .expLevel >div >h3{
+.main .allAboutContainer .aboutExperience .expLevel >div >h3{
     color: #00adb5;
     font-size: 1.6rem;
     font-family: var(--castoro);
     font-weight: 800;
 }
-.main .aboutExperience .expLevel >div >h4{
+.main .allAboutContainer .aboutExperience .expLevel >div >h4{
     font-size: 1rem;
     color: #eeeeee8a;
     background: #00acb528;
@@ -347,7 +405,7 @@ text-align: center;
     padding: .3rem .1rem;
     text-align: center;
 }
-.main .aboutExperience .expLevel >div >p{
+.main .allAboutContainer .aboutExperience .expLevel >div >p{
     color: #00acb5ba;
     font-size: 16px;
     margin-top: 1.5rem;
@@ -355,11 +413,11 @@ text-align: center;
     text-align: center;
 }
 /* grades style*/
-.main .aboutExperience .expLevel >div >p .grades{
+.main .allAboutContainer .aboutExperience .expLevel >div >p .grades{
     color: #eeeeeeb6;
 }
 /* diploma style */
-.main .aboutExperience .expLevel >div >p .coc{
+.main .allAboutContainer .aboutExperience .expLevel >div >p .coc{
     color: #eeeeeeb6;
 }
 
@@ -370,20 +428,6 @@ text-align: center;
 
 
 
-/* hidden class of swiper set z-index */
-.main .aboutExperience .expLevel .certi{
-    z-index: inherit;
-    margin: 2rem 0;
-}
-
-
-
-.main .aboutExperience .expLevel .certi .SwiperSlide  >img{
-    height: 100%;
-    width: 100%;
-    max-height: 350px;
-    max-width: 500px;
-}
 
 
 
@@ -396,7 +440,7 @@ text-align: center;
 
 
 /* says about me */
-.main .saysAboutMe{
+.main .allAboutContainer .saysAboutMe{
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -408,9 +452,11 @@ text-align: center;
     gap: 1rem;
 
     grid-area: testimonial;
+
+    position: relative;
 }
 
-.main .saysAboutMe >h2{
+.main .allAboutContainer .saysAboutMe >h2{
     font-size: 26px;
     color: #00adb5;
     font-family: var(--castoro);
@@ -422,26 +468,27 @@ text-align: center;
 
 /* animation slide keyframes */
 @keyframes slide {
-    from {
-      transform: translateX(100vw);
+    0% {
+      transform: translateX(0%);
     }
-    to {
-      transform: translateX(-5000px);
+    100% {
+      transform: translateX(-300%);
     }
   }
 
-.main .saysAboutMe #scroll{
+.main .allAboutContainer .saysAboutMe #scroll{
     gap: 2.5rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    animation: 45s slide infinite linear;
+    flex-direction: row-reverse;
+    animation: slide 30s linear infinite;
     max-width: 1600px;
     margin: 0 auto;
 }
 
-.main .saysAboutMe:before,
-.main .saysAboutMe:after {
+.main .allAboutContainer .saysAboutMe:before,
+.main .allAboutContainer .saysAboutMe:after {
   position: absolute;
   bottom: 2rem;
   width: 100px;
@@ -451,12 +498,12 @@ text-align: center;
 }
 
 
-.main .saysAboutMe:before {
+.main .allAboutContainer .saysAboutMe:before {
     left: 0;
     background: linear-gradient(to left, rgba(255, 255, 255, 0), #222831);
   }
   
-.main .saysAboutMe:after {
+.main .allAboutContainer .saysAboutMe:after {
     right: 0;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), #222831);
   }
@@ -464,8 +511,8 @@ text-align: center;
 
 
 
-
-  .main .saysAboutMe #scroll:hover {
+/* pause animation if hover */
+  .main .allAboutContainer .saysAboutMe #scroll:hover {
     animation-play-state: paused;
   }
 
@@ -474,7 +521,7 @@ text-align: center;
 
 
 
-.main .saysAboutMe >#scroll >div{
+.main .allAboutContainer .saysAboutMe >#scroll >div{
     height: 27rem;
     width: 100%;
     max-width: 21rem;
@@ -491,7 +538,7 @@ text-align: center;
     padding: .2rem .5rem;
     position: relative;
 }
-.main .saysAboutMe >#scroll >div .date{
+.main .allAboutContainer .saysAboutMe >#scroll >div .date{
     position: absolute;
     color: #00adb5;
     top: .5rem;
@@ -501,18 +548,18 @@ text-align: center;
 
 
 
-.main .saysAboutMe >#scroll >div:hover{
+.main .allAboutContainer .saysAboutMe >#scroll >div:hover{
     background: #00acb548;   
     transform: translateY(-5px);
 }
-.main .saysAboutMe >#scroll >div >span{
+.main .allAboutContainer .saysAboutMe >#scroll >div >span{
     height: 2rem;
     width: 100%;
     position: relative;
     background: #222831;
     box-sizing: content-box;
 }
-.main .saysAboutMe >#scroll >div >span >i{
+.main .allAboutContainer .saysAboutMe >#scroll >div >span >i{
     position: absolute;
     top: 5%;
     left: 50%;
@@ -524,7 +571,7 @@ text-align: center;
     border: 12px solid #00adb5;
     color: #222831;
 }
-.main .saysAboutMe >#scroll >div >h3{
+.main .allAboutContainer .saysAboutMe >#scroll >div >h3{
     position: absolute;
     top: 6.5rem;
     left: 50%;
@@ -538,11 +585,11 @@ text-align: center;
 }
 
 /* prof <a> */
-.main .saysAboutMe >#scroll >div >a{
+.main .allAboutContainer .saysAboutMe >#scroll >div >a{
     color: #eeeeee;
     text-decoration: none;
     position: absolute;
-    bottom: .5rem;
+    top: .5rem;
     right: .5rem;
     border: 1px solid #eeeeee;
     background: #eeeeee;
@@ -551,31 +598,13 @@ text-align: center;
     font-weight: bold;
     font-family: var(--sans);
     border-radius: .2rem;
+    font-size: 12px;
 }
 
 
-.main .saysAboutMe >#scroll >div >h3 >a{
-    text-decoration: none;
-}
-.main .saysAboutMe >#scroll >div >h3 >a >i{
-    color: #eeeeee;
-    margin-right: .2rem;
-    font-size: 1.4rem;
-    transition: 1s;
-    position: absolute;
-    right: 1rem;
-    top: -6.2rem;
-}
-.main .saysAboutMe >#scroll >div:hover >h3 >a >i{
-    transform: rotate(360deg);
-}
-.main .saysAboutMe >#scroll >div:hover >h3 >a >i:hover{
-    transform: translateY(-2px);
-}
-
-.main .saysAboutMe >#scroll >div >p{
+.main .allAboutContainer .saysAboutMe >#scroll >div >p{
     margin-top: 9rem;
-    font-size: 1.1rem;
+    font-size: 14px;
     font-family: var(--sans);
     color: #eeeeee;
     word-break: break-word;
@@ -594,20 +623,20 @@ text-align: center;
 @media screen and (max-width: 990px){
 
     /* put flex-wrap and flex-start */
-    .main .aboutUses {
+    .main .allAboutContainer .aboutUses {
         flex-wrap: wrap;
         justify-content: flex-start;  
     }
 
     /*  reset aboutRight  margin  */
-        .main .about .rightAbout{
+        .main .allAboutContainer .about .rightAbout{
         padding-top: 0;
     }
 
 
     /* decrease shadow left & right from saysAboutMe slider */
-    .main .saysAboutMe:before,
-.main .saysAboutMe:after {
+    .main .allAboutContainer .saysAboutMe:before,
+.main .allAboutContainer .saysAboutMe:after {
   width: 20px;
 }
 
@@ -617,7 +646,11 @@ text-align: center;
 
 
 
-
+@media screen and (min-width: 769px){
+    .main .allAboutContainer .aboutExperience .expLevel >div{
+        max-height: 17rem;
+    }
+}
 
 
 
@@ -628,13 +661,14 @@ text-align: center;
         /* new layout of all about */
     
 
-    .main .aboutUsesSubAndExpLevel{
+    .main .allAboutContainer{
     grid-template-columns: auto;
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(5, auto);
     grid-template-areas: 
     "about"
     "expLevel"
     "uses"
+    "certifications"
     "testimonial";
     max-width: 1700px;
 
@@ -645,13 +679,13 @@ text-align: center;
 
 
   /* new layout of about */
-    .main .about{
+    .main .allAboutContainer .about{
        flex-direction: column-reverse;
     }
 
 
     /* reset */
-    .main .saysAboutMe{
+    .main .allAboutContainer .saysAboutMe{
         padding-top: 0;
     }
 
@@ -670,29 +704,24 @@ text-align: center;
   
  
     /* text indent unset */
-    .main .aboutExperience .expLevel >div >h3,
-    .main .aboutExperience .expLevel >div >h4,
-    .main .aboutExperience .expLevel >div >small{
+    .main .allAboutContainer .aboutExperience .expLevel >div >h3,
+    .main .allAboutContainer .aboutExperience .expLevel >div >h4,
+    .main .allAboutContainer .aboutExperience .expLevel >div >small{
         text-indent: 0;
     }
 
 
 
     /* about Experience decrease indention/margin */
-    .main .aboutExperience{
+    .main .allAboutContainer .aboutExperience{
         padding: 3rem .5rem 2rem 1rem;
     }
     /* set center h2 */
-    .main .aboutExperience >h2{
+    .main .allAboutContainer .aboutExperience >h2{
         text-align: center;
     }
 
-    /* make certificate container responsive */
-    .main .aboutExperience .expLevel .certiCon {
-     position: relative; 
-     width: 100vw; 
-     max-width: 600px; 
-}
+
 
 
 }
@@ -704,12 +733,12 @@ text-align: center;
 
 /* for project date */
 @media screen and (max-width: 300px){
-    .main .saysAboutMe >#scroll >div .date{
+    .main .allAboutContainer .saysAboutMe >#scroll >div .date{
         font-size: .6rem;
     }
 
 
-    .main .about .leftAbout >h2{
+    .main .allAboutContainer .about .leftAbout >h2{
         font-size: 25px;
     }
     
@@ -720,7 +749,7 @@ text-align: center;
 
 
     
-    .main .aboutExperience .expLevel >div:nth-child(5) >small >div{
+    .main .allAboutContainer .aboutExperience .expLevel >div:nth-child(5) >small >div{
         font-size: .7rem !important;
     }
     
