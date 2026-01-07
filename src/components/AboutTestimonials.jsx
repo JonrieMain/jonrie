@@ -1,12 +1,11 @@
+import { FaArrowsAltH } from "react-icons/fa";
 const AboutTestimonials = () => {
   return (
     <>
     
     
-    
-    
     {/* for 1st batch */}
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                     <div className="date">5/24/2022</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -16,7 +15,7 @@ const AboutTestimonials = () => {
                         <p>Jonrie is a very good person and very helpful; there's a lot he's done to help me, like those projects, quizzes, and modules about programming; if I don't understand, Jonrie is there to teach me; Jonrie is very nice; I am speechless; I hope he becomes successful someday.</p>
                     </div>
     
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                     <div className="date">5/28/2022</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -26,7 +25,7 @@ const AboutTestimonials = () => {
                         <p>Jonrie Morales is very good in terms of programming. He helped me before to build a web-based resume, and I recommend that you ask him for help because he is reliable and he is such a nice person.</p>
                     </div>
     
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                     <div className="date">6/1/2022</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -36,7 +35,7 @@ const AboutTestimonials = () => {
                         <p>Jonrie is one of my friends. We are not really close, but I feel good about him helping me with other schoolwork, especially in computer programming, about which I have no knowledge. When I chatted with him, he immediately helped me build the blog site about my school. For me jonrie is very nice person at realible.</p>
                     </div>
     
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                     <div className="date">12/13/2022</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -47,7 +46,7 @@ const AboutTestimonials = () => {
                     </div> 
 
 
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                     <div className="date">1/11/2023</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -58,7 +57,7 @@ const AboutTestimonials = () => {
                     </div> 
 
     
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                     <div className="date">4/9/2023</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -69,7 +68,7 @@ const AboutTestimonials = () => {
                     </div> 
     
     
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                     <div className="date">5/25/2023</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -80,7 +79,7 @@ const AboutTestimonials = () => {
                         </p>
                     </div> 
 
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                     <div className="date">9/1/2023</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -91,7 +90,7 @@ const AboutTestimonials = () => {
                     </div> 
 
 
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                     <div className="date">9/14/2023</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -101,7 +100,7 @@ const AboutTestimonials = () => {
                         <p>Super accommodating and reliable! And the work is beautiful and easy to talk about. The price is very budget-friendly, which is very helpful for students.</p>
                     </div> 
 
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                     <div className="date">9/24/2023</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -112,7 +111,7 @@ const AboutTestimonials = () => {
                     </div> 
 
 
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                         <div className="date">9/24/2023</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -124,7 +123,7 @@ const AboutTestimonials = () => {
 
 
 
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                         <div className="date">02/11/2024</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -134,7 +133,7 @@ const AboutTestimonials = () => {
                         <p>Working with Mr. Jonrie has been an absolute pleasure. His dedication to quality, attention to detail, and swift problem-solving skills have truly elevated our project. He consistently goes above and beyond to ensure our satisfaction and deliver results that exceed expectations. I highly recommend his services to anyone seeking a reliable and talented developer.</p>
                     </div> 
 
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                         <div className="date">02/11/2024</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -147,7 +146,7 @@ const AboutTestimonials = () => {
 
 
 
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                         <div className="date">04/06/2025</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -159,7 +158,7 @@ const AboutTestimonials = () => {
                     </div> 
 
 
-                    <div data-aos="fade-up" data-aos-duration="1000">
+                    <div>
                         <div className="date">04/07/2025</div>
                         <span>
                             <i className="fa-solid fa-user"></i>
@@ -168,6 +167,15 @@ const AboutTestimonials = () => {
                         <br /> <small>(BSIT Student)</small></h3>
                         <a target='_blank' href="/assets/testimonials/testi15.PNG">View</a>
                         <p>Thank you so much i appreciate your effort,very professional and thank you again.</p>
+                    </div> 
+
+                     <div className="end">
+                        
+                        <span>
+                            <FaArrowsAltH className="endArrow" />
+                        </span>
+                       
+                       
                     </div> 
 
 

@@ -10,22 +10,6 @@ import { BsFillPeopleFill } from "react-icons/bs";
 
 
 
-
-
-
-
-// swiper
-// swiper module
-import { EffectCards, Pagination } from 'swiper/modules';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-
-
-// swiper css
-import 'swiper/css/effect-cards';
-import '../../node_modules/swiper/swiper.css';
-import '../../node_modules/swiper/modules/pagination.css';
 import { useEffect } from 'react';
 import AboutTestimonials from './AboutTestimonials';
 

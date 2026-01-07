@@ -613,6 +613,20 @@ max-width: 900px;
 }
 
 
+/* end of testimonials */
+.main .allAboutContainer .saysAboutMe >#scroll .end >span{
+    height: 100%;
+}
+.main .allAboutContainer .saysAboutMe >#scroll .end >span .endArrow{
+    color: #eeeeee;
+    font-size: 8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
 
 
 
