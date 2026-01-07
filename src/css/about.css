@@ -640,6 +640,7 @@ max-width: 900px;
     .main .allAboutContainer .aboutUses {
         flex-wrap: wrap;
         justify-content: flex-start;  
+        margin-top: 45px;
     }
 
     /*  reset aboutRight  margin  */

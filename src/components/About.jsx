@@ -97,7 +97,7 @@ useEffect(()=>{
                 </div>
                 </div>
                 <div className="others" data-aos="fade-up"
-                data-aos-duration="500" data-aos-delay="500">
+                data-aos-duration="500">
                     <h3>For version control and others</h3>
                     <div>
                     <p>Git</p>
@@ -128,66 +128,65 @@ useEffect(()=>{
 
 
 
-
          {/* certifications */}
   <div className="certifications">
 
              <h3><PiCertificate className='certificateIcon'/> Recent Certifications</h3>
     
     <div className="certificates">
-         <a target='__blank' href='https://jonrie.vercel.app/assets/cer12.jpg'>
+         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer12.jpg'>
             <h2>Programming</h2>
             <p>Learn Computer Today</p>
         </a>
-         <a target='__blank' href='https://jonrie.vercel.app/assets/cer11.jpg'>
+         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer11.jpg'>
             <h2>Web Development</h2>
             <p>Learn Computer Today</p>
         </a>
-         <a target='__blank' href='https://jonrie.vercel.app/assets/cer10.jpg'>
+         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer10.jpg'>
             <h2>Git & Github</h2>
             <p>Learn Computer Today</p>
         </a>
-         <a target='__blank' href='https://jonrie.vercel.app/assets/cer1.jpg'>
+         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer1.jpg'>
             <h2>Typescript: Taking Javascript to the Next Level</h2>
             <p>PWA Pilipinas</p>
         </a>
 
        
 
-         <a target='__blank' href='https://jonrie.vercel.app/assets/cer8.jpg'>
+         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer8.jpg'>
             <h2>Information System Students Seminar</h2>
             <p>IIHC Novaliches</p>
         </a>
 
-          <a target='__blank' href='https://jonrie.vercel.app/assets/cer7.jpg'>
+          <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer7.jpg'>
             <h2>Creating an Adventure Game with Python Code</h2>
             <p>ReSkills</p>
         </a>
         
-         <a target='__blank' href='https://jonrie.vercel.app/assets/cer6.jpg'>
+         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer6.jpg'>
             <h2>Javascript</h2>
             <p>Sololearn</p>
         </a>
-         <a target='__blank' href='https://jonrie.vercel.app/assets/cer5.jpg'>
+         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer5.jpg'>
             <h2>CSS</h2>
             <p>Sololearn</p>
         </a>
-         <a target='__blank' href='https://jonrie.vercel.app/assets/cer4.jpg'>
+         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer4.jpg'>
             <h2>HTML5</h2>
             <p>Sololearn</p>
         </a>
 
-          <a target='__blank' href='https://jonrie.vercel.app/assets/cer3.jpg'>
+          <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer3.jpg'>
             <h2>Const Coding Challenge</h2>
             <p>ConstWardtz Programming Community</p>
         </a>
 
-         <a target='__blank' href='https://jonrie.vercel.app/assets/cer2.jpg'>
+         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer2.jpg'>
             <h2>Coding Game 4th Place</h2>
             <p>Programming Philippines</p>
         </a>
 
-        <a target='__blank' href='https://jonrie.vercel.app/assets/cer1.jpg'>
+        <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer1.jpg'>
             <h2>Basic Computer</h2>
             <p>Aim Tech Caloocan</p>
         </a>
@@ -289,7 +288,7 @@ useEffect(()=>{
                 <h2 id="testimonials" data-aos="fade-right"><BsFillPeopleFill/> Testimonials & Recommendations</h2>
                 
     
-                <div id="scroll">
+                <div id="scroll" data-aos="fade-up" data-aos-duration="5000">
 
                   
     
