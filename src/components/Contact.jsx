@@ -1,7 +1,7 @@
 //framer motion
 import { motion } from 'framer-motion';
 // framer reusable aos animation
-import AOS from './animations/aos';
+import AOS from './animations/AOS';
 // css
 import '../css/contact.css';
 // react icons
