@@ -62,15 +62,7 @@ useEffect(()=>{
 
             <div className="leftAbout">
             <h2 id="about"><FaUser /> Who am i?</h2>
-            <p>My name is Jonrie Badiang, and I am a 
-                frontend developer. I enjoy building 
-                websites as well as transforming them into
-                 mobile and user-friendly applications. 
-                Turning conceptual designs into actual 
-                web applications is something I enjoy 
-                doing. Although my interest is front-end 
-                development, I also have back-end 
-                development experience.</p>
+            <p>My name is Jonrie Badiang, and I am a full-stack web developer driven by the challenge of transforming complex conceptual designs into seamless, functional web applications. My expertise lies in building robust websites and evolving them into intuitive, mobile-friendly experiences. Currently, I’m deep-diving into the React.js ecosystem to create dynamic, fast-loading user interfaces.</p>
             </div>
 
             <div className="rightAbout">
