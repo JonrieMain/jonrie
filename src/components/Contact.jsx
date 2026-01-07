@@ -1,5 +1,7 @@
 //framer motion
 import { motion } from 'framer-motion';
+// framer reusable aos animation
+import AOS from './animations/aos';
 // css
 import '../css/contact.css';
 // react icons
@@ -14,7 +16,7 @@ const Contact = () =>{
         <div className="letsTalk" id="letsTalk">
 
 
-        <motion.div className="letTalkIn" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
+        <motion.div className="letTalkIn" {...AOS}>
         <h2 id="letsTalk"><MdEmail/> Contact</h2>
         <p>I'm looking forward to working with you and I hope my portfolio satisfied you. If you're not yet satisfied, you can contact me to learn more about me, and if you are, I'd appreciate it if you did. The following details are how you can get in touch with me. I'll respond as quickly as I can. Thank you </p>
        
@@ -42,7 +44,7 @@ const Contact = () =>{
 
 
         {/* <!-- contact form --> */}
-        <motion.form  className="contactForm" action="https://formsubmit.co/ad4e0ff231edc13df9d5c9beef1e68b3" method="POST" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
+        <motion.form  className="contactForm" action="https://formsubmit.co/ad4e0ff231edc13df9d5c9beef1e68b3" method="POST" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: -30}} viewport={{margin: "-100px", once: true}} transition={{duration: 1.1}}>
 
             <h1>LET'S HAVE A TALK</h1> 
             <div> 

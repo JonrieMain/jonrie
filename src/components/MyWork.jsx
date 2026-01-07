@@ -1,5 +1,7 @@
 // framer motion
 import { motion } from 'framer-motion';
+// framer reusable aos animation
+import AOS from './animations/aos';
 
 // css
 import '../css/myWorks.css';
@@ -22,7 +24,7 @@ const MyWork = ()=>{
     return(
         <div className="myWorks">
 
-        <motion.h2 id="myWorks" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: .5}}><FaChartArea/> My works and Projects</motion.h2>
+        <motion.h2 id="myWorks" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-100px", once: true}} transition={{duration: .5}}><FaChartArea/> My works and Projects</motion.h2>
       
         {/* <!-- laptop --> */}
         <img className="laptop" src="/assets/laptop.png" alt="laptop" />
@@ -55,11 +57,11 @@ const MyWork = ()=>{
 
 
 
-    <motion.p initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: .5}}>I already receive many projects from a student from a different school. Here are some of my full-stack apps and a PSD application that has been turned into a web page.</motion.p>
+    <motion.p initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-100px", once: true}} transition={{duration: .5}}>I already receive many projects from a student from a different school. Here are some of my full-stack apps and a PSD application that has been turned into a web page.</motion.p>
 
 
 
-        <motion.div className="worksCon" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
+        <motion.div className="worksCon" {...AOS}>
 
 
 

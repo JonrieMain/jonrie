@@ -11,7 +11,7 @@ import "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js";
 
 
 // particle config
-import ParticlesJSON from "./ParticlesJSON";
+import ParticlesJSON from "./animations/ParticlesJSON";
 
 // modules and loadFull
 import Particles from "react-tsparticles";

@@ -1,5 +1,7 @@
 //framer motion
 import { motion } from 'framer-motion';
+// framer reusable aos animation
+import AOS from './animations/aos';
 
 // css
 import '../css/about.css';
@@ -45,7 +47,7 @@ useEffect(()=>{
       
     
           {/* // <!-- about --> */}
-        <motion.div className="about" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
+        <motion.div className="about" {...AOS}>
 
             <div className="leftAbout">
             <h2 id="about"><FaUser /> Who am i?</h2>
@@ -72,7 +74,7 @@ useEffect(()=>{
 
 
          {/*  technologies uses --> */}
-        <motion.div className="aboutUses" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
+        <motion.div className="aboutUses" {...AOS}>
             
 
             <h2><BsStack /> What are the technologies i use?</h2>
@@ -129,7 +131,7 @@ useEffect(()=>{
 
 
          {/* certifications */}
-  <motion.div className="certifications" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
+  <motion.div className="certifications" {...AOS}>
 
              <h3><PiCertificate className='certificateIcon'/> Recent Certifications</h3>
     
@@ -207,7 +209,7 @@ useEffect(()=>{
 
 
 {/* experience */}
- <motion.div className="aboutExperience" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
+ <motion.div className="aboutExperience" {...AOS}>
                 <h2><FaBriefcase /> How about my experience?</h2>
 
                     
@@ -287,7 +289,7 @@ useEffect(()=>{
 
 
     {/* saysAboutMe */}
- <motion.div className="saysAboutMe" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
+ <motion.div className="saysAboutMe" {...AOS}>
 
 
                 <h2 id="testimonials"><BsFillPeopleFill/> Testimonials & Recommendations</h2>
