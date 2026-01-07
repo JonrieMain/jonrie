@@ -300,13 +300,13 @@ max-width: 900px;
 .main .allAboutContainer .aboutExperience .expLevel >div >h3,
 .main .allAboutContainer .aboutExperience .expLevel #current >div >h3{
     color: #00adb5;
-    font-size: 1.6rem;
+    font-size: 17px;
     font-family: var(--castoro);
     font-weight: 800;
 }
 .main .allAboutContainer .aboutExperience .expLevel >div >h4,
 .main .allAboutContainer .aboutExperience .expLevel #current >div >h4{
-    font-size: 1rem;
+    font-size: 14px;
     color: #eeeeee8a;
     background: #00acb528;
     font-family: var(--castoro);

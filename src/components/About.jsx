@@ -215,48 +215,50 @@ useEffect(()=>{
                     
                 <div className="expLevel">
     
+
+                    <div>
+                        <small>2018</small>
+                        <h3>Junior High School</h3>
+                        <h4>Hello World! 👋🏻</h4>
+                        <p>Wrote my first line of code.</p>
+                    </div>
                     
     
                     <div>
                         <small>June 2020-July 2022</small>
-                        <h3>Senior High School</h3>
+                        <h3>Information Communcation Technology(ICT)</h3>
                         <h4>Trinity Polytechnic College</h4>
-                        <p>Taking and graduating from senior high school with a TVL - Information Communication Technology (ICT) strand <br /><br /> <a target='_blank' className={"coc"} href="./assets/shsDiploma.jpg">Certificate Of Completion</a></p>
+                        <p><br /> <a target='_blank' className={"coc"} href="./assets/shsDiploma.jpg">Certificate Of Completion</a></p>
                     </div>
     
                     <div>
                     <small>July 2022-Oct. 2024</small>
-                        <h3>College</h3>
+                        <h3>BS Information System</h3>
                         <h4>Integrated Innovation and Hospitality College</h4>
                         <p>I finished the first year of the Bachelor of Science in Information Systems (BSIS) program and enrolled in the second year, but I had to quit during the first semester because of financial issues. You can check my <a target='_blank' className={"grades"} href="/assets/1stSem.jpg">1st</a> and <a target='_blank' className={"grades"} href="/assets/2ndSem.jpg">2nd</a> semester grades</p>
 
                     </div>
                    
-                    <div>
-                    <small>Dec. 2020-Oct. 2024</small>
-                    <h3>STAFF</h3>
-                    <h4>DHEELUXE SKIN</h4>
-                    <p>Working as a Staff at the DHEELUXE SKIN <br/><br /><em>Working student from 2020 to 2024, senior high school and college.</em></p>
-                    </div>
-
-                     <div>
-                    <small>Oct. 2024-Oct. 2025</small>
-                    <h3>Sales and Marketing</h3>
-                    <h4>D’LUXXE SKINLAB COSMETICS MANUFACTURING CORP.</h4>
-                    <p>Working as a Sales and Marketing at the D’LUXXE SKINLAB COSMETICS MANUFACTURING CORP.</p>
-                    </div>
-
-                
+                   
 
 
                     <span id="current">
                     {/* move this current(span) container to the latest experience. Reverse order */}
 
-                      <div>
+                      {/* <div>
                     <small>Oct. 2025-Present</small>
                         <h3>Machine Operator</h3>
                         <h4>Platinum Printing</h4>
                         <p>Operated large-format printing machines to produce high-quality sticker prints. Layouted sticker designs from the computer, ensuring accurate alignment and clean output on sticker paper, and operated cutting plotters to cut sticker designs.</p>
+                    </div> */}
+
+
+
+                     <div>
+                    <small>Dec. 2022-Present</small>
+                    <h3>Freelance Full-Stack Web Developer</h3>
+                    <h4></h4>
+                    <p>Building functional, and user-friendly websites from the ground up. I bridge the gap between complex backend logic and intuitive frontend design to deliver complete digital solutions.</p>
                     </div>
 
 
