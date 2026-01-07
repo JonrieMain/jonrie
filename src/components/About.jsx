@@ -1,3 +1,6 @@
+//framer motion
+import { motion } from 'framer-motion';
+
 // css
 import '../css/about.css';
 
@@ -42,7 +45,7 @@ useEffect(()=>{
       
     
           {/* // <!-- about --> */}
-        <div className="about"  data-aos="fade-up" data-aos-duration="3000">
+        <motion.div className="about" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
 
             <div className="leftAbout">
             <h2 id="about"><FaUser /> Who am i?</h2>
@@ -53,7 +56,7 @@ useEffect(()=>{
                 <img className='myImage' src="/assets/Jonrie.jpg" alt="Jonrie" />
             </div>
 
-        </div>
+        </motion.div>
          {/* // <!-- about end --> */}
 
 
@@ -69,13 +72,12 @@ useEffect(()=>{
 
 
          {/*  technologies uses --> */}
-        <div className="aboutUses" data-aos="fade-up" data-aos-duration="3000">
+        <motion.div className="aboutUses" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
             
 
-            <h2 data-aos="fade-right"><BsStack /> What are the technologies i use?</h2>
+            <h2><BsStack /> What are the technologies i use?</h2>
 
-                <div className="frontend" data-aos="fade-up"
-                data-aos-duration="500">
+                <div className="frontend">
                     <h3>For frontend</h3>
                     <div>
                     <p>Javascript</p>
@@ -87,8 +89,7 @@ useEffect(()=>{
                     <p>React JS</p>
                 </div>
                 </div>
-                <div className="backend" data-aos="fade-up"
-                data-aos-duration="500" data-aos-delay="300">
+                <div className="backend">
                     <h3>For backend</h3>
                     <div>
                     <p>PHP</p>
@@ -96,8 +97,7 @@ useEffect(()=>{
                     <p>AJAX</p>
                 </div>
                 </div>
-                <div className="others" data-aos="fade-up"
-                data-aos-duration="500">
+                <div className="others">
                     <h3>For version control and others</h3>
                     <div>
                     <p>Git</p>
@@ -118,7 +118,7 @@ useEffect(()=>{
                     <p>SweetAlert</p>
                 </div>
                 </div>
-         </div>
+         </motion.div>
 
          {/*  technologies uses end --> */}
 
@@ -129,64 +129,64 @@ useEffect(()=>{
 
 
          {/* certifications */}
-  <div className="certifications">
+  <motion.div className="certifications" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
 
              <h3><PiCertificate className='certificateIcon'/> Recent Certifications</h3>
     
     <div className="certificates">
-         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer12.jpg'>
+         <a target='__blank' href='https://jonrie.vercel.app/assets/cer12.jpg'>
             <h2>Programming</h2>
             <p>Learn Computer Today</p>
         </a>
-         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer11.jpg'>
+         <a target='__blank' href='https://jonrie.vercel.app/assets/cer11.jpg'>
             <h2>Web Development</h2>
             <p>Learn Computer Today</p>
         </a>
-         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer10.jpg'>
+         <a target='__blank' href='https://jonrie.vercel.app/assets/cer10.jpg'>
             <h2>Git & Github</h2>
             <p>Learn Computer Today</p>
         </a>
-         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer1.jpg'>
+         <a target='__blank' href='https://jonrie.vercel.app/assets/cer1.jpg'>
             <h2>Typescript: Taking Javascript to the Next Level</h2>
             <p>PWA Pilipinas</p>
         </a>
 
        
 
-         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer8.jpg'>
+         <a target='__blank' href='https://jonrie.vercel.app/assets/cer8.jpg'>
             <h2>Information System Students Seminar</h2>
             <p>IIHC Novaliches</p>
         </a>
 
-          <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer7.jpg'>
+          <a target='__blank' href='https://jonrie.vercel.app/assets/cer7.jpg'>
             <h2>Creating an Adventure Game with Python Code</h2>
             <p>ReSkills</p>
         </a>
         
-         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer6.jpg'>
+         <a target='__blank' href='https://jonrie.vercel.app/assets/cer6.jpg'>
             <h2>Javascript</h2>
             <p>Sololearn</p>
         </a>
-         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer5.jpg'>
+         <a target='__blank' href='https://jonrie.vercel.app/assets/cer5.jpg'>
             <h2>CSS</h2>
             <p>Sololearn</p>
         </a>
-         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer4.jpg'>
+         <a target='__blank' href='https://jonrie.vercel.app/assets/cer4.jpg'>
             <h2>HTML5</h2>
             <p>Sololearn</p>
         </a>
 
-          <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer3.jpg'>
+          <a target='__blank' href='https://jonrie.vercel.app/assets/cer3.jpg'>
             <h2>Const Coding Challenge</h2>
             <p>ConstWardtz Programming Community</p>
         </a>
 
-         <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer2.jpg'>
+         <a target='__blank' href='https://jonrie.vercel.app/assets/cer2.jpg'>
             <h2>Coding Game 4th Place</h2>
             <p>Programming Philippines</p>
         </a>
 
-        <a data-aos="fade-up" data-aos-duration="5000" target='__blank' href='https://jonrie.vercel.app/assets/cer1.jpg'>
+        <a target='__blank' href='https://jonrie.vercel.app/assets/cer1.jpg'>
             <h2>Basic Computer</h2>
             <p>Aim Tech Caloocan</p>
         </a>
@@ -195,7 +195,7 @@ useEffect(()=>{
 
 
 
-        </div>
+        </motion.div>
          {/* certifications end */}
 
 
@@ -207,22 +207,22 @@ useEffect(()=>{
 
 
 {/* experience */}
- <div className="aboutExperience">
-                <h2 data-aos="fade-right"><FaBriefcase /> How about my experience?</h2>
+ <motion.div className="aboutExperience" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
+                <h2><FaBriefcase /> How about my experience?</h2>
 
                     
                 <div className="expLevel">
     
                     
     
-                    <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="100">
+                    <div>
                         <small>June 2020-July 2022</small>
                         <h3>Senior High School</h3>
                         <h4>Trinity Polytechnic College</h4>
                         <p>Taking and graduating from senior high school with a TVL - Information Communication Technology (ICT) strand <br /><br /> <a target='_blank' className={"coc"} href="./assets/shsDiploma.jpg">Certificate Of Completion</a></p>
                     </div>
     
-                    <div data-aos="fade-up" data-aos-duration="300">
+                    <div>
                     <small>July 2022-Oct. 2024</small>
                         <h3>College</h3>
                         <h4>Integrated Innovation and Hospitality College</h4>
@@ -230,14 +230,14 @@ useEffect(()=>{
 
                     </div>
                    
-                    <div data-aos="fade-up" data-aos-duration="300">
+                    <div>
                     <small>Dec. 2020-Oct. 2024</small>
                     <h3>STAFF</h3>
                     <h4>DHEELUXE SKIN</h4>
                     <p>Working as a Staff at the DHEELUXE SKIN <br/><br /><em>Working student from 2020 to 2024, senior high school and college.</em></p>
                     </div>
 
-                     <div data-aos="fade-up" data-aos-duration="300">
+                     <div>
                     <small>Oct. 2024-Oct. 2025</small>
                     <h3>Sales and Marketing</h3>
                     <h4>D’LUXXE SKINLAB COSMETICS MANUFACTURING CORP.</h4>
@@ -247,14 +247,19 @@ useEffect(()=>{
                 
 
 
+                    <span id="current">
+                    {/* move this current(span) container to the latest experience. Reverse order */}
 
-                      <div data-aos="fade-up" data-aos-duration="300">
+                      <div>
                     <small>Oct. 2025-Present</small>
                         <h3>Machine Operator</h3>
                         <h4>Platinum Printing</h4>
-                        <p id="current">Operated large-format printing machines to produce high-quality sticker prints. Layouted sticker designs from the computer, ensuring accurate alignment and clean output on sticker paper, and operated cutting plotters to cut sticker designs.</p>
+                        <p>Operated large-format printing machines to produce high-quality sticker prints. Layouted sticker designs from the computer, ensuring accurate alignment and clean output on sticker paper, and operated cutting plotters to cut sticker designs.</p>
                     </div>
 
+
+                    </span>
+                    {/* move this current(span) container to the latest experience. Reverse order */}
                    
     
                 </div>
@@ -268,7 +273,7 @@ useEffect(()=>{
 
 
 
-             </div>
+             </motion.div>
              {/* experience end */}
 
 
@@ -282,13 +287,13 @@ useEffect(()=>{
 
 
     {/* saysAboutMe */}
- <div className="saysAboutMe">
+ <motion.div className="saysAboutMe" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-200px", once: true}} transition={{duration: 1.1}}>
 
 
-                <h2 id="testimonials" data-aos="fade-right"><BsFillPeopleFill/> Testimonials & Recommendations</h2>
+                <h2 id="testimonials"><BsFillPeopleFill/> Testimonials & Recommendations</h2>
                 
     
-                <div id="scroll" data-aos="fade-up" data-aos-duration="5000">
+                <div id="scroll">
 
                   
     
@@ -310,7 +315,7 @@ useEffect(()=>{
     
                 </div>
     
-             </div>
+             </motion.div>
              {/* saysAboutMe end */}
 
 

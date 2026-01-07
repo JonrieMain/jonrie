@@ -265,7 +265,8 @@ max-width: 900px;
     gap: 4.5rem;
     margin-top: 5rem;
 }
-.main .allAboutContainer .aboutExperience .expLevel >div{
+.main .allAboutContainer .aboutExperience .expLevel >div,
+.main .allAboutContainer .aboutExperience .expLevel #current >div{
     background: transparent;
     box-shadow: -3px 0px 27px -11px rgba(0,173,181,0.75);
     -webkit-box-shadow: -3px 0px 27px -11px rgba(0,173,181,0.75);
@@ -280,7 +281,8 @@ max-width: 900px;
 
 
 
-.main .allAboutContainer .aboutExperience .expLevel >div >small{
+.main .allAboutContainer .aboutExperience .expLevel >div >small,
+.main .allAboutContainer .aboutExperience .expLevel #current >div >small{
     position: absolute;
     top: -2.5rem;
     left: 1rem;
@@ -294,11 +296,57 @@ max-width: 900px;
 
 
 
+
+.main .allAboutContainer .aboutExperience .expLevel >div >h3,
+.main .allAboutContainer .aboutExperience .expLevel #current >div >h3{
+    color: #00adb5;
+    font-size: 1.6rem;
+    font-family: var(--castoro);
+    font-weight: 800;
+}
+.main .allAboutContainer .aboutExperience .expLevel >div >h4,
+.main .allAboutContainer .aboutExperience .expLevel #current >div >h4{
+    font-size: 1rem;
+    color: #eeeeee8a;
+    background: #00acb528;
+    font-family: var(--castoro);
+    font-weight: 400;
+    text-indent: 1rem;
+    margin-top: .4rem;
+    padding: .3rem .1rem;
+    text-align: center;
+}
+.main .allAboutContainer .aboutExperience .expLevel >div >p,
+.main .allAboutContainer .aboutExperience .expLevel #current >div >p{
+    color: #00acb5ba;
+    font-size: 16px;
+    margin-top: 1.5rem;
+    font-family: var(--sans);
+    text-align: center;
+}
+/* grades style*/
+.main .allAboutContainer .aboutExperience .expLevel >div >p .grades{
+    color: #eeeeeeb6;
+}
+/* diploma style */
+.main .allAboutContainer .aboutExperience .expLevel >div >p .coc{
+    color: #eeeeeeb6;
+}
+
+
+/* animation of expLevel */
+
+
 /* current experience div style */
 @keyframes glowing {
     0% {background-position: 0 0;}
     50% {background-position: 400% 0;}
     100% {background-position: 0 0;}
+  }
+  #current{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
   }
  
   #current::after{
@@ -311,6 +359,7 @@ max-width: 900px;
     left: 0;
     top: 0;
     border-radius: 10px;
+    inset: 0;
   }
 
 #current::before{
@@ -328,7 +377,7 @@ max-width: 900px;
      top: -2px;
      left: -2px;
      background-size: 600%;
-     z-index: -1;
+     z-index: -2;
      width: calc(100% + 4px);
      height:  calc(100% + 4px);
      filter: blur(8px);
@@ -336,10 +385,6 @@ max-width: 900px;
      transition: opacity .3s ease-in-out;
      border-radius: 10px;
 }
-
-
-
-
 
 
 
@@ -386,43 +431,6 @@ max-width: 900px;
         width: 1.3rem;
     }
 }
-
-
-.main .allAboutContainer .aboutExperience .expLevel >div >h3{
-    color: #00adb5;
-    font-size: 1.6rem;
-    font-family: var(--castoro);
-    font-weight: 800;
-}
-.main .allAboutContainer .aboutExperience .expLevel >div >h4{
-    font-size: 1rem;
-    color: #eeeeee8a;
-    background: #00acb528;
-    font-family: var(--castoro);
-    font-weight: 400;
-    text-indent: 1rem;
-    margin-top: .4rem;
-    padding: .3rem .1rem;
-    text-align: center;
-}
-.main .allAboutContainer .aboutExperience .expLevel >div >p{
-    color: #00acb5ba;
-    font-size: 16px;
-    margin-top: 1.5rem;
-    font-family: var(--sans);
-    text-align: center;
-}
-/* grades style*/
-.main .allAboutContainer .aboutExperience .expLevel >div >p .grades{
-    color: #eeeeeeb6;
-}
-/* diploma style */
-.main .allAboutContainer .aboutExperience .expLevel >div >p .coc{
-    color: #eeeeeeb6;
-}
-
-
-
 
 
 
