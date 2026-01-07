@@ -95,13 +95,13 @@ const Home = ()=>{
 
                         //   on scroll ts particle display none - uses jquery
 
-                        // $(window).on('scroll',()=>{
+                        $(window).on('scroll',()=>{
 
-                        //     let homeHeight = $('#home').height();
+                            let homeHeight = $('#home').height();
 
-                        //     window.scrollY > homeHeight?$('#tsParticles').css('display','none'):$('#tsParticles').css('display','block');
+                            window.scrollY > homeHeight?$('#tsParticles').css('display','none'):$('#tsParticles').css('display','block');
 
-                        // });
+                        });
 
 
 
