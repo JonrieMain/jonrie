@@ -167,7 +167,6 @@ max-width: 900px;
 .main .allAboutContainer .certifications{
     padding: 0 2rem 2rem 2rem;;
     grid-area: certifications;
-    z-index: 1000000000000;
     margin-top: 2rem;
 }
 

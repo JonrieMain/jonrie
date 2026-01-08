@@ -17,9 +17,40 @@ import { Autoplay, Pagination} from 'swiper/modules';
 
 // swiper css
 import '../../node_modules/swiper/swiper.css';
+import { useEffect } from 'react';
 
 
 const MyWork = ()=>{
+
+
+
+    useEffect(()=>{
+
+       const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const el = entry.target;
+      
+      // Get duration from data-duration attribute
+      const duration = el.getAttribute('data-duration') || '5000ms';
+      
+      // Apply the duration as a CSS variable
+      el.style.setProperty('--aos-duration', duration);
+      
+      el.classList.add('active');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    },[])
+
+
+
+
+
+
 
     return(
         <div className="myWorks">
@@ -27,10 +58,10 @@ const MyWork = ()=>{
         <motion.h2 id="myWorks" initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y: 0}} viewport={{margin: "-100px", once: true}} transition={{duration: .5}}><FaChartArea/> My works and Projects</motion.h2>
       
         {/* <!-- laptop --> */}
-        <img className="laptop" src="/assets/laptop.png" alt="laptop" />
+        <img className="laptop reveal" data-duration="5000ms" src="/assets/laptop.png" alt="laptop" />
 
 
-    <Swiper className="carou" grabCursor={"true"} 
+    <Swiper className="carou reveal" data-duration="5000ms" grabCursor={"true"} 
      spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
      autoplay={{
        delay: 3000,

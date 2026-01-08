@@ -37,6 +37,18 @@
     max-height: 400px;
     max-width: 560px;
 }
+/* laptop custom AOS */
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  /* Use the variable with a fallback value */
+  transition: all var(--aos-duration, 5000ms) ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 
 
