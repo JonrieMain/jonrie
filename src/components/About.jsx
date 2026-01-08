@@ -255,7 +255,7 @@ useEffect(()=>{
 
 
                      <div>
-                    <small>Dec. 2022-Present</small>
+                    <small>June 2022-Present</small>
                     <h3>Freelance Full-Stack Web Developer</h3>
                     <h4></h4>
                     <p>Building functional, and user-friendly websites from the ground up. I bridge the gap between complex backend logic and intuitive frontend design to deliver complete digital solutions.</p>
