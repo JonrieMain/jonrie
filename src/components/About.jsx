@@ -148,7 +148,7 @@ useEffect(()=>{
             <h2>Git & Github</h2>
             <p>Learn Computer Today</p>
         </a>
-         <a target='__blank' href='https://jonrie.vercel.app/assets/cer1.jpg'>
+         <a target='__blank' href='https://jonrie.vercel.app/assets/cer9.jpg'>
             <h2>Typescript: Taking Javascript to the Next Level</h2>
             <p>PWA Pilipinas</p>
         </a>
