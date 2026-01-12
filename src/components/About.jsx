@@ -97,6 +97,7 @@ useEffect(()=>{
                     <p>PHP</p>
                     <p>MySQL</p>
                     <p>AJAX</p>
+                    <p>Rest API</p>
                 </div>
                 </div>
                 <div className="others">
@@ -118,6 +119,7 @@ useEffect(()=>{
                     <p>SwiperJS</p>
                     <p>VantaJS</p>
                     <p>SweetAlert</p>
+                    <p>Google Search Console</p>
                 </div>
                 </div>
          </motion.div>
