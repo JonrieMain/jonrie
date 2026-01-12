@@ -68,6 +68,7 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
        disableOnInteraction: false,
        }} speed={3500}>
 
+<SwiperSlide className='swiper-slide'><img src="/assets/works/waifuGenerator1.png" alt="Waifu Image Generator" /></SwiperSlide> 
 <SwiperSlide className='swiper-slide'><img src="/assets/works/uiux.jpg" alt="UI/UX For User Learning" /></SwiperSlide> 
 <SwiperSlide className='swiper-slide'><img src="/assets/works/canossa.jpg" alt="Health Care Management System" /></SwiperSlide>    
       <SwiperSlide className='swiper-slide'><img src="/assets/works/urlShortener.JPG" alt="URL shortener" /></SwiperSlide>
@@ -837,7 +838,52 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 
 
+{/* <!-- Waifu Image Generator--> */}
+<div>
+    <h2 className="linesFrom">Waifu Image Generator</h2>
+    <p>React JS, Typescript, SASS, React-icons</p>
 
+    <div className="sub">
+
+        <div>
+            
+
+        {/* carou */}
+        <Swiper className='projectListSwiper' grabCursor={true} 
+     spaceBetween={30} centeredSlides={true}  modules={[Autoplay, Pagination]}
+     autoplay={{
+       delay: 3000,
+       disableOnInteraction: false,
+       }} speed={3500}>
+
+          
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/waifuGenerator1.png" alt="waifuGenerator1" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/waifuGenerator2.png" alt="waifuGenerator2" /></SwiperSlide>
+      <SwiperSlide className='swiper-slide'><img src="/assets/works/waifuGenerator3.png" alt="waifuGenerator3" /></SwiperSlide>
+    
+
+    </Swiper>
+
+
+
+
+            <span>
+            <a target="_blank" href="https://github.com/JonrieMain/waifu-generator"><i className="fa-brands fa-github"></i> Github</a>
+
+            <a target="_blank" href="https://waifu-image-generator.vercel.app/"><i className="fa-solid fa-globe"></i> View site</a>
+        </span>
+
+        
+        </div>
+
+        <div>
+            <p>The Waifu Image Generator is a modern web tool that taps into the power of the waifu.pics API to deliver high-quality anime illustrations at the click of a button. Built with a focus on user experience, it allows fans to discover, view, and save their favorite anime art across dozens of styles.<br/><br/><br/><i>-Publish in 2026</i></p>
+        </div>
+
+    </div>
+
+
+</div>
 
 
 
