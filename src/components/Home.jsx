@@ -148,7 +148,7 @@ const Home = ()=>{
 
                 <span className="right">
                     <a className="links" href="#myWorks">My works</a>
-                    <a className="links" href="#services">Services</a>
+                    <a className="links" href="#letsTalk">Contact</a>
                 </span>
             </span>
 
