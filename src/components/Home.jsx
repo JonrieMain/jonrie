@@ -24,8 +24,6 @@ const particleInit = async (main)=>{
 
 
 
-
-
 const Home = ()=>{
 
     // bars remove/add class

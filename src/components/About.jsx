@@ -89,6 +89,9 @@ useEffect(()=>{
                     <p>Bootstrap</p>
                     <p>SASS</p>
                     <p>React JS</p>
+                    <p>Tailwind CSS</p>
+                    <p>DaisyUI</p>
+                    <p>Formsubmit</p>
                 </div>
                 </div>
                 <div className="backend">
@@ -98,6 +101,7 @@ useEffect(()=>{
                     <p>MySQL</p>
                     <p>AJAX</p>
                     <p>Rest API</p>
+                    <p>Laravel</p>
                 </div>
                 </div>
                 <div className="others">
@@ -114,12 +118,12 @@ useEffect(()=>{
                     <p>Fontawesome</p>
                     <p>Googlefonts</p>
                     <p>GoogleIcons</p>
-                    <p>Formsubmit</p>
                     <p>EmailJS</p>
                     <p>SwiperJS</p>
                     <p>VantaJS</p>
                     <p>SweetAlert</p>
                     <p>Google Search Console</p>
+                    <p>Xampp</p>
                 </div>
                 </div>
          </motion.div>
