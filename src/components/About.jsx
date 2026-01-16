@@ -124,6 +124,7 @@ useEffect(()=>{
                     <p>SweetAlert</p>
                     <p>Google Search Console</p>
                     <p>Xampp</p>
+                    <p>Laragon</p>
                 </div>
                 </div>
          </motion.div>
