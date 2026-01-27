@@ -1,4 +1,3 @@
-
 // css
 import '../css/footer.css';
 

@@ -74,12 +74,12 @@ useEffect(()=>{
 
 
          {/*  technologies uses --> */}
-        <motion.div className="aboutUses" {...AOS}>
+        <div className="aboutUses">
             
 
-            <h2><BsStack /> What are the technologies i use?</h2>
+            <motion.h2 {...AOS}><BsStack /> What are the technologies i use?</motion.h2>
 
-                <div className="frontend">
+                <motion.div className="frontend" {...AOS}>
                     <h3>For frontend</h3>
                     <div>
                     <p>Javascript</p>
@@ -93,8 +93,8 @@ useEffect(()=>{
                     <p>DaisyUI</p>
                     <p>Formsubmit</p>
                 </div>
-                </div>
-                <div className="backend">
+                </motion.div>
+                <motion.div className="backend" {...AOS}>
                     <h3>For backend</h3>
                     <div>
                     <p>PHP</p>
@@ -103,8 +103,8 @@ useEffect(()=>{
                     <p>Rest API</p>
                     <p>Laravel</p>
                 </div>
-                </div>
-                <div className="others">
+                </motion.div>
+                <motion.div className="others" {...AOS}>
                     <h3>For version control and others</h3>
                     <div>
                     <p>Git</p>
@@ -126,8 +126,8 @@ useEffect(()=>{
                     <p>Xampp</p>
                     <p>Laragon</p>
                 </div>
-                </div>
-         </motion.div>
+                </motion.div>
+         </div>
 
          {/*  technologies uses end --> */}
 
@@ -216,40 +216,40 @@ useEffect(()=>{
 
 
 {/* experience */}
- <motion.div className="aboutExperience" {...AOS}>
-                <h2><FaBriefcase /> How about my experience?</h2>
+ <div className="aboutExperience">
+                <motion.h2 {...AOS}><FaBriefcase /> How about my experience?</motion.h2>
 
                     
                 <div className="expLevel">
     
 
-                    <div>
+                    <motion.div {...AOS}>
                         <small>2018</small>
                         <h3>Junior High School</h3>
                         <h4>Hello World! 👋🏻</h4>
                         <p>Wrote my first line of code.</p>
-                    </div>
+                    </motion.div>
                     
     
-                    <div>
+                    <motion.div {...AOS}>
                         <small>June 2020-July 2022</small>
                         <h3>Information Communcation Technology(ICT)</h3>
                         <h4>Trinity Polytechnic College</h4>
                         <p><br /> <a target='_blank' className={"coc"} href="./assets/shsDiploma.jpg">Certificate Of Completion</a></p>
-                    </div>
+                    </motion.div>
     
-                    <div>
+                    <motion.div {...AOS}>
                     <small>July 2022-Oct. 2024</small>
                         <h3>BS Information System</h3>
                         <h4>Integrated Innovation and Hospitality College</h4>
                         <p>I finished the first year of the Bachelor of Science in Information Systems (BSIS) program and enrolled in the second year, but I had to quit during the first semester because of financial issues. You can check my <a target='_blank' className={"grades"} href="/assets/1stSem.jpg">1st</a> and <a target='_blank' className={"grades"} href="/assets/2ndSem.jpg">2nd</a> semester grades</p>
 
-                    </div>
+                    </motion.div>
                    
                    
 
 
-                    <span id="current">
+                    <motion.span id="current" {...AOS}>
                     {/* move this current(span) container to the latest experience. Reverse order */}
 
                       {/* <div>
@@ -269,7 +269,7 @@ useEffect(()=>{
                     </div>
 
 
-                    </span>
+                    </motion.span>
                     {/* move this current(span) container to the latest experience. Reverse order */}
                    
     
@@ -284,7 +284,7 @@ useEffect(()=>{
 
 
 
-             </motion.div>
+             </div>
              {/* experience end */}
 
 
